@@ -1,147 +1,21 @@
-vestibular,questão,alternativa_a,alternativa_b,alternativa_c,alternativa_d,alternativa_e,alternativa_correta,area_conhecimento,alternativa escolhida pela ia,resposta original,modelo,processing time,temperature used during test,parser_antigo
+vestibular,questão,alternativa_a,alternativa_b,alternativa_c,alternativa_d,alternativa_e,alternativa_correta,area_conhecimento,alternativa escolhida pela ia,resposta original,modelo,processing time,temperature used during test
 ITA 2026,"Questão 5. Uma circunferência é dividida em seis partes iguais pelos pontos A, B, C, D.
 E, F, designados nessa ordem. Os pontos R. C, E são vértices de um triângulo equilátero, os pontos B. D. F são vértices de um segundo triângulo equilátero. A sobreposição desses dois triângulos define uma estrela de seis pontas denominada hexagrama. Se a área desse hexagrama é 25v3 cm', então a área do quadrado inscrito na circunferência mede
-",20cm ao quadrado ,25cm ao quadrado ,40cm ao quadrado ,50cm ao quadrado ,75 cm ao quadrado ,D,Matemática,D,"Para resolver essa questão, vamos seguir os passos lógicos da geometria envolvida:
-
-1.  **Entender a figura:**
-    *   Temos uma circunferência dividida em 6 partes iguais pelos pontos A, B, C, D, E, F.
-    *   Dois triângulos equiláteros são formados: ACE e BDF.
-    *   A sobreposição desses dois triângulos forma um hexagrama (Estrela de Davi).
-    *   A área desse hexagrama é dada como $24\sqrt{3}$ cm² (Note: O enunciado diz ""25v3"", que é uma notação comum para $25\sqrt{3}$, mas vamos verificar se o valor faz sentido com as opções. Se a área for $24\sqrt{3}$, os cálculos costumam ser mais exatos, mas vamos assumir o valor do enunciado: $25\sqrt{3}$).
-
-2.  **Decomposição do Hexagrama:**
-    *   Um hexagrama regular inscrito em uma circunferência pode ser visualizado como um hexágono regular central menor cercado por 6 triângulos equiláteros pequenos nas pontas.
-    *   Alternativamente, e mais fácil para o cálculo: O hexagrama é composto por 12 triângulos equiláteros pequenos e congruentes.
-    *   Se desenharmos o hexágono regular ABCDEF, ele é composto por 6 triângulos equiláteros grandes (com vértice no centro). O hexagrama é maior que esse hexágono? Não, o hexagrama é a união dos dois triângulos grandes.
-    *   Vamos usar a relação com o raio $R$ da circunferência.
-    *   A área de um triângulo equilátero inscrito numa circunferência de raio $R$ tem lado $L = R\sqrt{3}$.
-    *   A área de um triângulo equilátero de lado $L$ é $\frac{L^2\sqrt{3}}{4}$.
-    *   Substituindo $L$: Área = $\frac{(R\sqrt{3})^2\sqrt{3}}{4} = \frac{3R^2\sqrt{3}}{4}$.
-    *   O hexagrama é a soma das áreas dos dois triângulos grandes (ACE e BDF) *menos* a área da interseção (o hexágono central).
-    *   No entanto, uma forma muito mais simples é lembrar que a área de um hexágono regular inscrito de raio $R$ é $6 \times \frac{R^2\sqrt{3}}{4} = \frac{3R^2\sqrt{3}}{2}$.
-    *   O hexagrama tem exatamente a mesma área que o hexágono regular inscrito? Não.
-    *   Vamos contar os triângulos pequenos. Se dividirmos o hexágono central em 6 triângulos pequenos, e somarmos as 6 pontas da estrela, temos um total de 12 triângulos equiláteros pequenos.
-    *   A área do hexagrama é dada por 12 triângulos pequenos.
-    *   O lado do triângulo grande (inscrito) é $R\sqrt{3}$. O lado do triângulo pequeno (da ponta da estrela) é $1/3$ do lado do triângulo grande? Geometria da estrela: O lado do hexágono central é $R/\sqrt{3}$? Não.
-    *   Vamos pela fórmula direta da área do hexagrama em função do raio $R$.
-    *   Área Hexagrama = $\sqrt{3} \cdot R^2$. (Esta é uma propriedade conhecida: a área da estrela de 6 pontas inscrita é o dobro da área do hexágono que caberia dentro dela, ou simplesmente $\sqrt{3}R^2$ se considerarmos a geometria dos 12 triângulos de lado $R/\sqrt{3}$... vamos deduzir).
-
-    *Dedução rápida:*
-    O hexágono regular inscrito tem lado $R$. Sua área é $6 \cdot \frac{R^2\sqrt{3}}{4} = \frac{3\sqrt{3}R^2}{2} = 1,5\sqrt{3}R^2$.
-    O hexagrama é formado por esse hexágono mais 6 triângulos pequenos colados nos lados.
-    Os triângulos pequenos têm lado $R/3$? Não.
-    Vamos olhar para os dois triângulos grandes ACE e BDF.
-    Área de ACE = $\frac{3\sqrt{3}R^2}{4}$.
-    Área de BDF = $\frac{3\sqrt{3}R^2}{4}$.
-    Soma = $\frac{6\sqrt{3}R^2}{4} = \frac{3\sqrt{3}R^2}{2}$.
-    Mas eles se sobrepõem no hexágono central.
-    A área do hexagrama é a união, não a soma.
-    A área do hexagrama é na verdade igual à área de um hexágono regular de lado $R$? Não.
-    
-    Vamos usar a contagem de triângulos unitários.
-    O triângulo grande (ACE) tem área $9T$ (onde T é a área do triângulo pequeno da ponta).
-    O hexágono central tem área $6T$.
-    As pontas são $3T$. Total $9T$.
-    O outro triângulo (BDF) também é $9T$.
-    A sobreposição é o hexágono central ($6T$).
-    Área da União (Hexagrama) = Área(ACE) + Área(BDF) - Área(Interseção)
-    Área = $9T + 9T - 6T = 12T$.
-    Sabemos que a área do hexágono inscrito na circunferência (vértices A,B,C,D,E,F) é composta por 6 triângulos equiláteros de lado $R$.
-    A relação entre a área do hexagrama e o raio $R$:
-    A área do hexagrama é exatamente igual à área do hexágono regular de lado $R$?
-    Vamos verificar. Área Hexágono lado $R$ = $\frac{6 R^2 \sqrt{3}}{4} = \frac{3 \sqrt{3} R^2}{2}$.
-    Área Hexagrama = $12T$.
-    O lado do triângulo grande é $L = R\sqrt{3}$.
-    Área do triângulo grande = $\frac{(R\sqrt{3})^2\sqrt{3}}{4} = \frac{3\sqrt{3}R^2}{4}$.
-    Isso equivale a $9T$.
-    Logo, $T = \frac{1}{9} \cdot \frac{3\sqrt{3}R^2}{4} = \frac{\sqrt{3}R^2}{12}$.
-    Área do Hexagrama = $12T = 12 \cdot \frac{\sqrt{3}R^2}{12} = \sqrt{3}R^2$.
-
-    **Conclusão parcial:** A área do hexagrama é $\sqrt{3}R^2$.
-
-3.  **Calcular o Raio:**
-    *   O enunciado diz que a área do hexagrama é $25\sqrt{3}$.
-    *   Igualando as fórmulas:
-        $\sqrt{3}R^2 = 25\sqrt{3}$
-    *   Cortando $\sqrt{3}$ dos dois lados:
-        $R^2 = 25$
-    *   Logo, $R = 5$ cm.
-
-4.  **Calcular a área do quadrado inscrito:**
-    *   Um quadrado inscrito em uma circunferência de raio $R$ tem sua diagonal igual ao diâmetro da circunferência ($2R$).
-    *   Seja $l$ o lado do quadrado. Pelo Teorema de Pitágoras: $l^2 + l^2 = (2R)^2$.
-    *   $2l^2 = 4R^2$
-    *   $l^2 = 2R^2$
-    *   A área do quadrado é $l^2$.
-    *   Como $R = 5$, então $R^2 = 25$.
-    *   Área do quadrado = $2 \cdot 25 = 50$ cm².
-
-5.  **Verificar as alternativas:**
-    A) 20
-    B) 25
-    C) 40
-    D) 50
-    E) 75
-
-    A resposta correta é 50.
-
-D",gemini/gemini-3-pro-preview,26.0841,0,P
-ITA 2026,"Questão 43. Na passagem ""Fellow teachers nationwide face the same challenge, which explains why more states and districts are moving to limit or outright ban cellphones in the classroom"", a palavra OUTRIGHT pode ser substituida, sem prejuizo de sentido, por",partial., legal.,thorough.,confined.,illicit.,C,Inglês,C,C,gemini/gemini-3-pro-preview,12.6811,0,C
+",20cm ao quadrado ,25cm ao quadrado ,40cm ao quadrado ,50cm ao quadrado ,75 cm ao quadrado ,D,Matemática,D,D,gpt-5-nano,64.4877,1
+ITA 2026,"Questão 43. Na passagem ""Fellow teachers nationwide face the same challenge, which explains why more states and districts are moving to limit or outright ban cellphones in the classroom"", a palavra OUTRIGHT pode ser substituida, sem prejuizo de sentido, por",partial., legal.,thorough.,confined.,illicit.,C,Linguagens,C,C,gpt-5-nano,18.3186,1
 ITA 2026,"Questão 19. Em um escritório, trabalham 10 funcionários de segunda a sexta, em um regime de oito horas por dia. Diariamente o ar-condicionado é ligado para manter o local de trabalho a 17°C, sendo que o ambiente externo está a uma temperatura de 37 °C.
-Considere que o ar-condicionado funcione com máxima eficiência e que ele age apenas para retirar o calor gerado pelas pessoas, que é de 100 W por funcionário. Sabendo que a tarifa da energia elétrica é de R$ 0,91 por kWh, assinale o custo aproximado para usar o ar-condicionado durante 4 semanas.","R$ 8,00.","R$ 10,00"," R$ 14,00.","R$ 80,00."," R$ 170,00.",B,Física,B,"Para resolver essa questão, precisamos calcular a energia consumida pelo ar-condicionado e, em seguida, o custo dessa energia.
-
-**1. Calcular a carga térmica total a ser removida:**
-O ar-condicionado precisa remover o calor gerado pelos 10 funcionários.
-Potência térmica ($Q$) = 10 funcionários $\times$ 100 W/funcionário = 1000 W.
-
-**2. Calcular a eficiência máxima (Eficiência de Carnot):**
-O enunciado diz que o aparelho funciona com ""máxima eficiência"", o que implica um ciclo de Carnot ideal.
-As temperaturas devem estar em Kelvin (K).
-$T_{fria} = 17^\circ C + 273 = 290$ K (temperatura interna)
-$T_{quente} = 37^\circ C + 273 = 310$ K (temperatura externa)
-
-O coeficiente de performance (COP) para um refrigerador de Carnot é dado por:
-$COP = \frac{T_{fria}}{T_{quente} - T_{fria}}$
-$COP = \frac{290}{310 - 290}$
-$COP = \frac{290}{20} = 14,5$
-
-**3. Calcular a potência elétrica consumida:**
-O COP relaciona o calor removido ($Q$) com o trabalho elétrico necessário ($W$).
-$COP = \frac{Q}{W}$
-$14,5 = \frac{1000 \text{ W}}{W}$
-$W = \frac{1000}{14,5} \approx 68,96$ Watts.
-Essa é a potência elétrica que o ar-condicionado consome.
-
-**4. Calcular o tempo total de uso:**
-O regime é de 8 horas por dia, de segunda a sexta (5 dias por semana), durante 4 semanas.
-Tempo total ($t$) = 8 horas/dia $\times$ 5 dias/semana $\times$ 4 semanas
-$t = 160$ horas.
-
-**5. Calcular o consumo de energia em kWh:**
-Energia ($E$) = Potência ($W$) $\times$ Tempo ($t$)
-$E = 68,96 \text{ W} \times 160 \text{ h}$
-$E = 11.033,6 \text{ Wh}$
-$E \approx 11,03 \text{ kWh}$
-
-**6. Calcular o custo:**
-Custo = Energia $\times$ Tarifa
-Custo = 11,03 kWh $\times$ R$ 0,91 /kWh
-Custo $\approx$ R$ 10,03
-
-O valor mais próximo é R$ 10,00.
-
-B",gemini/gemini-3-pro-preview,22.5435,0,P
+Considere que o ar-condicionado funcione com máxima eficiência e que ele age apenas para retirar o calor gerado pelas pessoas, que é de 100 W por funcionário. Sabendo que a tarifa da energia elétrica é de R$ 0,91 por kWh, assinale o custo aproximado para usar o ar-condicionado durante 4 semanas.","R$ 8,00.","R$ 10,00"," R$ 14,00.","R$ 80,00."," R$ 170,00.",B,Ciências da Natureza,E,E,gpt-5-nano,32.1754,1
 ITA 2026,"Questão 44. Referring to the establishment of a national youth mental health crisis, U.S.
-Surgeon General Vivek Murthy stated: ""I am concerned that social media is an important driver of that crisis, one that we must urgently address"". In this sentence, the modal verb MUST indicates",a possibility that addressing the crisis may happen, a necessity to act regarding the crisis.,an ability to address the matter at any time.,a recommendation to act regarding the matter.,a request for people to recognize the relevance of the matter.,B,Inglês,B,B,gemini/gemini-3-pro-preview,22.8141,0,B
-ITA 2025,"Questao 3. ˜ No trecho “[...] num mundo em que foguetes sao o que alimentam as ambi ˜ c¸oes ˜ das pessoas que saem pela porta da caverna.”, Neil deGrasse Tyson faz uso de um processo de intertextualidade denominado",Citação direta: transcrição de trechos autênticos do original.,Citação indireta: referência aos trechos autênticos do original.,Paráfrase: uso em estilo próprio da referência original.," Alusão: menção ao texto original, de forma livre e generalista.", Plágio: cópia com a intenção de apropriar-se da ideia original.,D,Português,D,D,gemini/gemini-3-pro-preview,15.6515,0,D
+Surgeon General Vivek Murthy stated: ""I am concerned that social media is an important driver of that crisis, one that we must urgently address"". In this sentence, the modal verb MUST indicates",a possibility that addressing the crisis may happen, a necessity to act regarding the crisis.,an ability to address the matter at any time.,a recommendation to act regarding the matter.,a request for people to recognize the relevance of the matter.,B,Linguagens,B,B,gpt-5-nano,26.5962,1
+ITA 2025,"Questao 3. ˜ No trecho “[...] num mundo em que foguetes sao o que alimentam as ambi ˜ c¸oes ˜ das pessoas que saem pela porta da caverna.”, Neil deGrasse Tyson faz uso de um processo de intertextualidade denominado",Citação direta: transcrição de trechos autênticos do original.,Citação indireta: referência aos trechos autênticos do original.,Paráfrase: uso em estilo próprio da referência original.," Alusão: menção ao texto original, de forma livre e generalista.", Plágio: cópia com a intenção de apropriar-se da ideia original.,D,Linguagens,D,D,gpt-5-nano,19.4447,1
 ITA 2025,"Questão 11. Expressões aforísticas são frequentes na obra de Vieira. Aforismo é sentença que explicita um conceito moral, assemelhando-se a um ditado. Assinale a alternativa em que NÃO se concretiza essa intenção.","Roubar pouco é culpa, roubar muito é grandeza. O roubar com pouco poder faz os
 piratas, o roubar com muito, os Alexandres.","""A última dificuldade, e o maior perigo e aperto da morte é ser momentânea.""","A vida é uma lâmpada acesa, vidro e fogo. Vidro que com um sopro se faz e fogo
 que com um sopro se apaga.","A vaidade entre os vícios é o pescador mais astuto e que mais facilmente engana os
 homens.","Quem quer mais do que lhe convém, perde o que quer e o que tem. Quem pode
-nadar e quer voar, tempo virá em que não voe nem nade.",B,Português,B,B,gemini/gemini-3-pro-preview,10.39,0,B
+nadar e quer voar, tempo virá em que não voe nem nade.",B,Linguagens,B,B,gpt-5-nano,19.6273,1
 ITA 2025,"Questão 12. A respeito do poema e do estilo de Castro Alves, assinale a alternativa
-INCORRETA", O excerto caracteriza o Romantismo de evasão.,"O verso ""Que a brisa do Brasil beija e balança"" apresenta aliteração",A pontuação expressiva ilustra o estilo condoreiro do autor.,O poeta pertence à terceira geração da poesia romântica brasileira.,O ímpeto declamatório caracteriza o estilo do poeta.,A,Português,A,A,gemini/gemini-3-pro-preview,15.6341,0,A
-ITA 2026,"Questão 47. In the extract ""The former searches for differences; the latter is quick to erase them."", the terms FORMER and LATTER refer respectively to A ( ) human intelligence and artificial intelligence.", human intelligence and artificial intelligence.,artificial intelligence and human intelligence., the Chilean psychoanalyst and his bi-logic theory,the logic of formal reasoning and the logic of emotion.,the logic of emotion and the logic of formal reasoning.,D,Inglês,D,D,gemini/gemini-3-pro-preview,20.4212,0,D
+INCORRETA", O excerto caracteriza o Romantismo de evasão.,"O verso ""Que a brisa do Brasil beija e balança"" apresenta aliteração",A pontuação expressiva ilustra o estilo condoreiro do autor.,O poeta pertence à terceira geração da poesia romântica brasileira.,O ímpeto declamatório caracteriza o estilo do poeta.,A,Linguagens,A,A,gpt-5-nano,25.5498,1
+ITA 2026,"Questão 47. In the extract ""The former searches for differences; the latter is quick to erase them."", the terms FORMER and LATTER refer respectively to A ( ) human intelligence and artificial intelligence.", human intelligence and artificial intelligence.,artificial intelligence and human intelligence., the Chilean psychoanalyst and his bi-logic theory,the logic of formal reasoning and the logic of emotion.,the logic of emotion and the logic of formal reasoning.,D,Linguagens,A,A,gpt-5-nano,24.5704,1
 ITA 2026,"Questão 26. Considere as seguintes afirmações:
 I. A primeira energia de ionização do átomo de Nitrogênio é menor que a primeira energia de ionização do átomo de Oxigênio.
 II.
@@ -149,54 +23,12 @@ III.
 O ion Rb* tem menor raio iônico que o Sr2*.
 A molécula CH2O apresenta geometria trigonal plana e é apolar.
 IV. A molécula PCis apresenta geometria bipirâmide trigonal e é polar.
-Das afirmativas acima, está(ão) CORRETA(S)",apenas | e II.,apenas II e III.,apenas | e IV.,apenas | e IV.,nenhuma.,E,Química,E,E,gemini/gemini-3-pro-preview,19.4483,0,E
+Das afirmativas acima, está(ão) CORRETA(S)",apenas | e II.,apenas II e III.,apenas | e IV.,apenas | e IV.,nenhuma.,E,Ciências da Natureza,E,E,gpt-5-nano,16.9723,1
 ITA 2026,"Questão 36. Considere a seguinte reação química hipotética, que ocorre em fase gasosa:
 2X(g) + W(g) → Y(g) + Z(g).
 Um reator de volume fixo e temperatura constante foi alimentado com 36 atm de
 uma mistura gasosa composta de X, W e uma substância inerte I, na proporção molar
-X:W:l igual a 3:2:1. Assinale a alternativa que apresenta a pressão interna no reator (em atm) quando 75% do reagente W forem consumidos.",18,24,27,30,33,C,Química,C,"Para resolver essa questão, vamos seguir os passos abaixo:
-
-**1. Determinar as pressões parciais iniciais:**
-
-A pressão total inicial ($P_0$) é 36 atm.
-A proporção molar é $X:W:I = 3:2:1$.
-O total de partes é $3 + 2 + 1 = 6$.
-
-As pressões parciais são proporcionais às frações molares:
-*   $P_{X,0} = \frac{3}{6} \times 36 = 18$ atm
-*   $P_{W,0} = \frac{2}{6} \times 36 = 12$ atm
-*   $P_{I,0} = \frac{1}{6} \times 36 = 6$ atm (Inerte, não reage)
-
-**2. Analisar a reação e o consumo:**
-
-Reação: $2X(g) + W(g) \rightarrow Y(g) + Z(g)$
-
-Foi dado que 75% do reagente $W$ foi consumido.
-*   Consumo de $W$ ($\Delta P_W$) = $0,75 \times 12$ atm = $9$ atm.
-
-**3. Calcular as variações de pressão (Estequiometria):**
-
-A proporção estequiométrica é $2:1:1:1$ ($X:W:Y:Z$).
-Se 9 atm de $W$ reagem:
-*   $X$ consumido: $2 \times 9 = 18$ atm
-*   $Y$ formado: $1 \times 9 = 9$ atm
-*   $Z$ formado: $1 \times 9 = 9$ atm
-
-**4. Calcular as pressões finais:**
-
-*   $P_X$ final = $P_{X,0} - \text{consumido} = 18 - 18 = 0$ atm
-*   $P_W$ final = $P_{W,0} - \text{consumido} = 12 - 9 = 3$ atm
-*   $P_Y$ final = $0 + \text{formado} = 9$ atm
-*   $P_Z$ final = $0 + \text{formado} = 9$ atm
-*   $P_I$ final = $6$ atm (permanece constante)
-
-**5. Calcular a pressão total final:**
-
-$P_{\text{total}} = P_X + P_W + P_Y + P_Z + P_I$
-$P_{\text{total}} = 0 + 3 + 9 + 9 + 6$
-$P_{\text{total}} = 27$ atm
-
-C",gemini/gemini-3-pro-preview,25.7365,0,P
+X:W:l igual a 3:2:1. Assinale a alternativa que apresenta a pressão interna no reator (em atm) quando 75% do reagente W forem consumidos.",18,24,27,30,33,C,Ciências da Natureza,C,C,gpt-5-nano,16.894,1
 FUVEST 26,"O Brasil é o líder mundial em reciclagem de alumínio, atingindo
 números próximos a 99% de latas recicladas no ano de 2021.
 Essas latas, já utilizadas para refrigerantes, cervejas,
@@ -207,43 +39,7 @@ em uma lata de alumínio de formato cilíndrico e que, por
 razões práticas como manuseio e custo do material, o
 diâmetro da base dessa lata deve ter entre 5 cm e 8 cm.
 Qual será, aproximadamente, em centímetros, a menor altura
-possível da lata?",5,7,13,18,28,B,MATEMÁTICA,B,"Para resolver essa questão, precisamos usar a fórmula do volume de um cilindro:
-
-$$V = \pi \cdot r^2 \cdot h$$
-
-Onde:
-*   $V$ é o volume.
-*   $r$ é o raio da base.
-*   $h$ é a altura.
-
-**Dados do problema:**
-*   Volume ($V$) = 350 mL = 350 cm³ (pois 1 mL = 1 cm³).
-*   O diâmetro ($d$) deve estar entre 5 cm e 8 cm ($5 \le d \le 8$).
-*   Queremos encontrar a **menor altura possível** ($h$).
-
-**Análise da fórmula:**
-Isolando a altura ($h$) na fórmula:
-$$h = \frac{V}{\pi \cdot r^2}$$
-
-Para que a altura $h$ seja a **menor possível**, o denominador ($\pi \cdot r^2$) deve ser o **maior possível**. Isso significa que precisamos do maior raio possível (e, consequentemente, do maior diâmetro possível).
-
-O maior diâmetro permitido é $d = 8$ cm.
-Logo, o maior raio é $r = \frac{8}{2} = 4$ cm.
-
-**Cálculo:**
-Substituindo os valores na fórmula (usando $\pi \approx 3,14$):
-
-$$h = \frac{350}{3,14 \cdot 4^2}$$
-$$h = \frac{350}{3,14 \cdot 16}$$
-$$h = \frac{350}{50,24}$$
-
-Fazendo a divisão:
-$$h \approx 6,96$$
-
-O valor é aproximadamente 7 cm.
-
-**Resposta:**
-B",gemini/gemini-3-pro-preview,23.6342,0,P
+possível da lata?",5,7,13,18,28,B,Ciências Humanas,B,B,gpt-5-nano,9.6439,1
 FUVEST 26,"Considere a equação trigonométrica
 𝑠𝑒𝑛 𝜋
 2 + 𝑠𝑒𝑛 𝑥 = 𝑠𝑒𝑛 (2𝑥) − cos 𝜋
@@ -258,7 +54,7 @@ Um estudante resolveu essa equação da seguinte maneira:
 𝑠𝑒𝑛 𝑥 = 0
 𝑥 = 0 𝑜𝑢 𝑥 = 𝜋
 A resolução apresentada pelo estudante está errada, pois ele",considerou que cos 𝜋 vale 1.,"não considerou as infinitas voltas no ciclo trigonométrico
-para a resposta.",considerou que sen pi/2 vale 1,não utilizou corretamente o seno da soma de dois arcos.,apresentou duas respostas e não apenas uma.,D,MATEMÁTICA,D,D,gemini/gemini-3-pro-preview,16.7421,0,D
+para a resposta.",considerou que sen pi/2 vale 1,não utilizou corretamente o seno da soma de dois arcos.,apresentou duas respostas e não apenas uma.,D,Matemática,E,E,gpt-5-nano,47.1459,1
 FUVEST 26,"A rega e o zelo geraram uma infinidade de seres que
 descobria nos dedos ao mexer na terra: minhocas, besouros
 verdes, bichos-de-conta.
@@ -279,7 +75,7 @@ do solo não é importante na respiração destes animais.","As minhocas, os bes
 apresentam respiração branquial, sendo a umidade do
 solo importante na respiração dos três animais.","As minhocas, os besouros e os bichos-de-conta
 apresentam respiração pulmonar, e a umidade do solo não
-é importante na respiração dos três animais.",C,BIOLOGIA,B,B,gemini/gemini-3-pro-preview,20.0,0,B
+é importante na respiração dos três animais.",C,Matemática,B,B,gpt-5-nano,33.8091,1
 FUVEST 26,"Quando no dia seguinte, também no final da tarde, Fio
 Jasmim se dirigiu para a pequena joalheria, ele pensou em ser
 mais cuidadoso ao pronunciar qualquer nome de mulher perto
@@ -310,7 +106,7 @@ atitudes que, em larga medida, atendem às expectativas
 sociais e culturais, reproduzindo estereótipos do gênero."," resiste a expectativas internas e externas, o que subverte
 um esperado comportamento masculino","sente culpa e arrependimento por seu comportamento
 com mulheres, apesar de reforçar ideais de virilidade e
-dominação do estereótipo da masculinidade.",C,LITERATURA/LÍNGUA PORTUGUESA,C,C,gemini/gemini-3-pro-preview,14.6065,0,C
+dominação do estereótipo da masculinidade.",C,Ciências da Natureza,C,C,gpt-5-nano,19.4374,1
 FUVEST 26,"O processo de corrosão do aço é favorecido em ambientes úmidos e ácidos. Para evitar a corrosão de superfícies de aço é comum utilizar óleos para impedir o contato da umidade do ar com a superfície. Nos casos em que o uso de óleo não é conveniente, é possível criar uma camada de NaOH(s) na superfície do metal aplicando uma solução aquosa relativamente concentrada desta base sobre a ferramenta e deixando a solução secar por completo. Esse tipo de tratamento com hidróxido de sódio é efetivo em ambientes com elevada acidez pois, caso a água entre em contato com a superfície tratada, ela","será repelida pela camada hidrofóbica de hidróxido de
 sódio, evitando o contato direto da água com o metal e sua
 oxidação.","olubilizará o hidróxido de sódio, que neutralizará o ácido
@@ -321,7 +117,7 @@ impede o processo de corrosão.","gerará um acúmulo de água na superfície hi
 camada de hidróxido de sódio, impedindo sua
 solubilização e a consequente formação de ácido.","reagirá diretamente com o sódio do hidróxido de sódio, já
 que este atuará como metal de sacrifício, sofrendo
-oxidação e protegendo a superfície metálica.",B,QUÍMICA,B,B,gemini/gemini-3-pro-preview,15.9029,0,B
+oxidação e protegendo a superfície metálica.",B,Linguagens,B,B,gpt-5-nano,25.4049,1
 FUVEST 26,"Os grotões transformaram-se em jardins cortados a meio
 pelas avenidas e pela sombra dos viadutos não há mais sapo.
 Nos jardins encontrareis recintos fechados com instrutoras,
@@ -341,7 +137,7 @@ jovens do ócio e dos vícios, por meio da educação
 profissionalizante","promover valores cristãos através da evangelização e do
 assistencialismo baseado na caridade e na recreação.","organizar um novo programa escolar voltado para as
 crianças proletárias, adotando uma pedagogia pautada no
-nacionalismo e civismo.",B,GEOGRAFIA,B,B,gemini/gemini-3-pro-preview,19.99,0,B
+nacionalismo e civismo.",B,Ciências da Natureza,B,B,gpt-5-nano,9.0103,1
 FUVEST 26,"Uma startup de tecnologia está desenvolvendo um novo
 aplicativo e observa que o número de usuários está
 crescendo, em milhares, após t semanas do lançamento, de
@@ -350,63 +146,7 @@ acordo com a função:
 Com isso, a equipe da startup quer saber: qual é o período,
 em semanas, em que o número de usuários ultrapassa
 300 mil? Note e adote:
-𝑙𝑜𝑔 3 ≅ 0,4771 ; 𝑙𝑜𝑔 5 ≅ 0,6990 e 𝑙𝑜𝑔 11 ≅ 1,0414",Entre 0 e 1 semana,Entre 1 e 3 semanas.,Entre 2 e 4 semanas., Entre 3 e 4 semanas.,Entre 4 e 6 semanas.,E,MATEMÁTICA,E,"Para resolver essa questão, precisamos encontrar o valor de $t$ para o qual o número de usuários $M(t)$ ultrapassa 300 mil.
-
-A função dada é $M(t) = 200 \times (1,1)^t$, onde $M(t)$ é o número de usuários **em milhares**.
-Portanto, queremos saber quando $M(t) > 300$.
-
-A inequação é:
-$200 \times (1,1)^t > 300$
-
-Dividindo ambos os lados por 200:
-$(1,1)^t > \frac{300}{200}$
-$(1,1)^t > 1,5$
-
-Para resolver para $t$, aplicamos o logaritmo (base 10) em ambos os lados:
-$\log((1,1)^t) > \log(1,5)$
-$t \times \log(1,1) > \log(1,5)$
-
-Agora precisamos calcular os valores dos logaritmos usando os dados fornecidos:
-Dados: $\log 3 \cong 0,4771$, $\log 5 \cong 0,6990$, $\log 11 \cong 1,0414$.
-
-1.  **Calcular $\log(1,1)$**:
-    $1,1 = \frac{11}{10}$
-    $\log(1,1) = \log(\frac{11}{10}) = \log 11 - \log 10$
-    $\log(1,1) = 1,0414 - 1 = 0,0414$
-
-2.  **Calcular $\log(1,5)$**:
-    $1,5 = \frac{15}{10} = \frac{3 \times 5}{10}$
-    $\log(1,5) = \log(\frac{3 \times 5}{10}) = \log 3 + \log 5 - \log 10$
-    $\log(1,5) = 0,4771 + 0,6990 - 1$
-    $\log(1,5) = 1,1761 - 1 = 0,1761$
-
-Substituindo na inequação:
-$t \times 0,0414 > 0,1761$
-$t > \frac{0,1761}{0,0414}$
-
-Vamos fazer a divisão aproximada:
-$t > \frac{1761}{414}$
-
-$414 \times 4 = 1656$
-$414 \times 5 = 2070$
-
-O resultado está entre 4 e 5.
-$1761 - 1656 = 105$
-$1050 / 414 \approx 2,5$
-$t \approx 4,25$
-
-O valor de $t$ é aproximadamente 4,25 semanas. Isso significa que o número de usuários ultrapassa 300 mil após 4,25 semanas.
-
-Analisando as alternativas:
-A) Entre 0 e 1 semana
-B) Entre 1 e 3 semanas.
-C) Entre 2 e 4 semanas.
-D) Entre 3 e 4 semanas.
-E) Entre 4 e 6 semanas.
-
-O valor 4,25 está no intervalo entre 4 e 6 semanas.
-
-E",gemini/gemini-3-pro-preview,25.8951,0,P
+𝑙𝑜𝑔 3 ≅ 0,4771 ; 𝑙𝑜𝑔 5 ≅ 0,6990 e 𝑙𝑜𝑔 11 ≅ 1,0414",Entre 0 e 1 semana,Entre 1 e 3 semanas.,Entre 2 e 4 semanas., Entre 3 e 4 semanas.,Entre 4 e 6 semanas.,E,Ciências Humanas,E,E,gpt-5-nano,21.3896,1
 FUVEST 26,"A jornada das mulheres pela igualdade de direitos no Brasil,
 como em outras partes do mundo, sempre envolveu lutas
 sociais, políticas e jurídicas, com marcos importantes como a
@@ -443,7 +183,7 @@ uma crítica à chamada “mulher burguesa”. O romance de
 Rachel de Queiroz narra os desdobramentos do desejo de
 ascensão social de Noemi, enquanto o de Lygia Fagundes
 Telles detalha o apego de Lorena à instituição do
-casamento.",D,HISTÓRIA/LITERATURA,D,D,gemini/gemini-3-pro-preview,20.1892,0,D
+casamento.",D,Matemática,E,E,gpt-5-nano,37.0659,1
 FUVEST 26,"Para uma atividade de campo voltada à valorização do
 patrimônio histórico e cultural, professores de geografia
 levaram seus estudantes a um parque temático de
@@ -460,65 +200,7 @@ da pirâmide.
 Sabendo-se que o volume da pirâmide é de 864 m3
 , quantos
 metros, aproximadamente, os estudantes tiveram que
-percorrer para chegar até o topo da pirâmide?",36,41,48,54,61,E,MATEMÁTICA,E,"Para resolver essa questão, precisamos calcular a distância total percorrida pelos estudantes, que é a soma do comprimento da trilha no chão e o comprimento da rampa (apótema da pirâmide).
-
-**Passo 1: Encontrar as dimensões da base da pirâmide.**
-
-Sabemos que o volume ($V$) de uma pirâmide é dado pela fórmula:
-$V = \frac{1}{3} \cdot A_{base} \cdot h$
-
-Onde:
-*   $V = 864 \, m^3$
-*   $h = 18 \, m$
-*   $A_{base}$ é a área do quadrado de lado $L$ ($A_{base} = L^2$).
-
-Substituindo os valores:
-$864 = \frac{1}{3} \cdot L^2 \cdot 18$
-$864 = 6 \cdot L^2$
-$L^2 = \frac{864}{6}$
-$L^2 = 144$
-$L = \sqrt{144}$
-$L = 12 \, m$
-
-O lado da base quadrada mede 12 metros.
-
-**Passo 2: Calcular o comprimento da trilha.**
-
-A questão diz que a trilha compreende os lados oeste, sul, leste e metade do lado norte.
-*   Lado Oeste: $12 \, m$
-*   Lado Sul: $12 \, m$
-*   Lado Leste: $12 \, m$
-*   Metade do lado Norte: $\frac{12}{2} = 6 \, m$
-
-Total da trilha = $12 + 12 + 12 + 6 = 42 \, m$.
-
-**Passo 3: Calcular o comprimento da rampa (apótema da pirâmide).**
-
-A rampa é o apótema da pirâmide ($g$). Podemos encontrá-lo usando o Teorema de Pitágoras em um triângulo retângulo formado pela altura da pirâmide ($h$), o apótema da base ($m$) e o apótema da pirâmide ($g$).
-
-*   Altura ($h$) = $18 \, m$
-*   Apótema da base ($m$) = Metade do lado do quadrado = $\frac{12}{2} = 6 \, m$
-
-Aplicando Pitágoras:
-$g^2 = h^2 + m^2$
-$g^2 = 18^2 + 6^2$
-$g^2 = 324 + 36$
-$g^2 = 360$
-$g = \sqrt{360}$
-
-Sabemos que $\sqrt{361} = 19$. Portanto, $\sqrt{360}$ é muito próximo de 19 (aproximadamente 18,97). Vamos usar 19 para facilitar ou manter como $\approx 19$.
-
-**Passo 4: Calcular a distância total.**
-
-Distância Total = Trilha + Rampa
-Distância Total = $42 + \sqrt{360}$
-Distância Total $\approx 42 + 19$
-Distância Total $\approx 61 \, m$
-
-**Conclusão:**
-A distância total percorrida é de aproximadamente 61 metros.
-
-E",gemini/gemini-3-pro-preview,26.6705,0,P
+percorrer para chegar até o topo da pirâmide?",36,41,48,54,61,E,Ciências Humanas,E,E,gpt-5-nano,30.9736,1
 FUVEST 26,"A escola não pode ignorar as diferenças sociolinguísticas.
 Os professores e, por meio deles, os alunos têm que estar bem
 conscientes de que existem duas ou mais maneiras de dizer a
@@ -542,7 +224,7 @@ dar a eles condições de aprender outras variantes.","mostrar aos alunos que el
 relação ao uso de verbos, mas que isso pode ser
 prejudicial à ascensão social."," ensinar aos alunos a norma padrão da língua, mas permitir
 que eles cometam erros para não serem excluídos pela
-sociedade.",C,LÍNGUA PORTUGUESA,C,C,gemini/gemini-3-pro-preview,20.104,0,C
+sociedade.",C,Matemática,C,C,gpt-5-nano,15.3196,1
 FUVEST 26,"A bióloga Lynn Margulis publicou um polêmico artigo em 1967
 propondo que algumas organelas das células eucarióticas
 poderiam ser o resultado de eventos de endossimbiose, no
@@ -551,7 +233,7 @@ eucarióticas até serem completamente incorporadas a elas. A
 hipótese de Margulis sofreu muita oposição, até que
 evidências experimentais mostraram que algumas organelas
 de fato possuíam muitas similaridades com bactérias. Entre as
-evidências de endossimbiose, podemos citar:",As membranas duplas dos núcleos,Os ribossomos aderidos ao retículo endoplasmático.,A parede celular das células vegetais,O formato do complexo de Golgi.,O genoma circular das mitocôndrias,E,BIOLOGIA,E,E,gemini/gemini-3-pro-preview,14.6985,0,E
+evidências de endossimbiose, podemos citar:",As membranas duplas dos núcleos,Os ribossomos aderidos ao retículo endoplasmático.,A parede celular das células vegetais,O formato do complexo de Golgi.,O genoma circular das mitocôndrias,E,Linguagens,E,E,gpt-5-nano,9.4223,1
 FUVEST 26,"During the nineteen-seventies and eighties, a researcher at
 the University of Washington started noticing something strange
 in the college’s experimental forest. For years, a blight of
@@ -593,7 +275,7 @@ manutenção do equilíbrio das florestas.","alteração da composição das fol
 comprometer a sobrevivência de insetos herbívoros.","variabilidade das lagartas como fator decisivo para a
 resiliência dos ecossistemas.","influência determinante da fertilidade do solo na
 recuperação da vegetação.","oscilação natural das populações de pragas como causa
-da regeneração florestal.",B,BIOLOGIA,B,B,gemini/gemini-3-pro-preview,18.5775,0,B
+da regeneração florestal.",B,Ciências da Natureza,B,B,gpt-5-nano,11.9918,1
 FUVEST 26,"A vacina contra a dengue co-desenvolvida pelo Brasil, a
 Qdenga, começou a ser oferecida pelo SUS em 2024.
 Indivíduos imunocompetentes recebem vírus atenuados ao
@@ -606,7 +288,7 @@ com vacinados.","mosquitos transmissores da dengue morrem ao picar
 pessoas vacinadas","vírus atenuados alteram o material genético dos vírus
 selvagens","as chances de epidemias diminuem quando a cobertura
 vacinal é alta.","pessoas vacinadas liberam anticorpos contra o vírus no
-ambiente.",D,BIOLOGIA,D,D,gemini/gemini-3-pro-preview,14.8507,0,D
+ambiente.",D,Ciências da Natureza,D,D,gpt-5-nano,12.1788,1
 FUVEST 26,"Nós sentimos o sabor dos alimentos com o cérebro!
 Esta afirmação à primeira vista nos parece estranha. No
 entanto, assim como ocorre em todos os sentidos do sistema
@@ -623,7 +305,7 @@ um impulso hormonal que ativa as glândulas salivares.","Os componentes químico
 diretamente, os neurônios responsáveis por transmitir os
 sinais gustativos ao cérebro","A primeira etapa da transdução de sinal no paladar ocorre
 quando os receptores gustativos são ativados por
-hormônios digestivos.",A,QUÍMICA,A,A,gemini/gemini-3-pro-preview,17.8396,0,A
+hormônios digestivos.",A,Ciências da Natureza,A,A,gpt-5-nano,10.1369,1
 UNICAMP 26,"U.S. Inflation Mild Ahead of Expected
 Jump From Tariffs
 Economists and policymakers are bracing for inflation to
@@ -633,7 +315,7 @@ Segundo o texto, "," o governo dos EUA está se preparando para um salto na
 inflação diante da guerra comercial de tarifas.","a inflação nos EUA se mantém moderada, mas economistas
 e legisladores estão se preparando diante da expectativa de
 alta das tarifas","a inflação nos EUA deve se manter moderada, pois as empresas estão se adaptando ao aumento das tarifas.","as empresas dos EUA estão se adaptando à aceleração da
-inflação diante da guerra de tarifas estabelecida pelo governo.",,B,Linguagens (Língua Inglesa),B,B,gemini/gemini-3-pro-preview,20.2004,0,B
+inflação diante da guerra de tarifas estabelecida pelo governo.",,B,Ciências da Natureza,B,B,gpt-5-nano,17.2945,1
 UNICAMP 26,"Leia o resumo de um artigo científico.
 Incels: Masculinity in the Transition to Adulthood
 Incels are men who are members of an online community that
@@ -658,7 +340,7 @@ em 16/05/2025.) De acordo com o resumo, é correto afirmar que"," “Incel” é
 por homens que culpam mulheres por questionarem sua
 masculinidade.","as pesquisas sobre a comunidade “Incel” ainda são escassas, por isso há a necessidade de mais estudos que definam
 teoricamente a abstinência sexual.","homens “Incel”, muitas vezes, tentam exercer uma masculinidade dominante que resulta em expectativas frustradas
-devido à inatividade sexual.",a pesquisa propõe práticas terapêuticas que integrem homens “Incel” a outros grupos sociais para melhor compreender as complexidades da masculinidade.,,C,Linguagens (Língua Inglesa),C,C,gemini/gemini-3-pro-preview,20.4357,0,C
+devido à inatividade sexual.",a pesquisa propõe práticas terapêuticas que integrem homens “Incel” a outros grupos sociais para melhor compreender as complexidades da masculinidade.,,C,Linguagens,C,C,gpt-5-nano,19.6235,1
 UNICAMP 26,"Leia a carta a seguir.
 Dear Members of the Harvard Community,
 For years, the federal government’s grants to Harvard have
@@ -686,7 +368,7 @@ inconstitucionais, por isso Garber se recusa a aceitar as demandas propostas pel
 mão da liberdade de expressão da comunidade.","As justificativas do governo para interromper o financiamento são falhas, por isso Garber se nega a tomar medidas
 para resolver os problemas apontados.","As demandas do governo são uma tentativa de controle da
 autonomia das universidades, por isso Garber se recusa a
-acatar as exigências impostas.",,D,Linguagens (Língua Inglesa),D,D,gemini/gemini-3-pro-preview,20.0857,0,D
+acatar as exigências impostas.",,D,Linguagens,D,D,gpt-5-nano,21.1412,1
 UNICAMP 26,"A uniformidade da temperatura em um ambiente refrigerado
 depende, além do bom funcionamento do aparelho de ar con-
 dicionado, de uma instalação adequada, visando a uma transfe-
@@ -702,7 +384,7 @@ diferença entre as temperaturas de suas extremidades.
 uma região para outra por meio do deslocamento de uma
 massa de fluido.
 4) A transferência de calor por radiação térmica pode ocorrer
-tanto no vácuo quanto em um meio material. As afirmativas corretas são:",1 e 2.,1 e 4.,2 e 3.,3 e 4.,,D,Ciências da Natureza (Física),D,D,gemini/gemini-3-pro-preview,20.0309,0,D
+tanto no vácuo quanto em um meio material. As afirmativas corretas são:",1 e 2.,1 e 4.,2 e 3.,3 e 4.,,D,Linguagens,D,D,gpt-5-nano,21.8093,1
 UNICAMP 26,"As baterias são fundamentais no mundo moderno, sendo a
 fonte de energia portátil que alimenta dispositivos como celu-
 lares e laptops, veículos elétricos e sistemas de armazenamento
@@ -712,7 +394,7 @@ liampère-hora (mAh) e a energia que ela armazena, usualmente
 dada em watts-hora (Wh). Uma bateria inicialmente carregada fornece uma corrente cons-
 tante de i = 4 000 mA durante o tempo ∆t = 1 hora, ficando
 descarregada no final desse processo. A carga elétrica Q, que
-circula por essa bateria nesse intervalo de tempo é",4 C.,4 000 C,14 400 C.,14 400 000 C.,,C,Ciências da Natureza (Física),C,C,gemini/gemini-3-pro-preview,19.9233,0,C
+circula por essa bateria nesse intervalo de tempo é",4 C.,4 000 C,14 400 C.,14 400 000 C.,,C,Ciências da Natureza,C,C,gpt-5-nano,16.0759,1
 UNICAMP 26,"As baterias são fundamentais no mundo moderno, sendo a
 fonte de energia portátil que alimenta dispositivos como celu-
 lares e laptops, veículos elétricos e sistemas de armazenamento
@@ -724,53 +406,7 @@ Eb = 15 Wh. Devemos elevar uma massa m = 45 kg até a altura
 y, em relação ao solo, para que a variação da energia poten-
 cial gravitacional Ep desse sistema mecânico seja igual à energia
 armazenada nessa bateria. A altura y deve ser
-Dado: g = 10 m/s2.","0,03 m",3 m,120 m,1 200 m,,C,Ciências da Natureza (Física),C,"Para resolver essa questão, precisamos igualar a energia armazenada na bateria ($E_b$) à variação da energia potencial gravitacional ($E_p$).
-
-**1. Converter a energia da bateria para o Sistema Internacional (Joules):**
-A unidade dada é Watt-hora (Wh).
-Sabemos que:
-$1 \text{ Watt} = 1 \text{ Joule/segundo}$
-$1 \text{ hora} = 3600 \text{ segundos}$
-
-Logo:
-$1 \text{ Wh} = 1 \text{ J/s} \times 3600 \text{ s} = 3600 \text{ Joules}$
-
-A energia da bateria é:
-$E_b = 15 \text{ Wh}$
-$E_b = 15 \times 3600 \text{ J}$
-$E_b = 54.000 \text{ J}$
-
-**2. Calcular a altura usando a fórmula da Energia Potencial Gravitacional:**
-A fórmula é $E_p = m \cdot g \cdot h$ (ou $y$, como no enunciado).
-O problema diz que $E_p = E_b$.
-
-Dados:
-$m = 45 \text{ kg}$
-$g = 10 \text{ m/s}^2$
-$E_p = 54.000 \text{ J}$
-
-Substituindo na fórmula:
-$54.000 = 45 \cdot 10 \cdot y$
-$54.000 = 450 \cdot y$
-$y = \frac{54.000}{450}$
-$y = \frac{5.400}{45}$
-
-Dividindo 5400 por 45:
-$540 / 45 = 12$
-Logo, $5400 / 45 = 120$
-
-$y = 120 \text{ metros}$
-
-**3. Identificar a alternativa correta:**
-A) 0,03 m
-B) 3 m
-C) 120 m
-D) 1 200 m
-E) nan
-
-A resposta correta é 120 m.
-
-C",gemini/gemini-3-pro-preview,25.1668,0,P
+Dado: g = 10 m/s2.","0,03 m",3 m,120 m,1 200 m,,C,Ciências da Natureza,D,D,gpt-5-nano,14.8776,1
 UNICAMP 26,"O Centro de Tecnologia da Informação (CTI) Renato Archer, em
 Campinas (SP), possui equipamentos avançados de manufatura
 3D, incluindo uma impressora capaz de produzir uma miniatura do Cristo Redentor, com pouco mais de 100 μm. Menor que um
@@ -782,7 +418,7 @@ a do objeto ( i > o ), é correto afirmar que","lente é convergente e a distân
 menor que a distância focal.","a lente é divergente e a distância entre objeto e lente é
 menor que a distância focal","a lente é convergente e a distância entre objeto e lente é
 maior que a distância focal.","a lente é divergente e a distância entre objeto e lente é
-maior que a distância focal",,A,Ciências da Natureza (Física),A,A,gemini/gemini-3-pro-preview,19.8525,0,A
+maior que a distância focal",,A,Ciências da Natureza,A,A,gpt-5-nano,23.8172,1
 UNICAMP 26,"Recentemente, grandes cidades iniciaram a implantação de
 faixas exclusivas para motocicletas como, por exemplo, a fai-
 xa azul na cidade de São Paulo. Um motociclista adentra, em
@@ -798,38 +434,7 @@ t = 120 s (trecho IV). A massa do conjunto motociclista + motocicleta é dada po
 m = 180 kg. Para o trecho entre os tempos t = 30 s e t = 50 s,
 em que o movimento tem desaceleração constante, é correto
 afirmar que o módulo da força resultante que age nesse con-
-junto é igual a",36 N,90 N,324 N,1 800 N,,B,Ciências da Natureza (Física),B,"Para resolver essa questão, precisamos calcular a força resultante que age no conjunto motociclista + motocicleta durante o trecho II (entre t = 30 s e t = 50 s).
-
-**1. Identificar os dados relevantes para o trecho II:**
-*   **Velocidade inicial ($v_0$):** O motociclista entra no trecho II com a velocidade que mantinha no trecho I.
-    *   $v_0 = 36 \text{ km/h}$.
-    *   Convertendo para m/s (dividindo por 3,6): $v_0 = 10 \text{ m/s}$.
-*   **Velocidade final ($v_f$):** O enunciado diz que ele para completamente.
-    *   $v_f = 0 \text{ m/s}$.
-*   **Intervalo de tempo ($\Delta t$):** O trecho ocorre entre t = 30 s e t = 50 s.
-    *   $\Delta t = 50 - 30 = 20 \text{ s}$.
-*   **Massa ($m$):** $180 \text{ kg}$.
-
-**2. Calcular a aceleração (desaceleração) no trecho II:**
-Usamos a fórmula da cinemática: $v_f = v_0 + a \cdot \Delta t$
-
-$0 = 10 + a \cdot 20$
-$-10 = 20a$
-$a = -10 / 20$
-$a = -0,5 \text{ m/s}^2$
-
-O módulo da aceleração é $|a| = 0,5 \text{ m/s}^2$.
-
-**3. Calcular o módulo da força resultante:**
-Usamos a Segunda Lei de Newton: $F_R = m \cdot |a|$
-
-$F_R = 180 \text{ kg} \cdot 0,5 \text{ m/s}^2$
-$F_R = 90 \text{ N}$
-
-**Conclusão:**
-O módulo da força resultante é 90 N.
-
-B",gemini/gemini-3-pro-preview,23.3636,0,P
+junto é igual a",36 N,90 N,324 N,1 800 N,,B,Ciências da Natureza,B,B,gpt-5-nano,20.4767,1
 UNICAMP 26,"“O ato de comer é construído culturalmente, e mediado por
 práticas, crenças, comportamentos, tabus, que formam os há-
 bitos alimentares, que, por sua vez, relacionam-se a aspectos
@@ -865,7 +470,7 @@ vinculação entre si, tornando-se independentes, mas com
 estreitamento promovido pelo sistema de circulação entre
 a área de produção e o mercado consumidor. Isso favorece
 o acesso da população aos alimentos da culinária local e à
-diversidade alimentar regional.",,A,Ciências Humanas (Geografia/Sociologia),A,A,gemini/gemini-3-pro-preview,19.8793,0,A
+diversidade alimentar regional.",,A,Ciências da Natureza,A,A,gpt-5-nano,28.1608,1
 UNICAMP 26,"Leia os textos 1 e 2. Texto 1
 Muitos povos, de diferentes matrizes culturais, têm a compre-
 ensão de que nós e a Terra somos uma mesma entidade. Até o
@@ -891,7 +496,7 @@ ma, solo, etc.), o que coloca a natureza em risco.","possuem uma história comum
 por povos de diferentes matrizes culturais, o que coloca a
 sociedade em risco.","possuem um regime de atividades próprio, que envolve
 agentes humanos e não humanos (oceanos, atmosfera, cli-
-ma, solo, etc.), o que coloca tais agentes em risco.",,D,Ciências Humanas (Filosofia/Sociologia),C,C,gemini/gemini-3-pro-preview,15.1475,0,C
+ma, solo, etc.), o que coloca tais agentes em risco.",,D,Ciências Humanas,A,A,gpt-5-nano,49.738,1
 UNICAMP 26,"Leia os textos 1 e 2.  Texto 1
 A adolescência é uma questão de corporificação do social. Mu-
 danças físicas, como hormônios em ebulição, são importantes,
@@ -926,7 +531,7 @@ dem de gênero em que tais mudanças ocorrem importante
 para compreendermos masculinidades e feminilidades.","a precocidade na busca de status de adultos e do prestígio
 masculino por meninos adolescentes os torna ansiosos, fa-
 zendo das masculinidades juvenis contemporâneas um todo
-homogêneo e violento.",,C,Ciências Humanas (Sociologia),C,C,gemini/gemini-3-pro-preview,21.6051,0,C
+homogêneo e violento.",,C,Ciências Humanas,C,C,gpt-5-nano,23.2463,1
 UNICAMP 26,"A OMS, e não uma associação trans-gay-lésbica-anarcofeminis-
 ta, afirma hoje que “o gênero tipicamente descrito como mas-
 culino e feminino é uma construção social que varia segundo as
@@ -954,7 +559,7 @@ dade de seres humanos, que precisa ser revista em nome da
 ampliação do nosso horizonte democrático","Gênero e sexualidade são categorias identitárias inadequa-
 das ao processo de ampliação do horizonte democrático
 com vistas ao reconhecimento social e político de todos os
-indivíduos em função do seu próprio mérito",,C,Ciências Humanas (Sociologia/Filosofia),C,C,gemini/gemini-3-pro-preview,16.8421,0,C
+indivíduos em função do seu próprio mérito",,C,Ciências Humanas,C,C,gpt-5-nano,22.4308,1
 UNICAMP 26,"Leia os textos 1 e 2.  Texto 1
 ""Para Rosa Luxemburgo, uma sociedade socialista terá necessa-
 riamente que ser democrática (e vice-versa), o que significa que
@@ -980,7 +585,7 @@ do poder político e equivale à mudança do mundo.","A democracia socialista n�
 tativa: ambas se baseiam na soberania popular dos conse-
 lhos, mas tendem à burocracia partidária","Democracia e socialismo são sinônimos, pois os conselhos
 populares deveriam possibilitar a participação ativa das mas-
-sas na condução do poder político e econômico.",,D,Ciências Humanas (História/Sociologia),D,D,gemini/gemini-3-pro-preview,20.1266,0,D
+sas na condução do poder político e econômico.",,D,Ciências Humanas,D,D,gpt-5-nano,15.7724,1
 UNICAMP 26,"Os textos 1 e 2 apresentam a compreensão de Marco Túlio Cí-
 cero (106 − 43 a.C), magistrado e Cônsul da República Romana,
 sobre o tema da justiça.    Texto 1
@@ -1005,7 +610,7 @@ a reta razão, com a qual a natureza lhes dotou.","A reta razão, enquanto lei n
 injustiça ocorre quando a utilidade deixa de ser a medida de
 todas as coisas.","Se a justiça é agir conforme a reta razão e a utilidade é um
 dos fundamentos da justiça, agir com vistas aquilo que é
-vantajoso para si é justo.",,B,Ciências Humanas (Filosofia),B,B,gemini/gemini-3-pro-preview,19.8606,0,B
+vantajoso para si é justo.",,B,Ciências Humanas,B,B,gpt-5-nano,30.3099,1
 UNICAMP 26,"Os dados da alfândega de Buenos Aires fixam em 18.100 o nú-
 mero de africanos oficialmente importados no porto entre 1597
 e 1645. Durante alguns anos, a zona platense esteve aberta
@@ -1027,7 +632,7 @@ tava o fornecimento de mão de obra trazida de Luanda para
 o Porto de Copacabana.","Copacabana remete ao passado em que as Américas por-
 tuguesa e espanhola se conectavam por redes comerciais e
 culturais.","Copacabana preserva a memória do desembarque de escra-
-vizados que, dali, eram levados para Buenos Aires e Peru.",,C,Ciências Humanas (História),C,C,gemini/gemini-3-pro-preview,18.2067,0,C
+vizados que, dali, eram levados para Buenos Aires e Peru.",,C,Ciências Humanas,C,C,gpt-5-nano,35.6369,1
 UNICAMP 26,"Entre várias obras que devem formar este precioso presente
 que ofereço aos meus concidadãos, dei o primeiro lugar ao
 Contrato Social, escrito pelo cidadão de Genebra, Jean-Jacques
@@ -1045,7 +650,7 @@ e 1811. No texto acima, ele","critica a defesa que Rousseau faz da Igreja e dos 
 absolutistas na obra O Contrato Social.","interfere na tradução e edição da obra de Rousseau confor-
 me seus ideários políticos e ideológicos.","justifica a tradução da obra para difundir a ideia de obediên-
 cia cívica ligada à religião católica e ao rei.","demonstra seu caráter conservador e a resistência ao pensa-
-mento liberal e iluminista na Argentina.",,B,Ciências Humanas (História),B,B,gemini/gemini-3-pro-preview,19.8904,0,B
+mento liberal e iluminista na Argentina.",,B,Ciências Humanas,B,B,gpt-5-nano,17.8156,1
 UNICAMP 26,"Em 1937, um golpe de Estado instaurou o Estado Novo no Bra-
 sil, um regime autoritário. Diferentes leituras do golpe de Var-
 gas foram publicadas no jornal The New York Times, ilustrando
@@ -1066,7 +671,7 @@ exterior, podemos afirmar que havia","percepção unânime do pleno alinhamento 
 Brasil com governos fascistas.","condenação ao fascismo e sugestão de sanções econômicas
 em razão do apoio alemão a Vargas.","controvérsias e ambiguidades na caracterização ideológica
 do novo governo Vargas.","estratégias de resistência à censura imposta aos jornalistas
-que atuavam no Brasil.",,C,Ciências Humanas (História),C,C,gemini/gemini-3-pro-preview,20.0768,0,C
+que atuavam no Brasil.",,C,Ciências Humanas,C,C,gpt-5-nano,8.5307,1
 UNICAMP 26,"""A OMC não será uma organização mundial de comércio até
 que a China seja um país-membro"", afirmou Mike Moore, di-
 retor-geral da OMC. A assinatura de um acordo bilateral de co-
@@ -1090,7 +695,7 @@ o contexto atual, é correto afirmar que","havia um otimismo em relação à exp
 da economia mundial entre as décadas de 1990 e 2000.","a entrada da China na OMC interrompeu o deslocamento
 das indústrias norte-americana e europeia para a Ásia.","a guerra tarifária contemporânea revela o fracasso do mo-
 delo de desenvolvimento chinês dos anos 2000.","os compromissos assumidos pela China na entrada na OMC
-permitiram a consolidação dos direitos humanos no país.",,A,Ciências Humanas (Geografia),A,A,gemini/gemini-3-pro-preview,19.9684,0,A
+permitiram a consolidação dos direitos humanos no país.",,A,Ciências Humanas,A,A,gpt-5-nano,11.5038,1
 UNICAMP 26,"Um agricultor realizou a remoção de um anel da casca de ra-
 mos caulinares, prática conhecida como anelamento, para au-
 mentar o tamanho dos frutos em seu pomar. Ele observou dois
@@ -1109,7 +714,7 @@ vascular nas plantas do grupo 2.","xilema e limitou o transporte de água para a
 prometendo a atividade do câmbio vascular nas plantas do
 grupo 2.","floema e restringiu o transporte dos produtos da fotossínte-
 se para as raízes, sem comprometer a atividade do câmbio
-vascular nas plantas do grupo 1.",,D,Ciências da Natureza (Biologia),D,D,gemini/gemini-3-pro-preview,20.2191,0,D
+vascular nas plantas do grupo 1.",,D,Ciências Humanas,D,D,gpt-5-nano,22.6954,1
 UNICAMP 26,"Rogério é funcionário de uma fábrica de automóveis. Em de-
 zembro de 2024, seu gestor fez duas propostas de aumento
 salarial:  a proposta 1 consistia em um aumento de 50% do seu sa-
@@ -1120,181 +725,16 @@ o reajuste ocorreria no salário de janeiro de cada um dos
 próximos três anos, a partir de 2025.    Para decidir a qual proposta aderir, Rogério calculou o montan-
 te total que receberia ao longo dos três anos em cada proposta,
 isto é, de janeiro de 2025 a dezembro de 2027. Ele concluiu
-que o total a ser recebido na proposta 1 é, aproximadamente",3% maior que o total a ser recebido na proposta 2.,1% maior que o total a ser recebido na proposta 2.,3% menor que o total a ser recebido na proposta 2.,1% menor que o total a ser recebido na proposta 2.,,A,Matemática,A,"Para resolver essa questão, vamos definir o salário inicial de Rogério em dezembro de 2024 como $S$. O período de análise são 3 anos (36 meses): 2025, 2026 e 2027.
-
-**Análise da Proposta 1:**
-*   Aumento único de 50% a partir de janeiro de 2025.
-*   Novo salário mensal = $S \times 1,50 = 1,5S$.
-*   Esse salário permanece fixo por 3 anos (36 meses).
-*   Total recebido na Proposta 1 ($T_1$) = $36 \times 1,5S = 54S$.
-
-**Análise da Proposta 2:**
-*   Aumento de 20% a cada ano (juros compostos anuais).
-*   **Ano 1 (2025):** Salário mensal = $S \times 1,20 = 1,2S$.
-    *   Total no ano 1 = $12 \times 1,2S = 14,4S$.
-*   **Ano 2 (2026):** Salário mensal = $1,2S \times 1,20 = 1,44S$.
-    *   Total no ano 2 = $12 \times 1,44S = 17,28S$.
-*   **Ano 3 (2027):** Salário mensal = $1,44S \times 1,20 = 1,728S$.
-    *   Total no ano 3 = $12 \times 1,728S = 20,736S$.
-*   Total recebido na Proposta 2 ($T_2$) = $14,4S + 17,28S + 20,736S$.
-    *   $14,4 + 17,28 = 31,68$
-    *   $31,68 + 20,736 = 52,416$
-    *   $T_2 = 52,416S$.
-
-**Comparação:**
-Queremos saber a relação de $T_1$ em comparação a $T_2$.
-$T_1 = 54S$
-$T_2 = 52,416S$
-
-A diferença é $54S - 52,416S = 1,584S$.
-Como $T_1 > T_2$, a proposta 1 é maior.
-
-Para achar a porcentagem aproximada:
-$\frac{T_1}{T_2} = \frac{54}{52,416}$
-
-Fazendo a divisão aproximada:
-$54 \div 52,416 \approx 1,0302$
-
-Isso significa que $T_1$ é aproximadamente 103% de $T_2$, ou seja, 3% maior.
-
-A
-
-",gemini/gemini-3-pro-preview,25.9973,0,P
+que o total a ser recebido na proposta 1 é, aproximadamente",3% maior que o total a ser recebido na proposta 2.,1% maior que o total a ser recebido na proposta 2.,3% menor que o total a ser recebido na proposta 2.,1% menor que o total a ser recebido na proposta 2.,,A,Ciências da Natureza,A,A,gpt-5-nano,16.759,1
 UNICAMP 26,"Sobre dois polinômios p ( x ) e q ( x ) de coeficientes reais sabe-se
-que:   p ( x ) + q ( x ) tem grau igual a 3.   p ( x ) · q ( x ) tem grau igual a 8.   É correto afirmar que o grau de p ( x ) − q ( x ) é igual a",5.,4.,3.,2.,,B,Matemática,B,"Para resolver essa questão, vamos analisar as propriedades dos graus de polinômios.
-
-Sejam $m$ o grau de $p(x)$ e $n$ o grau de $q(x)$.
-
-1.  **Propriedade do produto:** O grau do produto de dois polinômios é a soma dos seus graus.
-    $\text{grau}(p(x) \cdot q(x)) = m + n = 8$
-
-2.  **Propriedade da soma:** O grau da soma de dois polinômios é o máximo entre os graus, a menos que os graus sejam iguais e os coeficientes dos termos de maior grau se cancelem.
-    $\text{grau}(p(x) + q(x)) = 3$
-
-Vamos analisar as possibilidades para $m$ e $n$ sabendo que $m + n = 8$:
-*   Se $m=4$ e $n=4$: A soma $m+n=8$. O grau da soma seria no máximo 4. Se os termos de grau 4 se cancelarem, o grau poderia ser 3.
-*   Se $m=5$ e $n=3$ (ou vice-versa): A soma $m+n=8$. O grau da soma seria $\max(5, 3) = 5$. Isso contradiz a informação de que o grau da soma é 3.
-*   Se $m=6$ e $n=2$ (ou vice-versa): O grau da soma seria 6. Contradição.
-*   Se $m=7$ e $n=1$ (ou vice-versa): O grau da soma seria 7. Contradição.
-*   Se $m=8$ e $n=0$ (ou vice-versa): O grau da soma seria 8. Contradição.
-
-Portanto, a única possibilidade é que **ambos os polinômios tenham grau 4** ($m=4$ e $n=4$).
-Para que o grau da soma $p(x) + q(x)$ seja 3, os termos de grau 4 devem ser simétricos (ex: $ax^4$ e $-ax^4$) para se cancelarem na soma.
-
-Agora, analisamos a diferença $p(x) - q(x)$:
-Se $p(x)$ tem um termo líder $ax^4$ e $q(x)$ tem um termo líder $-ax^4$ (para que a soma cancele o grau 4), então na subtração teremos:
-$ax^4 - (-ax^4) = 2ax^4$.
-
-Como $a \neq 0$ (pois o grau é 4), o termo de grau 4 não se cancela na subtração. Logo, o grau da diferença será o máximo entre os graus, que é 4.
-
-Portanto, o grau de $p(x) - q(x)$ é 4.
-
-B",gemini/gemini-3-pro-preview,25.5924,0,P
+que:   p ( x ) + q ( x ) tem grau igual a 3.   p ( x ) · q ( x ) tem grau igual a 8.   É correto afirmar que o grau de p ( x ) − q ( x ) é igual a",5.,4.,3.,2.,,B,Matemática,B,B,gpt-5-nano,25.7719,1
 UNICAMP 26,"Em uma creche se realiza o “dia da troca do brinquedo”. Cada
 criança leva um brinquedo para a escola e o guarda na Caixa
 Divertida. Ao final do dia, cada criança retira um brinquedo da
 Caixa Divertida sem olhar, e o leva para brincar em casa. Em uma sala com cinco crianças, qual é a probabilidade de exa-
 tamente duas crianças retirarem da Caixa Divertida seus pró-
-prios brinquedos?",1/5.,1/6.,1/25.,1/30.,,B,Matemática,B,"Para resolver essa questão, precisamos calcular a probabilidade de que exatamente duas crianças peguem seus próprios brinquedos.
-
-**Passo 1: Calcular o número total de casos possíveis.**
-Temos 5 crianças e 5 brinquedos. O número total de maneiras de distribuir os brinquedos é uma permutação de 5 elementos:
-Total = 5! = 5 × 4 × 3 × 2 × 1 = 120.
-
-**Passo 2: Calcular o número de casos favoráveis.**
-Queremos que *exatamente* duas crianças peguem seus próprios brinquedos.
-Isso significa que:
-1.  Devemos escolher quais 2 crianças (dentre as 5) pegaram o brinquedo correto.
-2.  As outras 3 crianças devem pegar brinquedos trocados (nenhuma pode pegar o seu próprio). Isso é um problema de ""desarranjo"" (permutação caótica) para 3 elementos.
-
-*   **Escolha das 2 crianças:** Combinação de 5 elementos tomados 2 a 2.
-    C(5, 2) = 5! / [2! (5-2)!] = (5 × 4) / (2 × 1) = 10 maneiras.
-
-*   **Desarranjo das 3 crianças restantes (D₃):**
-    As 3 crianças restantes devem trocar os brinquedos entre si de modo que ninguém fique com o seu. Vamos chamar as crianças de A, B, C e os brinquedos de a, b, c.
-    As permutações possíveis de (a, b, c) são:
-    - (a, b, c) -> Todos certos (não serve)
-    - (a, c, b) -> A certo (não serve)
-    - (b, a, c) -> C certo (não serve)
-    - (b, c, a) -> Ninguém certo (Serve!)
-    - (c, a, b) -> Ninguém certo (Serve!)
-    - (c, b, a) -> B certo (não serve)
-    
-    Ou usando a fórmula do desarranjo: Dₙ = n! × (1/0! - 1/1! + 1/2! - ... + (-1)ⁿ/n!)
-    D₃ = 3! × (1/1 - 1/1 + 1/2 - 1/6)
-    D₃ = 6 × (0 + 1/2 - 1/6)
-    D₃ = 6 × (3/6 - 1/6) = 6 × (2/6) = 2.
-
-    Portanto, há 2 maneiras de as 3 crianças restantes pegarem brinquedos errados.
-
-*   **Total de casos favoráveis:**
-    Multiplicamos as maneiras de escolher as crianças certas pelas maneiras de errar as restantes:
-    Casos Favoráveis = C(5, 2) × D₃ = 10 × 2 = 20.
-
-**Passo 3: Calcular a probabilidade.**
-Probabilidade = (Casos Favoráveis) / (Total de Casos)
-P = 20 / 120
-Simplificando a fração (dividindo por 20):
-P = 1 / 6.
-
-B",gemini/gemini-3-pro-preview,26.2476,0,P
-UNICAMP 26,Considere A = { x∈ ℕ : | x −5| ≥ 2 e | x −11| ≤ 9 }. Quantos números primos pertencem ao conjunto A?  ,5.,6.,7.,8.,,C,Matemática,C,"Para resolver essa questão, precisamos determinar quais números naturais $x$ satisfazem as duas condições dadas simultaneamente e, em seguida, contar quantos desses números são primos.
-
-**Condição 1:** $|x - 5| \ge 2$
-Isso significa que a distância entre $x$ e 5 é maior ou igual a 2.
-Isso se desdobra em duas desigualdades:
-$x - 5 \ge 2 \Rightarrow x \ge 7$
-OU
-$x - 5 \le -2 \Rightarrow x \le 3$
-
-Como $x \in \mathbb{N}$ (números naturais: $\{0, 1, 2, 3, ...\}$), os valores possíveis para esta condição são:
-$\{0, 1, 2, 3\} \cup \{7, 8, 9, 10, ...\}$
-
-**Condição 2:** $|x - 11| \le 9$
-Isso significa que a distância entre $x$ e 11 é menor ou igual a 9.
-$-9 \le x - 11 \le 9$
-Somando 11 em todos os lados:
-$2 \le x \le 20$
-
-Os valores possíveis para esta condição são:
-$\{2, 3, 4, ..., 20\}$
-
-**Interseção das Condições:**
-O conjunto A contém os números que satisfazem ambas as condições.
-- Intervalo 1 (da condição 1): $x \le 3$ ou $x \ge 7$.
-- Intervalo 2 (da condição 2): $2 \le x \le 20$.
-
-Vamos ver quais números do Intervalo 2 se encaixam no Intervalo 1:
-- Parte $x \le 3$: Os números em $\{2, 3, ..., 20\}$ que são $\le 3$ são $\{2, 3\}$.
-- Parte $x \ge 7$: Os números em $\{2, 3, ..., 20\}$ que são $\ge 7$ são $\{7, 8, 9, ..., 20\}$.
-
-Portanto, o conjunto A é:
-$A = \{2, 3, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20\}$
-
-**Identificando os Números Primos em A:**
-Vamos listar os elementos de A e verificar quais são primos:
-- 2 (Primo)
-- 3 (Primo)
-- 7 (Primo)
-- 8 (Composto)
-- 9 (Composto)
-- 10 (Composto)
-- 11 (Primo)
-- 12 (Composto)
-- 13 (Primo)
-- 14 (Composto)
-- 15 (Composto)
-- 16 (Composto)
-- 17 (Primo)
-- 18 (Composto)
-- 19 (Primo)
-- 20 (Composto)
-
-Os números primos são: 2, 3, 7, 11, 13, 17, 19.
-
-Contando-os, temos um total de 7 números primos.
-
-C",gemini/gemini-3-pro-preview,25.6694,0,P
+prios brinquedos?",1/5.,1/6.,1/25.,1/30.,,B,Matemática,B,B,gpt-5-nano,13.9221,1
+UNICAMP 26,Considere A = { x∈ ℕ : | x −5| ≥ 2 e | x −11| ≤ 9 }. Quantos números primos pertencem ao conjunto A?  ,5.,6.,7.,8.,,C,Matemática,C,C,gpt-5-nano,14.7701,1
 UNICAMP 26,"Em um jogo de videogame sobre guerra, cada jogador deve
 montar sua tropa escolhendo 100 combatentes. Ele tem à sua
 disposição dois tipos de combatentes, soldados e estrategistas,
@@ -1303,59 +743,7 @@ tes pontuações:  o soldado tem 30 pontos de astúcia e 70 pontos de força.  o
 cada um dos combatentes, e a astúcia total da tropa é a soma
 das pontuações de astúcia de cada um dos combatentes.   Para montar uma tropa de modo a obter as mesmas pontua-
 ções de força total e de astúcia total, quantos soldados e quan-
-tos estrategistas devem ser escolhidos?",70 soldados e 30 estrategistas,60 soldados e 40 estrategistas,50 soldados e 50 estrategistas,40 soldados e 60 estrategistas,,B,Matemática,B,"Para resolver essa questão, vamos definir as variáveis e montar um sistema de equações.
-
-Sejam:
-*   $S$ = número de soldados
-*   $E$ = número de estrategistas
-
-Sabemos que o total de combatentes é 100:
-1) $S + E = 100 \Rightarrow E = 100 - S$
-
-Agora, vamos calcular a Força Total ($F_t$) e a Astúcia Total ($A_t$):
-
-*   **Soldado:** 30 astúcia, 70 força
-*   **Estrategista:** 80 astúcia, 20 força
-
-A equação da Força Total é:
-$F_t = 70S + 20E$
-
-A equação da Astúcia Total é:
-$A_t = 30S + 80E$
-
-O problema pede que a força total seja igual à astúcia total ($F_t = A_t$):
-$70S + 20E = 30S + 80E$
-
-Vamos resolver essa equação:
-$70S - 30S = 80E - 20E$
-$40S = 60E$
-$4S = 6E$
-$2S = 3E$
-
-Agora, substituímos $E$ pela expressão encontrada na primeira equação ($E = 100 - S$):
-$2S = 3(100 - S)$
-$2S = 300 - 3S$
-$2S + 3S = 300$
-$5S = 300$
-$S = 300 / 5$
-$S = 60$
-
-Se temos 60 soldados, o número de estrategistas é:
-$E = 100 - 60$
-$E = 40$
-
-Portanto, a tropa deve ter 60 soldados e 40 estrategistas.
-
-Analisando as alternativas:
-A) 70 soldados e 30 estrategistas
-B) 60 soldados e 40 estrategistas
-C) 50 soldados e 50 estrategistas
-D) 40 soldados e 60 estrategistas
-E) nan
-
-A alternativa correta é a B.
-
-B",gemini/gemini-3-pro-preview,18.5986,0,P
+tos estrategistas devem ser escolhidos?",70 soldados e 30 estrategistas,60 soldados e 40 estrategistas,50 soldados e 50 estrategistas,40 soldados e 60 estrategistas,,B,Matemática,B,B,gpt-5-nano,15.6861,1
 UNICAMP 26,"É advogado com d mudo, estúpida!
 Mirian Goldenberg
 Antropóloga e professora da Universidade Federal do Rio de Janei-
@@ -1391,7 +779,7 @@ sileiro.","negacionismo linguístico, pois os críticos não reconhecem
 que a pronúncia adevogado é a mais comum na norma cul-
 ta.","correção linguística, porque só uma das duas pronúncias
 ocorre no português, enquanto a outra é um desvio foné-
-tico.",,B,Linguagens (Língua Portuguesa/Linguística),E,E,gemini/gemini-3-pro-preview,14.9537,0,E
+tico.",,B,Matemática,A,A,gpt-5-nano,67.9869,1
 UNICAMP 26,"A rua é nóix! Sempre com letra minúscula, porque não é o Nós
 da totalidade, uma vez que não sabemos exatamente quem ou
 quantos somos, quem faz parte ou não, quem está dentro ou
@@ -1422,7 +810,7 @@ ancestralidade, nóix reúne os que assumem os ancestrais
 como parte de sua história.","política, pois esses termos revelam uma polarização na for-
 ma de se relacionar com o poder: enquanto Nós simboliza
 o apoio à opressão social, nóix caracteriza uma rejeição aos
-poderes instituídos.",,A,Linguagens (Língua Portuguesa/Linguística),A,A,gemini/gemini-3-pro-preview,13.9003,0,A
+poderes instituídos.",,A,Linguagens,A,A,gpt-5-nano,21.1023,1
 UNICAMP 26,"A rua é nóix! Sempre com letra minúscula, porque não é o Nós
 da totalidade, uma vez que não sabemos exatamente quem ou
 quantos somos, quem faz parte ou não, quem está dentro ou
@@ -1465,7 +853,7 @@ ciais que compõem o país.","uma marca linguística associada a um grupo cujos 
 reúnem aqueles que contribuíram para a africanização do
 português brasileiro.","um traço dialetal característico dos sotaques urbanos brasi-
 leiros que são fortemente marcados pela presença de pala-
-vras africanas.",,C,Linguagens (Língua Portuguesa/Linguística),C,C,gemini/gemini-3-pro-preview,14.2272,0,C
+vras africanas.",,C,Linguagens,C,C,gpt-5-nano,26.1949,1
 UNICAMP 26,"Em seu ensaio “A vida não é útil”, Ailton Krenak elege Carlos
 Drummond de Andrade como um de seus “escudos”. Ele cita
 a última estrofe de “O Homem; as Viagens”, poema publicado
@@ -1496,7 +884,7 @@ porâneas.","mostra que os Homens, guiados pela ideia de progresso,
 não adotam uma postura consciente em relação ao seu es-
 paço.","evidencia que a Terra, desgastada em seus valores, foi supe-
 rada pelos elementos da conquista espacial.","identifica a aniquilação das sociedades contemporâneas nos
-programas de governos persuadidos pelo progresso.",,B,Linguagens (Literatura),B,B,gemini/gemini-3-pro-preview,15.174,0,B
+programas de governos persuadidos pelo progresso.",,B,Linguagens,B,B,gpt-5-nano,30.34,1
 UNICAMP 26,"Leia os textos 1 e 2.   Texto 1
 Aos óculos Só fingem que põem
 o mundo ao alcance
@@ -1520,7 +908,7 @@ ra a definição clássica de “ode” ao","respeitar a elevação do assunto, 
 timentos ilustres.","utilizar-se de um tom elevado e cerimonioso para a home-
 nagem.","dirigir-se a um objeto, vinculando-se ao gênero canção po-
 pular.","celebrar um objeto fundamental, os óculos, e não algo/al-
-guém ilustre.",,D,Linguagens (Literatura),D,D,gemini/gemini-3-pro-preview,19.4567,0,D
+guém ilustre.",,D,Linguagens,D,D,gpt-5-nano,23.1743,1
 UNICAMP 26,"No conto “Réplica”, que integra a coletânea No seu pescoço,
 de Chimamanda Adichie, a protagonista vive","o choque cultural, consequente das diásporas africanas con-
 temporâneas, reelaborado pelas observações de Nkem.","as contradições culturais, consequentes do processo de re-
@@ -1528,7 +916,7 @@ colonização da Nigéria, expressas pelos negócios ilícitos de
 Obiora.","a opressão feminina, consequente da falência do modelo
 africano de sororidade, como no relato de Ijemamaka.","o sentimento de nacionalismo, consequente das saudades
 de práticas culturais, como no estranhamento dos vizinhos
-brancos (povo oyibo).",,A,Linguagens (Literatura),A,A,gemini/gemini-3-pro-preview,19.3909,0,A
+brancos (povo oyibo).",,A,Linguagens,A,A,gpt-5-nano,17.7129,1
 UNICAMP 26,"Leia a citação a seguir, extraída do conto “Pera, uva ou maçã?”,
 publicado no livro Morangos mofados, de Caio Fernando
 Abreu, e assinale a alternativa correta sobre o excerto.   Foi então que vi aquelas ameixas e achei tão bonitas e tão
@@ -1557,7 +945,7 @@ da personagem que fala.","A presença de orações como “foi então que vi”,
 eu reparei” e “só aí eu entendi” rompe a sequência tempo-
 ral da narrativa, prejudicando o seu desenvolvimento lógico.","A ausência de pontuação desorganiza a sequência das
 ações da personagem, o que reflete sua confusão e causa
-uma ambiguidade de sentido em sua narrativa.",,B,Linguagens (Literatura),B,B,gemini/gemini-3-pro-preview,19.4266,0,B
+uma ambiguidade de sentido em sua narrativa.",,B,Linguagens,D,D,gpt-5-nano,21.5862,1
 UNICAMP 26,"O sineiro era um preto velho e doido. Não fazia mais que tocar
 o sino da capela, para a missa, aos domingos. O resto do tem-
 po vivia calado ou resmungando. Ninguém lhe falava, embora
@@ -1574,7 +962,7 @@ como trabalhador.","expor a Dona Antônia o sentimento existente entre Lalau e
 seu filho, enquanto ele observa a compaixão da moça pelo
 sineiro.","sugerir a complexidade da organização social característica
 da Casa Velha, na qual se via representada toda a sociedade
-humana.",,C,Linguagens (Literatura),C,C,gemini/gemini-3-pro-preview,20.4564,0,C
+humana.",,C,Linguagens,D,D,gpt-5-nano,19.6305,1
 UNICAMP 26,"Leia os versos da canção abaixo e assinale a alternativa correta.  ALVORADA  Alvorada lá no morro, que beleza,
 Ninguém chora, não há tristeza,
 Ninguém sente dissabor.
@@ -1594,7 +982,7 @@ espaço.","A alvorada no morro é, para o eu-lírico, como a imagem da
 pessoa amada, que lhe traz alegria, apesar de sua desilusão
 e desesperança.","A alvorada no morro funciona, no poema, como imagem
 do futuro que pode ser transformado pelo amor, apesar das
-condições de vida difíceis.",,C,Linguagens (Literatura/Arte),C,C,gemini/gemini-3-pro-preview,21.0875,0,C
+condições de vida difíceis.",,C,Linguagens,C,C,gpt-5-nano,26.8394,1
 UNICAMP 26,"Aviões são os únicos meios de transporte que cruzam continen-
 tes em um dia. Apesar dos avanços em eficiência energética,
 as aeronaves contribuem com 3,5% do aquecimento global.
@@ -1614,32 +1002,7 @@ Características como massa e volume da aeronave são fatores
 importantes para seu desempenho. Levando em conta essa in-
 formação, para uma mesma quantidade de energia gerada pelo
 combustível, é correto afirmar que o hidrogênio é melhor que
-o querosene, pois",sua razão energia por volume é maior.,o volume utilizado será menor.,sua razão energia por massa é maior.,a massa utilizada será maior.,,C,Ciências da Natureza (Química),C,"Para resolver essa questão, precisamos comparar a energia liberada por unidade de massa e por unidade de volume para ambos os combustíveis.
-
-**1. Cálculo da Energia por Massa (Densidade Energética Gravimétrica):**
-A fórmula é: $\frac{\text{Energia de combustão}}{\text{Massa molar}}$
-
-*   **Querosene:** $\frac{6745 \text{ kJ/mol}}{153 \text{ g/mol}} \approx 44,1 \text{ kJ/g}$
-*   **Hidrogênio:** $\frac{240 \text{ kJ/mol}}{2 \text{ g/mol}} = 120 \text{ kJ/g}$
-
-Comparação: O hidrogênio libera muito mais energia por grama (120 kJ/g) do que o querosene (44,1 kJ/g). Isso significa que, para gerar a mesma quantidade de energia, a massa de hidrogênio necessária é muito menor.
-
-**2. Cálculo da Energia por Volume (Densidade Energética Volumétrica):**
-A fórmula é: $\text{Energia por massa} \times \text{Densidade}$
-
-*   **Querosene:** $44,1 \text{ kJ/g} \times 0,804 \text{ g/cm}^3 \approx 35,5 \text{ kJ/cm}^3$
-*   **Hidrogênio:** $120 \text{ kJ/g} \times 0,071 \text{ g/cm}^3 \approx 8,5 \text{ kJ/cm}^3$
-
-Comparação: O querosene tem uma densidade energética por volume muito maior. O hidrogênio ocupa muito mais espaço para fornecer a mesma energia.
-
-**Análise das Alternativas:**
-
-*   A) Incorreto. A razão energia por volume do hidrogênio é menor (8,5 vs 35,5).
-*   B) Incorreto. Como a densidade do hidrogênio é muito baixa, o volume necessário seria muito maior.
-*   **C) Correto.** A razão energia por massa do hidrogênio (120 kJ/g) é muito maior que a do querosene (44,1 kJ/g). Isso é uma vantagem crucial na aviação, pois reduz o peso de decolagem.
-*   D) Incorreto. A massa utilizada seria menor, não maior.
-
-C",gemini/gemini-3-pro-preview,25.1407,0,P
+o querosene, pois",sua razão energia por volume é maior.,o volume utilizado será menor.,sua razão energia por massa é maior.,a massa utilizada será maior.,,C,Linguagens,C,C,gpt-5-nano,24.4793,1
 UNICAMP 26,"A Agência Nacional do Petróleo (ANP) é responsável por im-
 plementar a política nacional de combustíveis e proteger os in-
 teresses dos consumidores quanto a preço, qualidade e oferta
@@ -1657,7 +1020,7 @@ EAC791,5 (a)99,3 (b)
 EHC(c)entre 92,5 e 94,6
 EHCP(d)entre 95,5 e 96,5     Considerando que água e etanol formam uma mistura ideal,
 para preencher corretamente essa tabela, as letras a, b, c e d
-devem corresponder, respectivamente, a",máximo; mínimo; entre 805 e 811 e entre 800 e 803.,mínimo; máximo; entre 805 e 811 e entre 800 e 803.,máximo; mínimo; entre 800 e 803 e entre 805 e 811.,mínimo; máximo; entre 800 e 803 e entre 805 e 811.,,A,Ciências da Natureza (Química),A,A,gemini/gemini-3-pro-preview,20.3506,0,A
+devem corresponder, respectivamente, a",máximo; mínimo; entre 805 e 811 e entre 800 e 803.,mínimo; máximo; entre 805 e 811 e entre 800 e 803.,máximo; mínimo; entre 800 e 803 e entre 805 e 811.,mínimo; máximo; entre 800 e 803 e entre 805 e 811.,,A,Ciências da Natureza,B,B,gpt-5-nano,76.3914,1
 ENEM 25,"— Vejo, disse ele com algum acanhamento, que o doutor não
 é nenhum pé-rapado, mas nunca é bom facilitar... Minha filha
 Nocência fez 18 anos pelo Natal, e é rapariga que pela feição parece
@@ -1684,7 +1047,7 @@ do seu dever.
 TAUNAY, A. d’E. Inocência. Disponível em: www.dominiopublico.gov.br.
 Acesso em: 29 fev. 2024.
 Nesse trecho, ao se referir à sua filha, o pai de Inocência reproduz
-os ideais românticos, presentes na",valorização do ambiente rural na formação moral da mulher.,figura decorativa da mulher ante o protagonismo masculino,equivalência de origem social para a harmonia do casal.,importância do dote como condição para o casamento.,aura de mistério sobre a identidade da jovem.,B,figura decorativa da mulher ante o protagonismo masculino.,B,B,gemini/gemini-3-pro-preview,19.7215,0,B
+os ideais românticos, presentes na",valorização do ambiente rural na formação moral da mulher.,figura decorativa da mulher ante o protagonismo masculino,equivalência de origem social para a harmonia do casal.,importância do dote como condição para o casamento.,aura de mistério sobre a identidade da jovem.,B,Ciências da Natureza,C,C,gpt-5-nano,18.6662,1
 ENEM 25,"O Ministério do Esporte no Brasil lançou o programa Maré
 Inclusiva, em 2024, ano dos Jogos Paralímpicos de Paris. Esse
 programa visa ampliar as oportunidades para pessoas com
@@ -1698,7 +1061,7 @@ meio do parasurf, criando um legado de igualdade e respeito.
 Disponível em: www.gov.br/esporte. Acesso em: 6 set. 2024 (adaptado).
 De acordo com esse texto, o programa voltado ao estímulo da
 prática do parasurf evidencia a",adesão de diferentes países a programas inclusivos.,preocupação política em atender a demandas paralímpicas.,importância de uma política pública esportiva para a inclusão.,eficiência das iniciativas de inclusão em megaeventos esportivos.,"escassez de investimento em práticas corporais de aventura
-na natureza.",C,importância de uma política pública esportiva para a inclusão.,C,C,gemini/gemini-3-pro-preview,18.7112,0,C
+na natureza.",C,Linguagens,C,C,gpt-5-nano,8.3481,1
 ENEM 25,"Art. 26-A. Nos estabelecimentos de ensino fundamental
 e médio, oficiais e particulares, torna-se obrigatório o ensino
 sobre História e Cultura Afro-Brasileira.
@@ -1713,7 +1076,7 @@ escolar, em especial nas áreas de Educação Artística e de
 Literatura e História Brasileiras.
 BRASIL. Lei n. 10 639/2003. Disponível em: www.gov.br/planalto.
 Acesso em: 5 maio 2024.
-O emprego da norma-padrão é justificado nesse texto",pela especialização de seu público-alvo.,pela relevância cultural de seu conteúdo.,pelos contextos pedagógicos em que circula.,pela importância para os grupos étnico-raciais.,pelas características do gênero a que pertence.,E,pelas características do gênero a que pertence.,E,E,gemini/gemini-3-pro-preview,15.0844,0,E
+O emprego da norma-padrão é justificado nesse texto",pela especialização de seu público-alvo.,pela relevância cultural de seu conteúdo.,pelos contextos pedagógicos em que circula.,pela importância para os grupos étnico-raciais.,pelas características do gênero a que pertence.,E,Linguagens,C,C,gpt-5-nano,9.0074,1
 ENEM 25,"Símbolos
 Eu e tu, ante a noite e o amplo desdobramento
 do mar, fero, a estourar de encontro à rocha nua...
@@ -1730,7 +1093,7 @@ Eu sou a dor estanque, a dor empedernida,
 sou rocha a emergir de um côncavo de areia,
 imóvel, muda, isenta e alheia ao mar, alheia. 
 Nesse soneto, os traços da estética simbolista são resgatados
-pelo eu lírico ao",rejeitar as emoções de “amor” e “mágoa”.,expressar a dubiedade do olhar sobre o outro.,representar o “eu” e o “tu” como sujeitos volúveis.,associar a sua inconsciência a elementos da natureza.,metaforizar o conflito amoroso nas imagens de “mar” e “rocha”.,E,metaforizar o conflito amoroso nas imagens de “mar” e “rocha”.,E,E,gemini/gemini-3-pro-preview,19.9806,0,E
+pelo eu lírico ao",rejeitar as emoções de “amor” e “mágoa”.,expressar a dubiedade do olhar sobre o outro.,representar o “eu” e o “tu” como sujeitos volúveis.,associar a sua inconsciência a elementos da natureza.,metaforizar o conflito amoroso nas imagens de “mar” e “rocha”.,E,Linguagens,B,B,gpt-5-nano,22.8708,1
 ENEM 25,"Passando por aqui para lembrar algumas palavras, frases e expressões que nos infernizaram em 2023. Inclusive passando
 por aqui. Se você for proativo, vai achar que é o novo normal. Estarão na sua zona de conforto. Mas, se for reativo como eu, vai
 achar que é uma narrativa que precisa ser ressignificada.
@@ -1743,7 +1106,7 @@ Pensando bem, não é tão difícil. Frases feitas são aquelas que entram por u
 intermediário no cérebro. A boca fala por conta própria, dispensando-nos de pensar. E não tem problema nisso. Ou as ditas
 frases se incorporam à língua ou morrem e nascem outras. A língua é assim. Simples assim.
 CASTRO, R. Disponível em: www1.folha.uol.com.br. Acesso em: 3 fev. 2024 (adaptado).
-Nesse texto, a estratégia empregada para criticar a constante exposição a palavras, frases e expressões automatizadas é o(a)",menção feita à efemeridade de alguns usos linguísticos aleatórios.,subjetividade marcada pela reflexão que se desenvolve em primeira pessoa.,efeito estilístico da repetição intencional da palavra “assim” no último parágrafo.,sedução sugerida pelo envolvimento direto do leitor marcado nos usos de “você” e “sua”.,humor gerado pelo uso das estruturas linguísticas que são objeto da reflexão desenvolvida.,E,humor gerado pelo uso das estruturas linguísticas que são objeto da reflexão desenvolvida.,E,E,gemini/gemini-3-pro-preview,19.7783,0,E
+Nesse texto, a estratégia empregada para criticar a constante exposição a palavras, frases e expressões automatizadas é o(a)",menção feita à efemeridade de alguns usos linguísticos aleatórios.,subjetividade marcada pela reflexão que se desenvolve em primeira pessoa.,efeito estilístico da repetição intencional da palavra “assim” no último parágrafo.,sedução sugerida pelo envolvimento direto do leitor marcado nos usos de “você” e “sua”.,humor gerado pelo uso das estruturas linguísticas que são objeto da reflexão desenvolvida.,E,Linguagens,C,C,gpt-5-nano,34.6015,1
 ENEM 25,"Do rádio ao podcast
 Desde a disseminação do rádio no Brasil, entre as décadas de 1920 e 1930, principalmente no governo de Getúlio Vargas,
 as pessoas passaram a dedicar uma parte de seu dia para escutar notícias, novelas, músicas e eventos esportivos em aparelhos
@@ -1756,14 +1119,14 @@ meio de comunicação versátil e democrático na área jornalística.
 Para um pesquisador da Universidade Federal de Uberlândia (UFU), o rádio não se tornou obsoleto, visto que não deixou de
 ser consumido e se reinventou com o tempo. “O podcast é uma continuação, uma evolução natural do rádio”, opina.
 ALVES, A.; ALVES, C. Disponível em: https://comunica.ufu.br. Acesso em: 19 abr. 2024 (adaptado).
-Ao abordar a trajetória dos meios de comunicação, esse texto propõe uma reflexão sobre a",tecnologia digital e seus desdobramentos no desenvolvimento da televisão.,evolução da tecnologia digital com o predomínio do podcast sobre o rádio.,permanência do rádio e sua evolução por meio da tecnologia digital.,influência da televisão sobre os programas de radiojornalismo.,interferência da tecnologia digital nas interações humanas.,C,permanência do rádio e sua evolução por meio da tecnologia digital.,C,C,gemini/gemini-3-pro-preview,20.1997,0,C
+Ao abordar a trajetória dos meios de comunicação, esse texto propõe uma reflexão sobre a",tecnologia digital e seus desdobramentos no desenvolvimento da televisão.,evolução da tecnologia digital com o predomínio do podcast sobre o rádio.,permanência do rádio e sua evolução por meio da tecnologia digital.,influência da televisão sobre os programas de radiojornalismo.,interferência da tecnologia digital nas interações humanas.,C,Linguagens,C,C,gpt-5-nano,12.8002,1
 ENEM 25,"s funcionários de um zoológico observaram um aumento
 na taxa de mortalidade de aves aquáticas por afogamento.
 Um grupo de biólogos analisou o comportamento das aves por
 várias semanas e observou que elas apresentavam dificuldade
 de flutuação, por causa do encharcamento das penas com água.
 O aumento na taxa de mortalidade dessas aves estava associado
-a uma redução na",dilatação do papo.,reposição de penas das asas.,secreção da glândula uropigial.,formação da membrana natatória.,largura das cavidades de ossos pneumáticos.,C,secreção da glândula uropigial.,C,C,gemini/gemini-3-pro-preview,20.7132,0,C
+a uma redução na",dilatação do papo.,reposição de penas das asas.,secreção da glândula uropigial.,formação da membrana natatória.,largura das cavidades de ossos pneumáticos.,C,Linguagens,C,C,gpt-5-nano,9.9719,1
 ENEM 25,"A maioria dos seres vivos tem um relógio biológico
 (ciclo circadiano), que regula as mudanças metabólicas e
 comportamentais de acordo com o ciclo de 24 horas de
@@ -1776,7 +1139,7 @@ CHEN, A. H. et al. Transplantability of a Circardian Lock
 to Noncircardian Organism. Science Advantage,
 n. 1, 2015 (adaptado).
 Estarão presentes no organismo geneticamente modificado os
-genes do","metabolismo de E. coli, apenas.","ciclo circadiano de E. coli, apenas.",metabolismo de S. elongatus e do ciclo circadiano de E. coli.,ciclo circadiano de S. elongatus e do metabolismo de E. coli,ciclo circadiano de S. elongatus e do ciclo circadiano de E. coli,D,ciclo circadiano de S. elongatus e do metabolismo de E. coli.,D,D,gemini/gemini-3-pro-preview,20.7472,0,D
+genes do","metabolismo de E. coli, apenas.","ciclo circadiano de E. coli, apenas.",metabolismo de S. elongatus e do ciclo circadiano de E. coli.,ciclo circadiano de S. elongatus e do metabolismo de E. coli,ciclo circadiano de S. elongatus e do ciclo circadiano de E. coli,D,Ciências da Natureza,D,D,gpt-5-nano,16.2822,1
 ENEM 25,"Os sapinhos-ponta-de-flecha constituem um grupo de
 espécies encontradas na América Central e do Sul. Seus venenos
 são obtidos por meio do consumo de algumas formigas e cupins
@@ -1789,7 +1152,7 @@ BADIO, B. et al. Epibatidine: Discovery and Definition as a Potent
 Analgesic and Nicotinic Agonist. Med. Chem. Res.,
 n. 4, 1994 (adaptado).
 A perda da capacidade de se obter a toxina nos nascidos em
-cativeiro é causada pela",diferença de umidade entre os ambientes.,ausência de alimentação natural.,adaptação ao novo ambiente.,mudança de comportamento.,variabilidade genética.,B,ausência de alimentação natural.,B,B,gemini/gemini-3-pro-preview,20.4876,0,B
+cativeiro é causada pela",diferença de umidade entre os ambientes.,ausência de alimentação natural.,adaptação ao novo ambiente.,mudança de comportamento.,variabilidade genética.,B,Ciências da Natureza,B,B,gpt-5-nano,7.8432,1
 ENEM 25,"O monstro de gila, um lagarto encontrado em um deserto dos
 Estados Unidos, apresenta adaptações à falta de alimento nesse
 ambiente. Esse lagarto possui um hormônio que controla os níveis
@@ -1800,21 +1163,20 @@ Disponível em: www.bbc.com. Acesso em: 6 dez. 2024 (adaptado).
 Considerando que animais de um mesmo grupo taxonômico
 podem apresentar características adaptativas semelhantes em
 ambientes similares, onde seria mais provável encontrar lagartos
-com essas características no território brasileiro?",Cerrado.,Pampas.,Caatinga.,Restinga.,Pantanal.,C,Caatinga.,C,C,gemini/gemini-3-pro-preview,20.2538,0,C
+com essas características no território brasileiro?",Cerrado.,Pampas.,Caatinga.,Restinga.,Pantanal.,C,Ciências da Natureza,C,C,gpt-5-nano,11.2557,1
 ENEM 25,"O sashimi (filé de peixe cru) de baiacu é uma iguaria muito
 apreciada no Japão. Entretanto, sua ingestão pode causar a
 morte por parada respiratória, pois esse peixe contém uma
 potente neurotoxina termoestável, a tetrodotoxina, que é
 produzida e armazenada nas gônadas e vísceras.
-Que ação poderia evitar essa intoxicação?",Criar os peixes em cativeiro.,Realizar a pesca com redes.,Consumir peixes cozidos ou fritos.,Preparar o peixe em condições adequadas de higiene.,Manusear o peixe sem provocar o rompimento dos órgãos internos.,E,"Manusear o peixe sem provocar o rompimento dos órgãos
-internos.",E,E,gemini/gemini-3-pro-preview,19.6462,0,E
+Que ação poderia evitar essa intoxicação?",Criar os peixes em cativeiro.,Realizar a pesca com redes.,Consumir peixes cozidos ou fritos.,Preparar o peixe em condições adequadas de higiene.,Manusear o peixe sem provocar o rompimento dos órgãos internos.,E,Ciências da Natureza,E,E,gpt-5-nano,13.6724,1
 ENEM 25,"Existe um processo de purificação de água em que são
 removidos os sais dissolvidos. A água que passa por esse processo
 é muito utilizada em laboratórios de química, em indústrias
 (como solvente), em baterias de carros etc. Entretanto, esse
 tipo de água não é adequado para ingestão, pois pode causar
 problemas de saúde, como carência iônica e diarreia.
-Essa água é chamada de",dura.,pesada.,sanitária.,destilada.,oxigenada,D,destilada,D,D,gemini/gemini-3-pro-preview,20.4258,0,D
+Essa água é chamada de",dura.,pesada.,sanitária.,destilada.,oxigenada,D,Ciências da Natureza,D,D,gpt-5-nano,14.2662,1
 ENEM 25,"Golden Rice, ou arroz dourado, é uma variedade de arroz
 enriquecida em betacaroteno, precursor da vitamina A.
 Foi desenvolvida para ajudar a combater a doença decorrente
@@ -1823,7 +1185,7 @@ de arroz, foram utilizados métodos de engenharia genética.
 BORÉM, A.; SANTOS, F. R. entendendo a biotecnologia.
 Viçosa: UFV, 2008 (adaptado).
 Esse alimento contribui para diminuir a carência associada a
-qual doença?",Hemofilia.,Escorbuto,Raquitismo,Cegueira noturna.,Anemia perniciosa.,D,Cegueira noturna.,D,D,gemini/gemini-3-pro-preview,19.6993,0,D
+qual doença?",Hemofilia.,Escorbuto,Raquitismo,Cegueira noturna.,Anemia perniciosa.,D,Ciências da Natureza,D,D,gpt-5-nano,12.1189,1
 ENEM 25,"As cangas são ambientes resultantes da atuação, ao longo
 de milhões de anos, de chuvas, enxurradas, calor e ventos em
 rochas ricas em ferro. São compostas por até 90% de óxidos
@@ -1836,7 +1198,7 @@ CARMO, F. F. et al. Ilhas de ferro estratégicas para a conservação.
 Disponível em: http://cienciahoje.org.br.
 Acesso em: 2 dez. 2018 (adaptado).
 A seleção adaptativa nesses ambientes favorece a ocorrência
-de espécies",exóticas.,migratórias.,endêmicas.,dominantes,generalistas,C,endêmicas,C,C,gemini/gemini-3-pro-preview,19.7791,0,C
+de espécies",exóticas.,migratórias.,endêmicas.,dominantes,generalistas,C,Ciências da Natureza,C,C,gpt-5-nano,11.2124,1
 ENEM 25,"A dimetilamina é uma substância de elevada toxidez que
 entra em ebulição a 7 °°C. Na madrugada de um dia frio, essa
 substância se espalhou por uma rodovia após um acidente de
@@ -1847,7 +1209,7 @@ ao longo do dia, um químico considerou o uso de algumas
 substâncias ou misturas como água, vinagre, óleo de soja, sal
 de cozinha e bicarbonato de sódio.
 Dentre as opções apresentadas, o tratamento correto para
-minimizar esse problema é usar",água,vinagre,óleo de soja.,sal de cozinha.,bicarbonato de sódio.,B,vinagre.,B,B,gemini/gemini-3-pro-preview,19.7529,0,B
+minimizar esse problema é usar",água,vinagre,óleo de soja.,sal de cozinha.,bicarbonato de sódio.,B,Ciências da Natureza,B,B,gpt-5-nano,18.8263,1
 ENEM 25,"Apaixonada por culinária e química, uma chefe de cozinha
 calculou que, para promover o crescimento adequado da
 massa durante o cozimento de um bolo a 180 °°C (453 K) e
@@ -1865,44 +1227,7 @@ ideal nas condições de cozimento utilizadas pela chefe.
 Dados: Massa molar do NH 4 HCO 3 = 79 g ⋅ mol−1 e
 R = 0,082 atm ⋅ L ⋅ mol−1 ⋅ K−1 .
 A massa, em grama, de bicarbonato de amônio que ela deve
-utilizar é mais próxima de","2,3 g"," 3,5 g","5,9 g","6,8 g.","8,9 g.",B,"3,5 g.",B,"Para resolver essa questão, vamos seguir os seguintes passos:
-
-1.  **Calcular o número total de mols de gás necessários:**
-    Usaremos a equação dos gases ideais: $PV = nRT$.
-    *   $P = 1,00 \text{ atm}$
-    *   $V = 4,00 \text{ L}$
-    *   $R = 0,082 \text{ atm} \cdot \text{L} \cdot \text{mol}^{-1} \cdot \text{K}^{-1}$
-    *   $T = 453 \text{ K}$
-
-    $$n = \frac{PV}{RT}$$
-    $$n = \frac{1,00 \cdot 4,00}{0,082 \cdot 453}$$
-    $$n = \frac{4,00}{37,146}$$
-    $$n \approx 0,1077 \text{ mol de gás}$$
-
-2.  **Relacionar com a estequiometria da reação:**
-    A equação é: $\text{NH}_4\text{HCO}_3(s) \rightarrow \text{NH}_3(g) + \text{CO}_2(g) + \text{H}_2\text{O}(g)$
-    Observe que 1 mol de bicarbonato de amônio sólido produz 3 mols de produtos gasosos (1 mol de $\text{NH}_3$ + 1 mol de $\text{CO}_2$ + 1 mol de $\text{H}_2\text{O}$).
-
-    Se precisamos de $0,1077$ mols de gás no total, a quantidade teórica de $\text{NH}_4\text{HCO}_3$ necessária ($n_{\text{sal}}$) é:
-    $$3 \cdot n_{\text{sal}} = 0,1077$$
-    $$n_{\text{sal}} = \frac{0,1077}{3}$$
-    $$n_{\text{sal}} \approx 0,0359 \text{ mol}$$
-
-3.  **Considerar o rendimento da reação:**
-    O rendimento é de 80% ($0,8$). Isso significa que a quantidade real necessária será maior do que a teórica.
-    $$n_{\text{real}} \cdot 0,8 = n_{\text{teórico}}$$
-    $$n_{\text{real}} = \frac{0,0359}{0,8}$$
-    $$n_{\text{real}} \approx 0,044875 \text{ mol}$$
-
-4.  **Calcular a massa necessária:**
-    Massa molar do $\text{NH}_4\text{HCO}_3 = 79 \text{ g/mol}$.
-    $$m = n \cdot M$$
-    $$m = 0,044875 \cdot 79$$
-    $$m \approx 3,545 \text{ g}$$
-
-O valor calculado é aproximadamente 3,5 g.
-
-B",gemini/gemini-3-pro-preview,24.7024,0,P
+utilizar é mais próxima de","2,3 g"," 3,5 g","5,9 g","6,8 g.","8,9 g.",B,Ciências da Natureza,B,B,gpt-5-nano,23.9705,1
 ENEM 25,"O Brasil é o maior produtor mundial de nióbio (massa
 molar = 93 g mol−1 ), metal utilizado na fabricação de
 vários tipos de aço: automotivos, estruturais e inoxidáveis.
@@ -1917,58 +1242,11 @@ para a produção de um lote de peças de aço encomendado por
 uma indústria, considerando um rendimento de 100%.
 Disponível em: www.cbmm.com.br. Acesso em: 17 out. 2015 (adaptado).
 A massa de alumínio, em quilograma, estimada pela engenheira
-é mais próxima de","2,7 kg.","3,0 kg","4,1 kg.","4,5 kg","5,0 kg.",E,"5,0 kg.",E,"Para resolver essa questão, precisamos seguir os passos da estequiometria da reação, considerando o excesso de reagente.
-
-**1. Analisar a equação balanceada:**
-$3 Nb_2O_5 + 10 Al \rightarrow 6 Nb + 5 Al_2O_3$
-
-A relação estequiométrica entre o Alumínio (Al) e o Nióbio (Nb) é:
-10 mols de Al produzem 6 mols de Nb.
-
-**2. Calcular as massas molares:**
-*   Massa molar do Al = 27 g/mol
-*   Massa molar do Nb = 93 g/mol
-
-**3. Estabelecer a relação de massa:**
-*   Massa de 10 mols de Al = $10 \times 27 = 270$ g
-*   Massa de 6 mols de Nb = $6 \times 93 = 558$ g
-
-Portanto, 270 g de Al produzem 558 g de Nb.
-
-**4. Calcular a massa de Al necessária para produzir 9,3 kg de Nb (quantidade estequiométrica):**
-Vamos usar uma regra de três simples. Note que 9,3 kg é igual a 9300 g.
-
-$270 \text{ g Al} \quad \text{---} \quad 558 \text{ g Nb}$
-$x \text{ g Al} \quad \text{---} \quad 9300 \text{ g Nb}$
-
-$x = \frac{270 \times 9300}{558}$
-
-Simplificando a conta:
-$558 / 93 = 6$
-$9300 / 93 = 100$
-
-Então:
-$x = \frac{270 \times 100}{6}$
-$x = \frac{27000}{6}$
-$x = 4500 \text{ g}$ ou $4,5 \text{ kg}$
-
-Essa é a massa estequiométrica exata.
-
-**5. Considerar o excesso de 10%:**
-O problema afirma que o processo utiliza um excesso de 10% de Al em relação à quantidade estequiométrica.
-
-Massa total = Massa estequiométrica + 10% da massa estequiométrica
-Massa total = $4,5 \text{ kg} + (0,10 \times 4,5 \text{ kg})$
-Massa total = $4,5 + 0,45$
-Massa total = $4,95 \text{ kg}$
-
-**6. Encontrar a alternativa mais próxima:**
-O valor calculado é 4,95 kg. A alternativa mais próxima é 5,0 kg.
-
-E",gemini/gemini-3-pro-preview,24.581,0,P
+é mais próxima de","2,7 kg.","3,0 kg","4,1 kg.","4,5 kg","5,0 kg.",E,Ciências da Natureza,E,E,gpt-5-nano,24.3046,1
 ENEM 25,"Uma pessoa pretende instalar um kit de gás natural veicular (GNV) em seu carro. Na loja que escolheu para realizar a compra
 e instalação desse kit, havia cinco modelos de cilindro para armazenamento do gás, cujas capacidades, em metro cúbico, eram,
 respectivamente: 10, 14, 17, 21 e 25. O preço do cilindro é proporcional à sua capacidade. Esse carro rodará 30 km diariamente,
 7 dias por semana, e o consumo do GNV é de 1 m3 a cada 13 km rodados. A pessoa escolherá o modelo de cilindro de menor
 preço e que garanta apenas um abastecimento semanal.
-Nessas condições, qual será a capacidade, em metro cúbico, do cilindro escolhido por essa pessoa?",10,14,17,21,25,C,17,C,C,gemini/gemini-3-pro-preview,19.8345,0,C
+Nessas condições, qual será a capacidade, em metro cúbico, do cilindro escolhido por essa pessoa?",10,14,17,21,25,C,Ciências da Natureza,C,C,gpt-5-nano,21.399,1
+,,,,,,,,Ciências da Natureza,A,A,gpt-5-nano,37.1619,1
