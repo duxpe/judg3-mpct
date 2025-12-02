@@ -1,0 +1,1252 @@
+vestibular,questão,alternativa_a,alternativa_b,alternativa_c,alternativa_d,alternativa_e,alternativa_correta,area_conhecimento,alternativa escolhida pela ia,resposta original,modelo,processing time,temperature used during test
+ITA 2026,"Questão 5. Uma circunferência é dividida em seis partes iguais pelos pontos A, B, C, D.
+E, F, designados nessa ordem. Os pontos R. C, E são vértices de um triângulo equilátero, os pontos B. D. F são vértices de um segundo triângulo equilátero. A sobreposição desses dois triângulos define uma estrela de seis pontas denominada hexagrama. Se a área desse hexagrama é 25v3 cm', então a área do quadrado inscrito na circunferência mede
+",20cm ao quadrado ,25cm ao quadrado ,40cm ao quadrado ,50cm ao quadrado ,75 cm ao quadrado ,D,Matemática,D,D,openai/gpt-5.1,6.1581,0.5
+ITA 2026,"Questão 43. Na passagem ""Fellow teachers nationwide face the same challenge, which explains why more states and districts are moving to limit or outright ban cellphones in the classroom"", a palavra OUTRIGHT pode ser substituida, sem prejuizo de sentido, por",partial., legal.,thorough.,confined.,illicit.,C,Linguagens,C,C,openai/gpt-5.1,10.8253,0.5
+ITA 2026,"Questão 19. Em um escritório, trabalham 10 funcionários de segunda a sexta, em um regime de oito horas por dia. Diariamente o ar-condicionado é ligado para manter o local de trabalho a 17°C, sendo que o ambiente externo está a uma temperatura de 37 °C.
+Considere que o ar-condicionado funcione com máxima eficiência e que ele age apenas para retirar o calor gerado pelas pessoas, que é de 100 W por funcionário. Sabendo que a tarifa da energia elétrica é de R$ 0,91 por kWh, assinale o custo aproximado para usar o ar-condicionado durante 4 semanas.","R$ 8,00.","R$ 10,00"," R$ 14,00.","R$ 80,00."," R$ 170,00.",B,Ciências da Natureza,D,D,openai/gpt-5.1,15.8935,0.5
+ITA 2026,"Questão 44. Referring to the establishment of a national youth mental health crisis, U.S.
+Surgeon General Vivek Murthy stated: ""I am concerned that social media is an important driver of that crisis, one that we must urgently address"". In this sentence, the modal verb MUST indicates",a possibility that addressing the crisis may happen, a necessity to act regarding the crisis.,an ability to address the matter at any time.,a recommendation to act regarding the matter.,a request for people to recognize the relevance of the matter.,B,Linguagens,B,B,openai/gpt-5.1,20.8143,0.5
+ITA 2025,"Questao 3. ˜ No trecho “[...] num mundo em que foguetes sao o que alimentam as ambi ˜ c¸oes ˜ das pessoas que saem pela porta da caverna.”, Neil deGrasse Tyson faz uso de um processo de intertextualidade denominado",Citação direta: transcrição de trechos autênticos do original.,Citação indireta: referência aos trechos autênticos do original.,Paráfrase: uso em estilo próprio da referência original.," Alusão: menção ao texto original, de forma livre e generalista.", Plágio: cópia com a intenção de apropriar-se da ideia original.,D,Linguagens,D,D,openai/gpt-5.1,19.5335,0.5
+ITA 2025,"Questão 11. Expressões aforísticas são frequentes na obra de Vieira. Aforismo é sentença que explicita um conceito moral, assemelhando-se a um ditado. Assinale a alternativa em que NÃO se concretiza essa intenção.","Roubar pouco é culpa, roubar muito é grandeza. O roubar com pouco poder faz os
+piratas, o roubar com muito, os Alexandres.","""A última dificuldade, e o maior perigo e aperto da morte é ser momentânea.""","A vida é uma lâmpada acesa, vidro e fogo. Vidro que com um sopro se faz e fogo
+que com um sopro se apaga.","A vaidade entre os vícios é o pescador mais astuto e que mais facilmente engana os
+homens.","Quem quer mais do que lhe convém, perde o que quer e o que tem. Quem pode
+nadar e quer voar, tempo virá em que não voe nem nade.",B,Linguagens,B,B,openai/gpt-5.1,20.106,0.5
+ITA 2025,"Questão 12. A respeito do poema e do estilo de Castro Alves, assinale a alternativa
+INCORRETA", O excerto caracteriza o Romantismo de evasão.,"O verso ""Que a brisa do Brasil beija e balança"" apresenta aliteração",A pontuação expressiva ilustra o estilo condoreiro do autor.,O poeta pertence à terceira geração da poesia romântica brasileira.,O ímpeto declamatório caracteriza o estilo do poeta.,A,Linguagens,A,A,openai/gpt-5.1,19.8972,0.5
+ITA 2026,"Questão 47. In the extract ""The former searches for differences; the latter is quick to erase them."", the terms FORMER and LATTER refer respectively to A ( ) human intelligence and artificial intelligence.", human intelligence and artificial intelligence.,artificial intelligence and human intelligence., the Chilean psychoanalyst and his bi-logic theory,the logic of formal reasoning and the logic of emotion.,the logic of emotion and the logic of formal reasoning.,D,Linguagens,E,E,openai/gpt-5.1,20.0897,0.5
+ITA 2026,"Questão 26. Considere as seguintes afirmações:
+I. A primeira energia de ionização do átomo de Nitrogênio é menor que a primeira energia de ionização do átomo de Oxigênio.
+II.
+III.
+O ion Rb* tem menor raio iônico que o Sr2*.
+A molécula CH2O apresenta geometria trigonal plana e é apolar.
+IV. A molécula PCis apresenta geometria bipirâmide trigonal e é polar.
+Das afirmativas acima, está(ão) CORRETA(S)",apenas | e II.,apenas II e III.,apenas | e IV.,apenas | e IV.,nenhuma.,E,Ciências da Natureza,E,E,openai/gpt-5.1,20.2121,0.5
+ITA 2026,"Questão 36. Considere a seguinte reação química hipotética, que ocorre em fase gasosa:
+2X(g) + W(g) → Y(g) + Z(g).
+Um reator de volume fixo e temperatura constante foi alimentado com 36 atm de
+uma mistura gasosa composta de X, W e uma substância inerte I, na proporção molar
+X:W:l igual a 3:2:1. Assinale a alternativa que apresenta a pressão interna no reator (em atm) quando 75% do reagente W forem consumidos.",18,24,27,30,33,C,Ciências da Natureza,3,33,openai/gpt-5.1,20.1701,0.5
+FUVEST 26,"O Brasil é o líder mundial em reciclagem de alumínio, atingindo
+números próximos a 99% de latas recicladas no ano de 2021.
+Essas latas, já utilizadas para refrigerantes, cervejas,
+energéticos, agora começam a trazer também água mineral
+em seu interior.
+Considere que uma empresa deseja envasar 350 mL de água
+em uma lata de alumínio de formato cilíndrico e que, por
+razões práticas como manuseio e custo do material, o
+diâmetro da base dessa lata deve ter entre 5 cm e 8 cm.
+Qual será, aproximadamente, em centímetros, a menor altura
+possível da lata?",5,7,13,18,28,B,Ciências Humanas,7,7,openai/gpt-5.1,20.1741,0.5
+FUVEST 26,"Considere a equação trigonométrica
+𝑠𝑒𝑛 𝜋
+2 + 𝑠𝑒𝑛 𝑥 = 𝑠𝑒𝑛 (2𝑥) − cos 𝜋
+para¬¬𝑥∈ℝ, 0 ≤ 𝑥 < 2𝜋.
+Um estudante resolveu essa equação da seguinte maneira:
+𝑠𝑒𝑛 𝜋
+2 + 𝑠𝑒𝑛 𝑥 = 𝑠𝑒𝑛 (2𝑥) − cos 𝜋
+1 + 𝑠𝑒𝑛 𝑥 = 𝑠𝑒𝑛 (2𝑥) + 1
+𝑠𝑒𝑛 𝑥 = 𝑠𝑒𝑛 (2𝑥)
+𝑠𝑒𝑛 𝑥 = 2𝑠𝑒𝑛 𝑥
+2𝑠𝑒𝑛 𝑥 − 𝑠𝑒𝑛 𝑥 = 0
+𝑠𝑒𝑛 𝑥 = 0
+𝑥 = 0 𝑜𝑢 𝑥 = 𝜋
+A resolução apresentada pelo estudante está errada, pois ele",considerou que cos 𝜋 vale 1.,"não considerou as infinitas voltas no ciclo trigonométrico
+para a resposta.",considerou que sen pi/2 vale 1,não utilizou corretamente o seno da soma de dois arcos.,apresentou duas respostas e não apenas uma.,D,Matemática,D,D,openai/gpt-5.1,19.9146,0.5
+FUVEST 26,"A rega e o zelo geraram uma infinidade de seres que
+descobria nos dedos ao mexer na terra: minhocas, besouros
+verdes, bichos-de-conta.
+Djaimilia Pereira de Almeida. A visão das plantas.
+Na obra A visão das plantas (2021) são descritas
+características dos animais e das plantas no jardim cuidado
+por Celestino. Nesta frase, são citados animais que pertencem
+a diferentes grupos de invertebrados, como as minhocas
+(anelídeos), os besouros (insetos) e os bichos-de-conta
+(crustáceos), também conhecidos como tatuzinhos de jardim.
+Assinale a alternativa que apresenta corretamente a
+informação sobre o sistema respiratório destes grup"," Os besouros e os bichos-de-conta apresentam respiração
+traqueal, sendo a umidade do solo importante em ambos
+os casos.","As minhocas apresentam respiração cutânea e os
+besouros apresentam respiração traqueal, sendo a
+umidade do solo importante em ambos os casos.","Os besouros apresentam respiração traqueal e os bichosde-conta apresentam respiração pulmonar, e a umidade
+do solo não é importante na respiração destes animais.","As minhocas, os besouros e os bichos-de-conta
+apresentam respiração branquial, sendo a umidade do
+solo importante na respiração dos três animais.","As minhocas, os besouros e os bichos-de-conta
+apresentam respiração pulmonar, e a umidade do solo não
+é importante na respiração dos três animais.",C,Matemática,B,B,openai/gpt-5.1,20.068,0.5
+FUVEST 26,"Quando no dia seguinte, também no final da tarde, Fio
+Jasmim se dirigiu para a pequena joalheria, ele pensou em ser
+mais cuidadoso ao pronunciar qualquer nome de mulher perto
+de Dolores dos Santos. Quando contou o incidente para os
+companheiros maquinistas, os mais velhos riram dele e
+perguntaram qual o motivo de ele estar tão preocupado com
+a pequena distração cometida. Nem ele sabia bem o porquê.
+Entretanto, não gostava de pronunciar o nome da esposa para
+outras mulheres. A de casa é santa, pensava ele. Se ele
+tivesse dito pelo menos Juventina, seria mais fácil explicar.
+Assustado com o próprio pensamento, Fio Jasmim não
+entendia o que estava se passando com ele. Estaria por acaso
+pensando em alguma conquista? Ouvira dizer que ela era uma
+mulher namoradeira, mas que não parava com homem algum,
+tinha um gênio indomável. Todas essas considerações não lhe
+importavam, não estava interessado na mulher. Mas e se ela
+estivesse interessada nele...
+Conceição Evaristo. Canção para ninar menino grande.
+No romance de Conceição Evaristo, Fio Jasmim, por meio de
+suas viagens, é o elo que agrega as várias personagens
+femininas que se relacionam com ele. De acordo com essa
+consideração, Fio Jasmim","atende a uma forma de masculinidade que rompe com os
+estereótipos, expressando uma identidade inovadora e
+desvinculada das expectativas sociais."," relaciona-se com as personagens femininas de maneira
+igualitária e com respeito mútuo, que não correspondem
+às dinâmicas de poder desiguais.","reproduz uma masculinidade estereotipada por meio de
+atitudes que, em larga medida, atendem às expectativas
+sociais e culturais, reproduzindo estereótipos do gênero."," resiste a expectativas internas e externas, o que subverte
+um esperado comportamento masculino","sente culpa e arrependimento por seu comportamento
+com mulheres, apesar de reforçar ideais de virilidade e
+dominação do estereótipo da masculinidade.",C,Ciências da Natureza,C,C,openai/gpt-5.1,20.3002,0.5
+FUVEST 26,"O processo de corrosão do aço é favorecido em ambientes úmidos e ácidos. Para evitar a corrosão de superfícies de aço é comum utilizar óleos para impedir o contato da umidade do ar com a superfície. Nos casos em que o uso de óleo não é conveniente, é possível criar uma camada de NaOH(s) na superfície do metal aplicando uma solução aquosa relativamente concentrada desta base sobre a ferramenta e deixando a solução secar por completo. Esse tipo de tratamento com hidróxido de sódio é efetivo em ambientes com elevada acidez pois, caso a água entre em contato com a superfície tratada, ela","será repelida pela camada hidrofóbica de hidróxido de
+sódio, evitando o contato direto da água com o metal e sua
+oxidação.","olubilizará o hidróxido de sódio, que neutralizará o ácido
+presente na água que poderia induzir o processo de
+oxidação na superfície do metal.","será oxidada pelo hidróxido de sódio, gerando sua forma
+reduzida que, em contato com a superfície do metal,
+impede o processo de corrosão.","gerará um acúmulo de água na superfície hidrofílica da
+camada de hidróxido de sódio, impedindo sua
+solubilização e a consequente formação de ácido.","reagirá diretamente com o sódio do hidróxido de sódio, já
+que este atuará como metal de sacrifício, sofrendo
+oxidação e protegendo a superfície metálica.",B,Linguagens,B,B,openai/gpt-5.1,19.8678,0.5
+FUVEST 26,"Os grotões transformaram-se em jardins cortados a meio
+pelas avenidas e pela sombra dos viadutos não há mais sapo.
+Nos jardins encontrareis recintos fechados com instrutoras,
+dentistas, educadoras sanitárias dentro. São os parques
+infantis, onde as crianças proletárias se socializam
+aprendendo nos brinquedos o cooperativismo e a consciência
+do homem social.
+Mário de Andrade. “Dia de São Paulo”. Revista do Arquivo
+Municipal. São Paulo: Departamento de Cultura, 1936, nº 19.
+O excerto relata alterações na paisagem urbana paulistana
+com a implantação de novos equipamentos que visavam","substituir o ambiente degradado e nocivo dos cortiços e
+vilas operárias por espaços públicos marcados pela flora
+da Mata Atlântica."," disciplinar o lazer das crianças com a introdução de
+noções de saúde preventiva e de atividades racionais e
+pedagógicas","produzir formas de ajustamento social que afastassem os
+jovens do ócio e dos vícios, por meio da educação
+profissionalizante","promover valores cristãos através da evangelização e do
+assistencialismo baseado na caridade e na recreação.","organizar um novo programa escolar voltado para as
+crianças proletárias, adotando uma pedagogia pautada no
+nacionalismo e civismo.",B,Ciências da Natureza,B,B,openai/gpt-5.1,19.9461,0.5
+FUVEST 26,"Uma startup de tecnologia está desenvolvendo um novo
+aplicativo e observa que o número de usuários está
+crescendo, em milhares, após t semanas do lançamento, de
+acordo com a função:
+𝑀(𝑡) = 200 × ((1,1) elevado a t))
+Com isso, a equipe da startup quer saber: qual é o período,
+em semanas, em que o número de usuários ultrapassa
+300 mil? Note e adote:
+𝑙𝑜𝑔 3 ≅ 0,4771 ; 𝑙𝑜𝑔 5 ≅ 0,6990 e 𝑙𝑜𝑔 11 ≅ 1,0414",Entre 0 e 1 semana,Entre 1 e 3 semanas.,Entre 2 e 4 semanas., Entre 3 e 4 semanas.,Entre 4 e 6 semanas.,E,Ciências Humanas,E,E,openai/gpt-5.1,19.9365,0.5
+FUVEST 26,"A jornada das mulheres pela igualdade de direitos no Brasil,
+como em outras partes do mundo, sempre envolveu lutas
+sociais, políticas e jurídicas, com marcos importantes como a
+Lei Geral de 1827, que permitiu o acesso das mulheres à
+educação, e a Constituição de 1934, que garantiu o direito ao
+voto feminino. A partir da década de 1960, houve avanços
+significativos, como o Estatuto da Mulher Casada (1962), que
+eliminou a necessidade de receber autorização do marido
+para diversas atividades, e, na década de 1970, a Lei do
+Divórcio (1977) e o fortalecimento dos movimentos feministas.
+As obras Caminho de pedras, de Rachel de Queiroz, e As
+meninas, de Lygia Fagundes Telles, discutem questões
+relativas aos direitos das mulheres e sua relação com a política
+ao longo do século XX no Brasil. Sobre esses romances, é
+correto afirmar:","Em Caminho de pedras, Rachel de Queiroz relaciona a luta
+pelos direitos da mulher à legalização do divórcio no Brasil,
+enquanto As meninas constitui um libelo pela educação
+feminina no período final da Era Vargas.","As personagens Angelita, de Caminho de pedras, e Ana
+Clara, de As meninas, impactam a vida dos protagonistas
+de seus romances e representam a transformação da
+condição social das mulheres ao romperem com a
+configuração familiar tradicional.","Em Caminho de pedras e em As meninas, a política
+(militância de esquerda) e a religião (internato de freiras)
+são instituições que, em vez de contribuírem para a revisão
+de valores morais e para a emancipação feminina,
+aprofundam os mecanismos de controle social sobre as
+mulheres."," Tanto Caminho de pedras quanto As meninas relacionam
+o exercício da política coletiva (militância de esquerda, luta
+contra a ditadura militar) à política exercida em nível da
+vida privada e do cotidiano, por meio da trajetória de
+personagens femininas que desafiam padrões sociais
+estabelecidos.","Tanto Caminho de pedras quanto As meninas exercem
+uma crítica à chamada “mulher burguesa”. O romance de
+Rachel de Queiroz narra os desdobramentos do desejo de
+ascensão social de Noemi, enquanto o de Lygia Fagundes
+Telles detalha o apego de Lorena à instituição do
+casamento.",D,Matemática,D,D,openai/gpt-5.1,19.7439,0.5
+FUVEST 26,"Para uma atividade de campo voltada à valorização do
+patrimônio histórico e cultural, professores de geografia
+levaram seus estudantes a um parque temático de
+monumentos geográficos. Eles visitaram a réplica de uma
+pirâmide regular de base quadrada com vértice a 18 metros
+de altura em relação ao centro da base. As faces da pirâmide
+estão voltadas para as direções norte, sul, leste e oeste. Para
+acessar o vértice da pirâmide, os estudantes precisaram
+percorrer uma trilha de pedestre e subir a rampa localizada na
+face norte. A trilha compreende os lados oeste, sul, leste e
+metade do lado norte do quadrado. Essa rampa está
+localizada exatamente no meio da face, ou seja, é o apótema
+da pirâmide.
+Sabendo-se que o volume da pirâmide é de 864 m3
+, quantos
+metros, aproximadamente, os estudantes tiveram que
+percorrer para chegar até o topo da pirâmide?",36,41,48,54,61,E,Ciências Humanas,E,E,openai/gpt-5.1,19.9348,0.5
+FUVEST 26,"A escola não pode ignorar as diferenças sociolinguísticas.
+Os professores e, por meio deles, os alunos têm que estar bem
+conscientes de que existem duas ou mais maneiras de dizer a
+mesma coisa. E mais, que essas formas alternativas servem a
+propósitos comunicativos distintos e são recebidas de
+maneira diferenciada pela sociedade. Os alunos que chegam
+à escola falando “nós cheguemu”, “abrido” e “ele drome”, por
+exemplo, têm que ser respeitados e ver valorizadas as suas
+peculiaridades linguístico-culturais, mas têm o direito
+inalienável de aprender as variantes de prestígio dessas
+expressões. Não se lhes pode negar esse conhecimento, sob
+pena de se fecharem para eles as portas, já estreitas, da
+ascensão social.
+BORTONI-RICARDO, S. M. Nós cheguemos na escola, e agora?
+Sociolinguística & Educação. São Paulo: Parábola, 2005. Adaptado.
+De acordo com o texto, cabe aos professores","respeitar as variações linguísticas dos alunos, mas solicitar
+que eles utilizem a norma culta no ambiente escolar.","incentivar o uso das variações regionais dos alunos, mas
+mostrar a eles que a escola recebe variantes de forma
+preconceituosa.","respeitar as particularidades linguísticas dos alunos, mas
+dar a eles condições de aprender outras variantes.","mostrar aos alunos que eles podem cometer erros em
+relação ao uso de verbos, mas que isso pode ser
+prejudicial à ascensão social."," ensinar aos alunos a norma padrão da língua, mas permitir
+que eles cometam erros para não serem excluídos pela
+sociedade.",C,Matemática,C,C,openai/gpt-5.1,20.5386,0.5
+FUVEST 26,"A bióloga Lynn Margulis publicou um polêmico artigo em 1967
+propondo que algumas organelas das células eucarióticas
+poderiam ser o resultado de eventos de endossimbiose, no
+qual bactérias passaram a viver em simbiose dentro de células
+eucarióticas até serem completamente incorporadas a elas. A
+hipótese de Margulis sofreu muita oposição, até que
+evidências experimentais mostraram que algumas organelas
+de fato possuíam muitas similaridades com bactérias. Entre as
+evidências de endossimbiose, podemos citar:",As membranas duplas dos núcleos,Os ribossomos aderidos ao retículo endoplasmático.,A parede celular das células vegetais,O formato do complexo de Golgi.,O genoma circular das mitocôndrias,E,Linguagens,E,E,openai/gpt-5.1,20.221,0.5
+FUVEST 26,"During the nineteen-seventies and eighties, a researcher at
+the University of Washington started noticing something strange
+in the college’s experimental forest. For years, a blight of
+caterpillars had been munching the trees to death. Then,
+suddenly, the caterpillars themselves started dying off. The forest
+was able to recover. But what had happened to the caterpillars?
+The researcher, David Rhoades, who had a background in
+chemistry and zoology, found that the trees in the forest had
+changed the chemistry of their leaves, to the detriment of the
+caterpillars. Even more surprising, trees that had been nibbled by
+caterpillars weren’t the only ones that had changed their
+chemistry. Some were changing their leaves before caterpillars
+reached them, as if they’d received a warning. A shocking
+possibility presented itself: the trees were signalling to one
+another.
+Zoë Schlanger recounts Rhoades’s story in her new book,
+“The Light Eaters: How the Unseen World of Plant Intelligence
+Offers a New Understanding of Life on Earth.”
+The contemporary world of botany that Schlanger explores in
+“The Light Eaters” is still divided over the matter of how plants
+sense the world and whether they can be said to communicate.
+But, in the past twenty years, the idea that plants communicate
+has gained broader acceptance. Research in recent decades has
+shown garden-variety lima beans protecting themselves by
+synthesizing and releasing chemicals to summon the predators of
+the insects that eat them; lab-grown pea shoots navigating mazes
+and responding to the sound of running water; and a chameleonic
+vine in the jungles of Chile mimicking the shape and color of
+nearby plants by a mechanism that’s not yet understood.
+Schlanger acknowledges that some of the research yields as
+many questions as answers. It’s not clear how the vine gathers
+information about surrounding plants to perform its mimicry.
+New Yorker. 12 June 2024. Adaptado.
+
+Conforme o texto, a experiência conduzida por David Rhoades,
+na floresta experimental da Universidade de Washington,
+tornou-se marcante para a botânica, por revelar a","dependência das árvores de inimigos naturais para a
+manutenção do equilíbrio das florestas.","alteração da composição das folhas, capaz de
+comprometer a sobrevivência de insetos herbívoros.","variabilidade das lagartas como fator decisivo para a
+resiliência dos ecossistemas.","influência determinante da fertilidade do solo na
+recuperação da vegetação.","oscilação natural das populações de pragas como causa
+da regeneração florestal.",B,Ciências da Natureza,B,B,openai/gpt-5.1,19.9694,0.5
+FUVEST 26,"A vacina contra a dengue co-desenvolvida pelo Brasil, a
+Qdenga, começou a ser oferecida pelo SUS em 2024.
+Indivíduos imunocompetentes recebem vírus atenuados ao
+serem vacinados, adquirindo imunidade sem ficar doentes.
+Pessoas com imunodeficiências, indivíduos com HIV
+sintomático, gestantes e lactantes não podem ser vacinadas.
+No entanto, estas pessoas podem ser beneficiadas com a
+vacinação da população, pois","pessoas não-vacinadas adquirem imunidade por contato
+com vacinados.","mosquitos transmissores da dengue morrem ao picar
+pessoas vacinadas","vírus atenuados alteram o material genético dos vírus
+selvagens","as chances de epidemias diminuem quando a cobertura
+vacinal é alta.","pessoas vacinadas liberam anticorpos contra o vírus no
+ambiente.",D,Ciências da Natureza,D,D,openai/gpt-5.1,20.1746,0.5
+FUVEST 26,"Nós sentimos o sabor dos alimentos com o cérebro!
+Esta afirmação à primeira vista nos parece estranha. No
+entanto, assim como ocorre em todos os sentidos do sistema
+sensorial, no caso do paladar, a percepção consciente do
+sabor só acontece quando sinais específicos chegam ao
+cérebro. Assinale a alternativa que apresenta corretamente a
+informação descrita neste processo.","Os componentes químicos dos alimentos interagem com
+proteínas receptoras nas células gustativas, e um potencial
+de ação é transmitido ao cérebro.","Os componentes químicos dos alimentos são convertidos
+em uma corrente elétrica que estimula o músculo da
+língua.","No processo de transdução sensorial do paladar, os
+componentes químicos dos alimentos são convertidos em
+um impulso hormonal que ativa as glândulas salivares.","Os componentes químicos dos alimentos ativam,
+diretamente, os neurônios responsáveis por transmitir os
+sinais gustativos ao cérebro","A primeira etapa da transdução de sinal no paladar ocorre
+quando os receptores gustativos são ativados por
+hormônios digestivos.",A,Ciências da Natureza,A,A,openai/gpt-5.1,19.4608,0.5
+UNICAMP 26,"U.S. Inflation Mild Ahead of Expected
+Jump From Tariffs
+Economists and policymakers are bracing for inflation to
+reaccelerate as companies adapt to the trade war Adaptado de https://www.nytimes.com/2025/05/13/business/inflation-prices-tariffs.
+html. Acesso em 15/05/2025.)
+Segundo o texto, "," o governo dos EUA está se preparando para um salto na
+inflação diante da guerra comercial de tarifas.","a inflação nos EUA se mantém moderada, mas economistas
+e legisladores estão se preparando diante da expectativa de
+alta das tarifas","a inflação nos EUA deve se manter moderada, pois as empresas estão se adaptando ao aumento das tarifas.","as empresas dos EUA estão se adaptando à aceleração da
+inflação diante da guerra de tarifas estabelecida pelo governo.",,B,Ciências da Natureza,B,B,openai/gpt-5.1,19.8076,0.5
+UNICAMP 26,"Leia o resumo de um artigo científico.
+Incels: Masculinity in the Transition to Adulthood
+Incels are men who are members of an online community that
+experiences an unmet desire for sex and blame women for
+their struggle. Since 2019 there have been several mass murder
+attacks committed by Incels motivated by Incel ideology
+creating a threat of future violence. While the vast majority of
+Incels do not commit such attacks, researchers have begun to
+study Incels to prevent violence and uncover the true nature
+of this community. The study of Incels is incipient; therefore,
+more knowledge about interventions to address the struggles of
+involuntary celibacy is needed. This paper emphasizes the
+masculinity strain experienced by Incels who attempt to perform
+hegemonic masculinity as part of the transition to adulthood
+but fall short because of their lack of sexual activity. This work
+proposes the creation and implementation of Incel-specific,
+online therapeutic interventions and continued research directly
+with the Incel community to uncover the complexities of Incel
+experiences.
+(Adaptado de https://link.springer.com/article/10.1007/s12119-024-10201-7. Acesso
+em 16/05/2025.) De acordo com o resumo, é correto afirmar que"," “Incel” é uma comunidade majoritariamente constituída
+por homens que culpam mulheres por questionarem sua
+masculinidade.","as pesquisas sobre a comunidade “Incel” ainda são escassas, por isso há a necessidade de mais estudos que definam
+teoricamente a abstinência sexual.","homens “Incel”, muitas vezes, tentam exercer uma masculinidade dominante que resulta em expectativas frustradas
+devido à inatividade sexual.",a pesquisa propõe práticas terapêuticas que integrem homens “Incel” a outros grupos sociais para melhor compreender as complexidades da masculinidade.,,C,Linguagens,C,C,openai/gpt-5.1,19.7675,0.5
+UNICAMP 26,"Leia a carta a seguir.
+Dear Members of the Harvard Community,
+For years, the federal government’s grants to Harvard have
+helped lead to groundbreaking innovations. Recently, the federal government has threatened its partnerships over accusations of antisemitism on our campuses. A list of demands was issued,
+warning that Harvard must comply if we intend to “maintain
+our financial relationship with the government.” Most of these
+demands are unprecedented and represent direct governmental
+regulation of the “intellectual conditions” at Harvard.
+They include requirements to audit the viewpoints of our students and faculty, and to “reduce their power” for their ideological views. We will not accept that. The University will not
+surrender its independence or relinquish its constitutional
+rights. No government should dictate what universities can
+teach and which areas of inquiry they can pursue.
+We do not take our moral duties lightly and we have taken
+many steps to address and fight antisemitism on campus.
+However, this will not be achieved by assertions of power,
+unmoored from the law, to dictate how we operate.
+Sincerely,
+Alan M. Garber
+(President of Harvard University)
+(Adaptado de https://www.harvard.edu/president/news/2025/the-promise-of-american-
+-higher-education/. Acesso em 07/05/2025.)
+Assinale a alternativa correta em relação ao posicionamento do
+presidente de Harvard em sua carta.","As acusações de antissemitismo feitas à universidade são
+inconstitucionais, por isso Garber se recusa a aceitar as demandas propostas pelo governo.","As comparações entre as ideologias de professores e de alunos são sem precedentes, por isso Garber se nega a abrir
+mão da liberdade de expressão da comunidade.","As justificativas do governo para interromper o financiamento são falhas, por isso Garber se nega a tomar medidas
+para resolver os problemas apontados.","As demandas do governo são uma tentativa de controle da
+autonomia das universidades, por isso Garber se recusa a
+acatar as exigências impostas.",,D,Linguagens,D,D,openai/gpt-5.1,20.02,0.5
+UNICAMP 26,"A uniformidade da temperatura em um ambiente refrigerado
+depende, além do bom funcionamento do aparelho de ar con-
+dicionado, de uma instalação adequada, visando a uma transfe-
+rência de calor eficiente. Isso pode ser verificado pelo instalador
+utilizando um termômetro de infravermelho para inspecionar
+diferentes áreas do recinto. Analise as afirmativas 1, 2, 3 e 4
+sobre os mecanismos de transferência de calor: condução, con-
+vecção e radiação. 1) A transferência de calor por condução térmica pode ocorrer
+tanto no vácuo quanto em um meio material.
+2) A taxa de condução de calor em uma barra não depende da
+diferença entre as temperaturas de suas extremidades.
+3) A convecção consiste no transporte de energia térmica de
+uma região para outra por meio do deslocamento de uma
+massa de fluido.
+4) A transferência de calor por radiação térmica pode ocorrer
+tanto no vácuo quanto em um meio material. As afirmativas corretas são:",1 e 2.,1 e 4.,2 e 3.,3 e 4.,,D,Linguagens,D,D,openai/gpt-5.1,20.1419,0.5
+UNICAMP 26,"As baterias são fundamentais no mundo moderno, sendo a
+fonte de energia portátil que alimenta dispositivos como celu-
+lares e laptops, veículos elétricos e sistemas de armazenamento
+de energia renovável. Duas grandezas que caracterizam uma
+bateria é a sua capacidade de carga elétrica, expressa em mi-
+liampère-hora (mAh) e a energia que ela armazena, usualmente
+dada em watts-hora (Wh). Uma bateria inicialmente carregada fornece uma corrente cons-
+tante de i = 4 000 mA durante o tempo ∆t = 1 hora, ficando
+descarregada no final desse processo. A carga elétrica Q, que
+circula por essa bateria nesse intervalo de tempo é",4 C.,4 000 C,14 400 C.,14 400 000 C.,,C,Ciências da Natureza,C,C,openai/gpt-5.1,19.9437,0.5
+UNICAMP 26,"As baterias são fundamentais no mundo moderno, sendo a
+fonte de energia portátil que alimenta dispositivos como celu-
+lares e laptops, veículos elétricos e sistemas de armazenamento
+de energia renovável. Duas grandezas que caracterizam uma
+bateria é a sua capacidade de carga elétrica, expressa em mi-
+liampère-hora (mAh) e a energia que ela armazena, usualmente
+dada em watts-hora (Wh). Outra bateria totalmente carregada armazena uma energia
+Eb = 15 Wh. Devemos elevar uma massa m = 45 kg até a altura
+y, em relação ao solo, para que a variação da energia poten-
+cial gravitacional Ep desse sistema mecânico seja igual à energia
+armazenada nessa bateria. A altura y deve ser
+Dado: g = 10 m/s2.","0,03 m",3 m,120 m,1 200 m,,C,Ciências da Natureza,C,C,openai/gpt-5.1,20.3956,0.5
+UNICAMP 26,"O Centro de Tecnologia da Informação (CTI) Renato Archer, em
+Campinas (SP), possui equipamentos avançados de manufatura
+3D, incluindo uma impressora capaz de produzir uma miniatura do Cristo Redentor, com pouco mais de 100 μm. Menor que um
+grão de areia, a peça só é visível com microscópio óptico, basea-
+do em arranjo de um conjunto de lentes. Se uma lente delgada,
+de distância focal f, é usada para investigar um objeto de altura
+o, de forma que a imagem seja direita com altura i maior que
+a do objeto ( i > o ), é correto afirmar que","lente é convergente e a distância entre objeto e lente é
+menor que a distância focal.","a lente é divergente e a distância entre objeto e lente é
+menor que a distância focal","a lente é convergente e a distância entre objeto e lente é
+maior que a distância focal.","a lente é divergente e a distância entre objeto e lente é
+maior que a distância focal",,A,Ciências da Natureza,A,A,openai/gpt-5.1,19.9144,0.5
+UNICAMP 26,"Recentemente, grandes cidades iniciaram a implantação de
+faixas exclusivas para motocicletas como, por exemplo, a fai-
+xa azul na cidade de São Paulo. Um motociclista adentra, em
+t = 0, um percurso retilíneo de uma faixa azul com velocidade
+constante v0 = 36 km/h e mantém essa velocidade até o tempo
+t = 30 s (trecho I). Em seguida, continua o percurso com desa-
+celeração constante (a < 0) até parar completamente diante de
+um semáforo em t = 50 s (trecho II). Após mais 30 s, ele retoma
+o movimento e mantém uma aceleração constante e positiva
+a = 0,8 m/s2 desde t = 80 s até t = 95 s (trecho III). Poste-
+riormente, o motociclista segue com velocidade constante até
+t = 120 s (trecho IV). A massa do conjunto motociclista + motocicleta é dada por
+m = 180 kg. Para o trecho entre os tempos t = 30 s e t = 50 s,
+em que o movimento tem desaceleração constante, é correto
+afirmar que o módulo da força resultante que age nesse con-
+junto é igual a",36 N,90 N,324 N,1 800 N,,B,Ciências da Natureza,9,90,openai/gpt-5.1,19.891,0.5
+UNICAMP 26,"“O ato de comer é construído culturalmente, e mediado por
+práticas, crenças, comportamentos, tabus, que formam os há-
+bitos alimentares, que, por sua vez, relacionam-se a aspectos
+culturais, socioeconômicos e psicológicos que envolvem o am-
+biente alimentar de cada indivíduo. Os hábitos alimentares são
+dinâmicos e sensíveis às mudanças que ocorrem nas socieda-
+des, fundamentalmente, nos sistemas alimentares. Com o sis-
+tema alimentar que predomina hoje, a humanidade vem subs-
+tituindo a comida que carrega significados culturais e tradições
+ancestrais por produtos alimentares ultraprocessados globaliza-
+dos, que viajam quilômetros até chegar ao prato, causando a
+homogeneização dos hábitos alimentares de forma global. O
+problema é que os ultraprocessados têm acarretado sérios pro-
+blemas à saúde da população [...]”. A partir do texto, é correto afirmar que a produção e o consu-
+mo de alimentos no mundo contemporâneo possuem","menor vínculo com o lugar, visto que a indústria de pro-
+cessamento de alimentos e a produção agropecuária estão
+cada vez mais especializadas. Assim, produtos circulam com
+maior velocidade e eficiência entre a área de produção e o
+mercado consumidor, reduzindo o acesso da população a
+alimentos in natura e à diversidade produtiva regional.","maior interdependência com o lugar, visto que a indústria de
+processamento precisa manter a proximidade com as áreas
+da produção agropecuária, aproveitando a modernização
+do sistema de circulação para atingir o mercado consumidor
+mais distante. Isso fortalece o acesso da população a produ-
+tos da agricultura familiar e à diversidade produtiva regional.","maior conexão com o lugar, visto que a indústria de proces-
+samento de alimentos pode estar distante da área de produ-
+ção agropecuária. O sistema de circulação permite interligar,
+com menor custo, a área de produção ao mercado consu-
+midor, restringindo o acesso da população à produção da
+pequena indústria local e à diversidade alimentar regional.","menor correlação com o lugar, visto que a indústria de pro-
+cessamento e a produção agropecuária possuem pouca
+vinculação entre si, tornando-se independentes, mas com
+estreitamento promovido pelo sistema de circulação entre
+a área de produção e o mercado consumidor. Isso favorece
+o acesso da população aos alimentos da culinária local e à
+diversidade alimentar regional.",,A,Ciências da Natureza,A,A,openai/gpt-5.1,20.2068,0.5
+UNICAMP 26,"Leia os textos 1 e 2. Texto 1
+Muitos povos, de diferentes matrizes culturais, têm a compre-
+ensão de que nós e a Terra somos uma mesma entidade. Até o
+começo do século XX, o mundo do trabalho e da produção se
+dava com ferramentas e meios que não tinham a potência de
+exaurir os recursos da Terra como hoje. Desse tempo para cá,
+sobraram poucas humanidades espalhadas pelo planeta. Texto 2
+A Terra é um denso conjunto de relações que articula seres vi-
+vos, oceanos, atmosfera, clima e solos. Ela é dotada de uma
+história e de um regime de atividades próprio, resultado da ar-
+ticulação de múltiplos processos. Hoje, já não estamos lidando
+com uma natureza selvagem e ameaçadora, nem com uma na-
+tureza frágil, que deve ser protegida, nem com uma natureza
+que pode ser explorada à vontade. A hipótese é nova. A Terra
+não está ameaçada, diferentemente das inúmeras espécies vi-
+vas que serão varridas pelas mudanças de seu meio, com uma
+rapidez sem precedente.  A partir da leitura dos textos é correto afirmar que natureza e
+sociedade","passaram a se influenciar por meio do desenvolvimento das
+forças produtivas e do trabalho ao longo da história, o que
+coloca a natureza em risco.","estão articuladas por múltiplos processos que envolvem
+agentes humanos e não humanos (oceanos, atmosfera, cli-
+ma, solo, etc.), o que coloca a natureza em risco.","possuem uma história comum e articulada, fato percebido
+por povos de diferentes matrizes culturais, o que coloca a
+sociedade em risco.","possuem um regime de atividades próprio, que envolve
+agentes humanos e não humanos (oceanos, atmosfera, cli-
+ma, solo, etc.), o que coloca tais agentes em risco.",,D,Ciências Humanas,D,D,openai/gpt-5.1,19.5289,0.5
+UNICAMP 26,"Leia os textos 1 e 2.  Texto 1
+A adolescência é uma questão de corporificação do social. Mu-
+danças físicas, como hormônios em ebulição, são importantes,
+mas elas não determinam como se experimenta a adolescência.
+Essa é uma questão de como as práticas sociais se relacionam
+com as mudanças físicas, dando significados sociais a eventos
+biológicos. A adolescência é um processo de se tornar partici-
+pante do mundo adulto. Ela é um período em que corpos em
+desenvolvimento enfrentam desafios, e às vezes são danifica-
+dos. Instituições, incluindo a escola, e os poderes do mundo
+adulto são confrontados e negociados. Isso forma uma arena
+de prazer, humor, curiosidade, mas também de ansiedade e vio-
+lência.  Texto 2
+Ordens de gênero são centrais para a vida dos adolescentes. Quando insistem na diferença absoluta entre masculinidade e
+feminilidade criam um dilema e fazem com que os meninos
+exagerem na performance da masculinidade, procurando se
+aproximarem da posição social dos homens adultos. Práticas
+corporais, como a sexualidade e o esporte, se tornam importan-
+tes meios de diferenciação e espaços de produção das mascu-
+linidades hegemônicas e subordinadas. Aquelas que produzem
+maior status e prestígio masculino são as com os efeitos mais
+tóxicos sobre os corpos dos adolescentes, como por exemplo o
+hábito de fumar e praticar a violência física, etc.   A partir da leitura dos textos é correto afirmar que","a adolescência, como processo de participar do mundo
+adulto, desafia padrões previamente estabelecidos, promo-
+vendo riscos e violência que poderiam ser evitados caso tais
+padrões fossem mantidos","masculinidades hegemônicas e subordinadas são produzi-
+das biológica e socialmente, por meio de práticas corporais
+como a sexualidade e o esporte e em confronto com insti-
+tuições, como a escola.","eventos biológicos associados às mudanças corporais da
+adolescência são significados socialmente, o que torna a or-
+dem de gênero em que tais mudanças ocorrem importante
+para compreendermos masculinidades e feminilidades.","a precocidade na busca de status de adultos e do prestígio
+masculino por meninos adolescentes os torna ansiosos, fa-
+zendo das masculinidades juvenis contemporâneas um todo
+homogêneo e violento.",,C,Ciências Humanas,C,C,openai/gpt-5.1,19.8766,0.5
+UNICAMP 26,"A OMS, e não uma associação trans-gay-lésbica-anarcofeminis-
+ta, afirma hoje que “o gênero tipicamente descrito como mas-
+culino e feminino é uma construção social que varia segundo as
+culturas e épocas”. A partir desse princípio, a OMS reconhece a
+dimensão arbitrária e inatural da taxonomia binária com a qual
+as instituições sociais e políticas trabalham no Ocidente e abre
+a porta para uma revisão mais profunda do paradigma da dife-
+rença sexual. Nos próximos anos, deveremos elaborar coletiva-
+mente uma epistemologia capaz de dar conta da multiplicidade
+radical dos seres vivos, que não reduza o corpo à sua força re-
+produtiva heterossexual, que não legitime a violência heteropa-
+triarcal e colonial. Quando falo de uma nova epistemologia me
+refiro também a um processo de ampliação radical do horizonte
+democrático para reconhecer como sujeito político todo corpo
+vivo sem que a designação sexual ou de gênero seja a condição
+desse reconhecimento social e político (84).  Considerando o texto assinale a alternativa correta.","A diferença sexual entre homem e mulher é informada pela
+biologia e indiferente a variações culturais, a despeito do
+que dizem a OMS e as associações feministas, gays, lésbicas
+e trans.","Embora seja inevitável admitir que haja pessoas que não
+se enquadram na taxonomia binária, é necessário elaborar
+coletivamente caminhos para ajudá-las a uma reconciliação
+com a própria natureza.","As instituições sociais e políticas operam normalmente com
+uma taxonomia binária violenta e excludente da multiplici-
+dade de seres humanos, que precisa ser revista em nome da
+ampliação do nosso horizonte democrático","Gênero e sexualidade são categorias identitárias inadequa-
+das ao processo de ampliação do horizonte democrático
+com vistas ao reconhecimento social e político de todos os
+indivíduos em função do seu próprio mérito",,C,Ciências Humanas,C,C,openai/gpt-5.1,19.8981,0.5
+UNICAMP 26,"Leia os textos 1 e 2.  Texto 1
+""Para Rosa Luxemburgo, uma sociedade socialista terá necessa-
+riamente que ser democrática (e vice-versa), o que significa que
+só poderá resultar da participação efetiva das massas populares.
+[...] ela rejeita premonitoriamente a estratégia dos partidos de
+esquerda que chegarão ao poder no decorrer do século XX:
+primeiro toma-se o poder, depois muda-se o mundo. Para ela,
+a tomada do poder e a instituição da democracia (equivalente
+aqui à mudança do mundo) não são duas etapas separadas no
+tempo, mas duas faces da mesma moeda”.   Texto 2
+""Sem eleições gerais, sem liberdade ilimitada de imprensa e de
+reunião, sem livre debate de opiniões, a vida se definha em
+qualquer instituição pública, torna-se uma vida aparente em
+que só a burocracia subsiste como o único elemento ativo. [...]
+Somente massas esclarecidas, autônomas, politicamente for-
+madas poderão exercer o poder nos novos organismos de base,
+os conselhos; em outras palavras, realizar o socialismo demo-
+crático"".   Considerando os textos, assinale a alternativa que corresponde
+ao pensamento de Rosa Luxemburgo.","Para afastar o socialismo da ameaça da burocracia, às vezes
+é necessário restringir a liberdade de imprensa, o debate pú-
+blico e as eleições gerais.","A instituição da democracia é uma etapa posterior à tomada
+do poder político e equivale à mudança do mundo.","A democracia socialista não difere da democracia represen-
+tativa: ambas se baseiam na soberania popular dos conse-
+lhos, mas tendem à burocracia partidária","Democracia e socialismo são sinônimos, pois os conselhos
+populares deveriam possibilitar a participação ativa das mas-
+sas na condução do poder político e econômico.",,D,Ciências Humanas,D,D,openai/gpt-5.1,20.1153,0.5
+UNICAMP 26,"Os textos 1 e 2 apresentam a compreensão de Marco Túlio Cí-
+cero (106 − 43 a.C), magistrado e Cônsul da República Romana,
+sobre o tema da justiça.    Texto 1
+“Convém recorrer aos fundamentos da justiça que propus no
+começo: primeiro, a ninguém prejudicar, depois, servir à utili-
+dade comum”.   Texto 2
+“Único, com efeito, é o direito a partir do qual a sociedade dos
+homens foi congregada, e una a lei que o constituiu, lei que é a
+reta razão ao obrigar e proibir. Quem a ignora é injusto, esteja
+ela escrita em algum lugar ou em nenhum. Se a justiça é obedi-
+ência às leis escritas e às instituições dos povos, e se (como di-
+zem aqueles mesmos aos quais me referi) todas as coisas devem
+ser medidas pela utilidade, negligenciará as leis e as destruirá,
+se o puder, aquele que assim julgá-lo vantajoso para si; do que
+se segue que absolutamente não há justiça, se esta não é fun-
+dada na natureza, e a que se constitui por causa da utilidade é
+deteriorada por essa utilidade”.   Considerando os textos, escolha a alternativa correta.","A justiça consiste na obediência às leis escritas e às insti-
+tuições dos povos: deve servir à utilidade comum e não à
+utilidade daquilo que é vantajoso para si.","A utilidade comum é o fundamento da justiça de uma Repú-
+blica e, para serem justos, os cidadãos devem agir conforme
+a reta razão, com a qual a natureza lhes dotou.","A reta razão, enquanto lei natural, é a base da justiça. A
+injustiça ocorre quando a utilidade deixa de ser a medida de
+todas as coisas.","Se a justiça é agir conforme a reta razão e a utilidade é um
+dos fundamentos da justiça, agir com vistas aquilo que é
+vantajoso para si é justo.",,B,Ciências Humanas,B,B,openai/gpt-5.1,20.1981,0.5
+UNICAMP 26,"Os dados da alfândega de Buenos Aires fixam em 18.100 o nú-
+mero de africanos oficialmente importados no porto entre 1597
+e 1645. Durante alguns anos, a zona platense esteve aberta
+ao contrato de fornecimento de pessoas escravizadas (Asiento),
+com os navios negreiros saindo diretamente de Luanda para
+Buenos Aires. Nos anos de proibição, o contrabando ocorria por
+meio do Rio de Janeiro. Barcos ligavam os dois portos. No retor-
+no, traziam prata lavrada e por lavrar e ouro, não só para o Rio
+de Janeiro, mas também para a Bahia e o Recife. Em torno das
+trocas de africanos pela prata do Peru (Potosí), esses interesses
+foram consolidados no Rio de Janeiro. Desse episódio resultou
+uma tradição religiosa conhecida: o culto a Nossa Senhora de
+Copacabana no Rio de Janeiro, oriundo do Baixo Peru em 1637.
+Nos anos seguintes, uma capela dedicada à santa foi erigida na
+praia que recebeu o seu nome.   Com base no excerto, assinale a alternativa correta.","A extração de prata em Buenos Aires conectou o Brasil ao
+comércio internacional de metais que passava por Copaca-
+bana.","O tráfico de pedras preciosas de Buenos Aires complemen-
+tava o fornecimento de mão de obra trazida de Luanda para
+o Porto de Copacabana.","Copacabana remete ao passado em que as Américas por-
+tuguesa e espanhola se conectavam por redes comerciais e
+culturais.","Copacabana preserva a memória do desembarque de escra-
+vizados que, dali, eram levados para Buenos Aires e Peru.",,C,Ciências Humanas,C,C,openai/gpt-5.1,20.0446,0.5
+UNICAMP 26,"Entre várias obras que devem formar este precioso presente
+que ofereço aos meus concidadãos, dei o primeiro lugar ao
+Contrato Social, escrito pelo cidadão de Genebra, Jean-Jacques
+Rousseau. Este homem imortal, que obteve a admiração de seu
+século e será o assombro de todas as idades, [... ensinou que]
+os povos aprenderam a procurar no pacto social a raiz e a única
+origem da obediência, não reconhecendo os seus chefes como
+emissários da divindade, enquanto não mostrassem as patentes
+do céu na qual eram destinados a imperar sobre seus semelhan-
+tes. [...] Como o autor teve a desgraça de delirar em matérias
+religiosas, suprimo o capítulo e as passagens principais onde
+delas tratou. Mariano Moreno, tradutor de Rousseau para o espanhol, foi se-
+cretário do primeiro governo da Argentina entre os anos 1810
+e 1811. No texto acima, ele","critica a defesa que Rousseau faz da Igreja e dos governos
+absolutistas na obra O Contrato Social.","interfere na tradução e edição da obra de Rousseau confor-
+me seus ideários políticos e ideológicos.","justifica a tradução da obra para difundir a ideia de obediên-
+cia cívica ligada à religião católica e ao rei.","demonstra seu caráter conservador e a resistência ao pensa-
+mento liberal e iluminista na Argentina.",,B,Ciências Humanas,B,B,openai/gpt-5.1,20.1426,0.5
+UNICAMP 26,"Em 1937, um golpe de Estado instaurou o Estado Novo no Bra-
+sil, um regime autoritário. Diferentes leituras do golpe de Var-
+gas foram publicadas no jornal The New York Times, ilustrando
+o impacto difuso daquele evento na imprensa. De um lado, es-
+crevendo da Argentina, o chefe dos correspondentes na Amé-
+rica Latina, John White, afirmou o caráter “pseudo-fascista” do
+movimento, registrando a atuação dos censores sobre o traba-
+lho dos correspondentes internacionais que atuavam no Brasil.
+White destacava o apoio alemão ao novo regime brasileiro e
+os desafios de centralizar o poder nas mãos de Getúlio Vargas.
+De outro lado, Frank Garcia, correspondente do The New York
+Times, que atuava então no Brasil, comentou:  Eu posso dizer que, embora tenha havido censura, eu não tive
+dificuldades em enviar matérias ao The New York Times. Elas fo-
+ram telegrafadas sem nenhum problema. Essa nova Constitui-
+ção configura o Estado um tanto fascista, mas não inteiramen-
+te. É mais democrático que fascista. Na verdade, é nacionalista.     Sobre a repercussão internacional do Golpe do Estado Novo no
+exterior, podemos afirmar que havia","percepção unânime do pleno alinhamento ideológico do
+Brasil com governos fascistas.","condenação ao fascismo e sugestão de sanções econômicas
+em razão do apoio alemão a Vargas.","controvérsias e ambiguidades na caracterização ideológica
+do novo governo Vargas.","estratégias de resistência à censura imposta aos jornalistas
+que atuavam no Brasil.",,C,Ciências Humanas,C,C,openai/gpt-5.1,19.9644,0.5
+UNICAMP 26,"""A OMC não será uma organização mundial de comércio até
+que a China seja um país-membro"", afirmou Mike Moore, di-
+retor-geral da OMC. A assinatura de um acordo bilateral de co-
+mércio entre os Estados Unidos e a China teve uma repercussão
+positiva no mercado internacional, apesar da desconfiança de
+que a China poderá ter dificuldades para cumprir o prometido.
+""A China deu um passo grande em direção à OMC"", disse o
+presidente dos Estados Unidos, Bill Clinton. A União Europeia
+aprovou a assinatura do acordo. A adesão da China à OMC
+permitirá incluir no sistema comercial internacional a décima
+potência do planeta, que cresceu em média 9,6% ao ano desde 1980. O acordo será um teste importante para verificar se a
+economia chinesa aguentaria o impacto de sua incorporação à
+OMC e se continuaria com seu crescimento. Desde 1986, o país
+asiático busca ser aceito em um organismo de comércio inter-
+nacional. Segundo nota chinesa, ""ambas as partes estreitarão
+sua cooperação no seio da OMC para garantir no futuro o au-
+mento de suas relações bilaterais e a prosperidade da economia
+mundial"".   Comparando as expectativas sobre o ingresso da China na Or-
+ganização Mundial de Comério (OMC) expressas no texto com
+o contexto atual, é correto afirmar que","havia um otimismo em relação à expansão da globalização
+da economia mundial entre as décadas de 1990 e 2000.","a entrada da China na OMC interrompeu o deslocamento
+das indústrias norte-americana e europeia para a Ásia.","a guerra tarifária contemporânea revela o fracasso do mo-
+delo de desenvolvimento chinês dos anos 2000.","os compromissos assumidos pela China na entrada na OMC
+permitiram a consolidação dos direitos humanos no país.",,A,Ciências Humanas,A,A,openai/gpt-5.1,19.91,0.5
+UNICAMP 26,"Um agricultor realizou a remoção de um anel da casca de ra-
+mos caulinares, prática conhecida como anelamento, para au-
+mentar o tamanho dos frutos em seu pomar. Ele observou dois
+grupos de plantas após algumas semanas. As plantas do gru-
+po 1 tinham uma região claramente anelada nos ramos e seus
+frutos eram maiores, se comparadas às plantas do grupo 2. Já
+as plantas do grupo 2 perderam as folhas e foram claramente
+prejudicadas pelo anelamento. Ao retornar no ano seguinte, o
+anelamento era quase imperceptível nas plantas do grupo 1.   Considerando as informações apresentadas e os seus conheci-
+mentos em biologia vegetal, é correto afirmar que o anelamen-
+to eliminou os vasos do","xilema e limitou o transporte de água para as folhas, com-
+prometendo a atividade do câmbio vascular nas plantas do
+grupo 1.","floema e restringiu o transporte dos produtos da fotossínte-
+se para as folhas, sem comprometer a atividade do câmbio
+vascular nas plantas do grupo 2.","xilema e limitou o transporte de água para as raízes, com-
+prometendo a atividade do câmbio vascular nas plantas do
+grupo 2.","floema e restringiu o transporte dos produtos da fotossínte-
+se para as raízes, sem comprometer a atividade do câmbio
+vascular nas plantas do grupo 1.",,D,Ciências Humanas,D,D,openai/gpt-5.1,20.2056,0.5
+UNICAMP 26,"Rogério é funcionário de uma fábrica de automóveis. Em de-
+zembro de 2024, seu gestor fez duas propostas de aumento
+salarial:  a proposta 1 consistia em um aumento de 50% do seu sa-
+lário, a partir do salário a ser recebido em janeiro de 2025,
+mas sem nenhum tipo de reajuste nos próximos três anos,
+ou seja, até dezembro de 2027;  a proposta 2 consistia em um aumento de 20% a cada ano;
+o reajuste ocorreria no salário de janeiro de cada um dos
+próximos três anos, a partir de 2025.    Para decidir a qual proposta aderir, Rogério calculou o montan-
+te total que receberia ao longo dos três anos em cada proposta,
+isto é, de janeiro de 2025 a dezembro de 2027. Ele concluiu
+que o total a ser recebido na proposta 1 é, aproximadamente",3% maior que o total a ser recebido na proposta 2.,1% maior que o total a ser recebido na proposta 2.,3% menor que o total a ser recebido na proposta 2.,1% menor que o total a ser recebido na proposta 2.,,A,Ciências da Natureza,C,C,openai/gpt-5.1,20.0437,0.5
+UNICAMP 26,"Sobre dois polinômios p ( x ) e q ( x ) de coeficientes reais sabe-se
+que:   p ( x ) + q ( x ) tem grau igual a 3.   p ( x ) · q ( x ) tem grau igual a 8.   É correto afirmar que o grau de p ( x ) − q ( x ) é igual a",5.,4.,3.,2.,,B,Matemática,C,C,openai/gpt-5.1,19.9649,0.5
+UNICAMP 26,"Em uma creche se realiza o “dia da troca do brinquedo”. Cada
+criança leva um brinquedo para a escola e o guarda na Caixa
+Divertida. Ao final do dia, cada criança retira um brinquedo da
+Caixa Divertida sem olhar, e o leva para brincar em casa. Em uma sala com cinco crianças, qual é a probabilidade de exa-
+tamente duas crianças retirarem da Caixa Divertida seus pró-
+prios brinquedos?",1/5.,1/6.,1/25.,1/30.,,B,Matemática,D,D,openai/gpt-5.1,19.9083,0.5
+UNICAMP 26,Considere A = { x∈ ℕ : | x −5| ≥ 2 e | x −11| ≤ 9 }. Quantos números primos pertencem ao conjunto A?  ,5.,6.,7.,8.,,C,Matemática,B,B,openai/gpt-5.1,20.1261,0.5
+UNICAMP 26,"Em um jogo de videogame sobre guerra, cada jogador deve
+montar sua tropa escolhendo 100 combatentes. Ele tem à sua
+disposição dois tipos de combatentes, soldados e estrategistas,
+que possuem duas habilidades, astúcia e força, com as seguin-
+tes pontuações:  o soldado tem 30 pontos de astúcia e 70 pontos de força.  o estrategista tem 80 pontos de astúcia e 20 pontos de força.  A força total da tropa é a soma das pontuações de força de
+cada um dos combatentes, e a astúcia total da tropa é a soma
+das pontuações de astúcia de cada um dos combatentes.   Para montar uma tropa de modo a obter as mesmas pontua-
+ções de força total e de astúcia total, quantos soldados e quan-
+tos estrategistas devem ser escolhidos?",70 soldados e 30 estrategistas,60 soldados e 40 estrategistas,50 soldados e 50 estrategistas,40 soldados e 60 estrategistas,,B,Matemática,A,A,openai/gpt-5.1,20.0684,0.5
+UNICAMP 26,"É advogado com d mudo, estúpida!
+Mirian Goldenberg
+Antropóloga e professora da Universidade Federal do Rio de Janei-
+ro, é autora de “A Invenção de uma Bela Velhice”  Fiz um vídeo para o Instagram sobre a minha coluna intitula-
+da No dia 1º de abril, quase caí no golpe do ‘falso advogado’.
+No vídeo, confessei que quase morri de vergonha por quase ter
+caído em um golpe no Dia da Mentira.
+Fiquei triste quando li alguns dos comentários sobre o vídeo:
+“AdEvogado?; “Não é adevogado que fala”; “A desinforma-
+da que fala adêvogado aprendeu o que é golpe de verdade
+kkkk”; “Adevogado? Pode isso? Uma ‘intelequitual’ brasileira
+da linha de frente falando assim?”; “Um currículo e tanto e
+falando adevogado?; “Chamou de adEvogado. Então não foi
+difícil entender por que caiu em golpe... Eu teria é vergonha de
+falar adEvogado”; “A palavra ‘advogado’ se pronuncia ‘advo-
+gado’, com o ‘d’ mudo. A pronúncia adevogado é um erro de
+ortoépia”; “É advogado com ‘d’ mudo, estúpida!”.
+Perguntei ao meu marido, que editou o vídeo, por que ele
+não me falou nada. Ele respondeu: “Porque eu acho bonitinho.
+Você é filha de advogado e tem dois irmãos advogados. Des-
+de menina aprendeu a falar assim. Não é fácil falar ‘advogado’
+com o ‘d’ mudo. Eu falo advogado com ‘i’: adivogado. Será que
+alguém consegue falar advogado com o ‘d’ mudo?”
+Da próxima vez que fizer uma denúncia importante, vou ten-
+tar falar advogado com o “d” mudo. Será que vou conseguir?   Considerando que consoantes mudas não são seguidas de uma
+vogal, e levando em conta as duas pronúncias para advogado
+mencionadas no texto, as críticas reproduzidas no segundo pa-
+rágrafo revelam","preconceito linguístico, já que os comentários negativos fo-
+ram motivados pelo fato de a autora ter um baixo nível de
+escolaridade.","desconhecimento linguístico, uma vez que a palavra advo-
+gado não é pronunciada com “d” mudo no português bra-
+sileiro.","negacionismo linguístico, pois os críticos não reconhecem
+que a pronúncia adevogado é a mais comum na norma cul-
+ta.","correção linguística, porque só uma das duas pronúncias
+ocorre no português, enquanto a outra é um desvio foné-
+tico.",,B,Matemática,B,B,openai/gpt-5.1,19.709,0.5
+UNICAMP 26,"A rua é nóix! Sempre com letra minúscula, porque não é o Nós
+da totalidade, uma vez que não sabemos exatamente quem ou
+quantos somos, quem faz parte ou não, quem está dentro ou
+fora. Mas, se pegar para um, vai pegar pra geral. O nóix é sem-
+pre mais que um. Mesmo sozinho, na missão, existe algo para
+além da presença física do eu e do outro. Assumindo nossas
+ancestralidades, convivemos com os espíritos daqueles que já
+se foram. O nóix opera pela lógica dos bondes de galera, do
+lado A ou lado B. Quem é amigo fecha com a gente, quem é
+alemão rala. Porque o fechamento é o fundamento ético das
+ruas. Recebe-se quem chega de boa, na paz, mas, se vacila, vai.
+Com i e x, o nóix demarca um sotaque, um registro local, um
+lugar, o Pretuguês de Lélia Gonzalez. Desobedecendo à instituída norma culta, o nóix – escrito ou falado – revela sua potên-
+cia operando à margem da obediência à linguagem fonética
+dominante. O nóix é a potência da contaminação diferencial
+das diversidades de um povo em tempos e espaços múltiplos,
+que se repete numa atmosfera espectral que ultrapassa a lógica
+temporal predominante.   Sobre a diferença que o texto estabelece entre Nós e nóix, po-
+demos afirmar que está relacionada a uma distinção","sociocultural, pois esses termos se referem a grupos demar-
+cados distintamente: enquanto Nós é bem delimitado, nóix
+diz respeito a uma coletividade difusa, mas marcada por
+compartilhar vivências específicas.","gramatical, pois esses termos não pertencem à mesma clas-
+se de palavras: enquanto Nós é um pronome típico da nor-
+ma culta, nóix é um substantivo popular que serve à expres-
+são da diversidade.","histórica, pois esses termos caracterizam os indivíduos em
+função do seu passado: enquanto Nós abrange aqueles sem
+ancestralidade, nóix reúne os que assumem os ancestrais
+como parte de sua história.","política, pois esses termos revelam uma polarização na for-
+ma de se relacionar com o poder: enquanto Nós simboliza
+o apoio à opressão social, nóix caracteriza uma rejeição aos
+poderes instituídos.",,A,Linguagens,A,A,openai/gpt-5.1,20.2637,0.5
+UNICAMP 26,"A rua é nóix! Sempre com letra minúscula, porque não é o Nós
+da totalidade, uma vez que não sabemos exatamente quem ou
+quantos somos, quem faz parte ou não, quem está dentro ou
+fora. Mas, se pegar para um, vai pegar pra geral. O nóix é sem-
+pre mais que um. Mesmo sozinho, na missão, existe algo para
+além da presença física do eu e do outro. Assumindo nossas
+ancestralidades, convivemos com os espíritos daqueles que já
+se foram. O nóix opera pela lógica dos bondes de galera, do
+lado A ou lado B. Quem é amigo fecha com a gente, quem é
+alemão rala. Porque o fechamento é o fundamento ético das
+ruas. Recebe-se quem chega de boa, na paz, mas, se vacila, vai.
+Com i e x, o nóix demarca um sotaque, um registro local, um
+lugar, o Pretuguês de Lélia Gonzalez. Desobedecendo à instituída norma culta, o nóix – escrito ou falado – revela sua potên-
+cia operando à margem da obediência à linguagem fonética
+dominante. O nóix é a potência da contaminação diferencial
+das diversidades de um povo em tempos e espaços múltiplos,
+que se repete numa atmosfera espectral que ultrapassa a lógica
+temporal predominante.    A partir das análises de Lélia Gonzalez – intelectual, professora
+universitária, mulher, negra e feminista – conseguimos compre-
+ender quão extensa é a introdução de palavras e termos de ori-
+gens africanas na nossa língua. O Pretuguês é, então, parte da
+africanização da língua portuguesa brasileira. As pessoas negras
+escravizadas resistiam de inúmeras formas, lutando, fugindo,
+se organizando, mas também através da fala, no jeito de agir e
+na forma de viver que se enraizou na maneira de ser de todo o
+Brasil. E isso vem da ancestralidade, é o passar do conhecimen-
+to através do tempo e das relações de respeito pelo que veio
+antes, através do cântico antigo, da reza falada, da contação
+de história que os entrelaços linguísticos vão formando. Muitos
+vocábulos estão tão acomodados no nosso idioma que sequer
+paramos para pensar sua origem e seu significado. Mas são de
+origem africana, como dengo, quitanda, cafuné, muvuca, ca-
+çula e axé.   Considerando esse texto, a menção ao “Pretuguês de Lélia
+Gonzalez” no artigo de Marcelo José Derzi Moraes, apresenta-
+do na questão anterior, ocorre pelo fato de nóix ser","um vocábulo introduzido no Brasil pelos africanos escraviza-
+dos, da mesma forma que outras palavras de origem africa-
+na acomodadas na língua.","uma expressão identitária que serve para demarcar os ne-
+gros brasileiros e segregá-los dos demais grupos étnico-ra-
+ciais que compõem o país.","uma marca linguística associada a um grupo cujos ancestrais
+reúnem aqueles que contribuíram para a africanização do
+português brasileiro.","um traço dialetal característico dos sotaques urbanos brasi-
+leiros que são fortemente marcados pela presença de pala-
+vras africanas.",,C,Linguagens,C,C,openai/gpt-5.1,19.8145,0.5
+UNICAMP 26,"Em seu ensaio “A vida não é útil”, Ailton Krenak elege Carlos
+Drummond de Andrade como um de seus “escudos”. Ele cita
+a última estrofe de “O Homem; as Viagens”, poema publicado
+em As impurezas do Branco (1973). Reproduzimos, a seguir, a
+primeira e a segunda estrofe desse poema:  “O Homem; as Viagens O homem, bicho da Terra tão pequeno
+chateia-se na Terra
+lugar de muita miséria e pouca diversão,
+faz um foguete, uma cápsula, um módulo
+toca para a Lua
+desce cauteloso na Lua
+pisa na Lua
+planta bandeirola na Lua
+experimenta a Lua
+coloniza a Lua
+civiliza a Lua
+humaniza a Lua.  Lua humanizada: tão igual à Terra.
+O homem chateia-se na Lua.
+Vamos para Marte – ordena a suas máquinas.
+Elas obedecem, o homem desce em Marte
+pisa em Marte
+experimenta
+coloniza
+civiliza
+humaniza Marte com engenho e arte.  Marte humanizado, que lugar quadrado. (...)”    Em relação às reflexões de Ailton Krenak, é correto afirmar que
+esse trecho do poema","responsabiliza a ciência e tecnologia, desgastadas em seus
+valores, pela corrosão das relações nas sociedades contem-
+porâneas.","mostra que os Homens, guiados pela ideia de progresso,
+não adotam uma postura consciente em relação ao seu es-
+paço.","evidencia que a Terra, desgastada em seus valores, foi supe-
+rada pelos elementos da conquista espacial.","identifica a aniquilação das sociedades contemporâneas nos
+programas de governos persuadidos pelo progresso.",,B,Linguagens,B,B,openai/gpt-5.1,20.0037,0.5
+UNICAMP 26,"Leia os textos 1 e 2.   Texto 1
+Aos óculos Só fingem que põem
+o mundo ao alcance
+dos meus olhos míopes. Na verdade, me exilam
+dele com filtrar-lhe
+a menor imagem. Já não vejo as coisas
+como são: vejo-as como eles querem
+que as veja. Logo, são eles que veem,
+não eu que, mesmo cônscio
+do logro, lhes sou grato por anteciparem em mim
+o Édipo curioso
+de suas próprias trevas.    Texto 2
+“Do grego odé e do latim ōde (ou ōda), a ode era, na antigui-
+dade clássica, um poema destinado a ser cantado, ou um canto
+alegre, triste ou lírico. Era um poema de alguma extensão, de
+elevado assunto ou nobre, expressando sentimentos ilustres,
+em homenagem a algo ou a alguém. Apresentava também a
+elaboração estrófica, bem como estilo formal nobre e cerimo-
+nioso”.    É correto afirmar que a ode mínima de José Paulo Paes reelabo-
+ra a definição clássica de “ode” ao","respeitar a elevação do assunto, a nobreza do tom e os sen-
+timentos ilustres.","utilizar-se de um tom elevado e cerimonioso para a home-
+nagem.","dirigir-se a um objeto, vinculando-se ao gênero canção po-
+pular.","celebrar um objeto fundamental, os óculos, e não algo/al-
+guém ilustre.",,D,Linguagens,D,D,openai/gpt-5.1,19.9987,0.5
+UNICAMP 26,"No conto “Réplica”, que integra a coletânea No seu pescoço,
+de Chimamanda Adichie, a protagonista vive","o choque cultural, consequente das diásporas africanas con-
+temporâneas, reelaborado pelas observações de Nkem.","as contradições culturais, consequentes do processo de re-
+colonização da Nigéria, expressas pelos negócios ilícitos de
+Obiora.","a opressão feminina, consequente da falência do modelo
+africano de sororidade, como no relato de Ijemamaka.","o sentimento de nacionalismo, consequente das saudades
+de práticas culturais, como no estranhamento dos vizinhos
+brancos (povo oyibo).",,A,Linguagens,A,A,openai/gpt-5.1,19.8605,0.5
+UNICAMP 26,"Leia a citação a seguir, extraída do conto “Pera, uva ou maçã?”,
+publicado no livro Morangos mofados, de Caio Fernando
+Abreu, e assinale a alternativa correta sobre o excerto.   Foi então que vi aquelas ameixas e achei tão bonitas e tão
+vermelhas que pedi um quilo e era minha última grana certo
+porque meus pais não me dão nada e daí eu pensei assim se
+comprar essas ameixas agora vou ter que voltar a pé para casa
+mas que importa volto a pé mesmo pode ser até que acorde um
+pouco e aquela coisa lá longe volte pra perto de mim e então eu
+vinha caminhando devagarinho as ameixas eu não conseguia
+parar de comer sabe já tinha comido acho que umas seis estava
+toda melada quando dobrei a esquina aqui da rua e ia saindo
+um caixão de defunto do sobrado amarelo na esquina certo
+acho que era um caixão cheio quer dizer com defunto dentro
+porque ia saindo e não entrando certo e foi bem na hora que
+eu dobrei não deu tempo de parar nem de desviar daí então
+eu tropecei no caixão e as ameixas todas caíram assim paf! na
+calçada e foi aí que eu reparei naquelas pessoas todas de preto
+e óculos escuros e lenços no nariz e uma porrada de coroas de
+flores devia ser um defunto muito rico certo e aquele carro fú-
+nebre ali parado e só aí eu entendi que era um velório.  ","A presença de orações como “foi então que vi”, “foi aí que
+eu reparei” e “só aí eu entendi” cria um efeito de retarda-
+mento da narrativa, o que reflete o estado psicológico de
+apatia da personagem que fala.","A ausência de pontuação cria um efeito de aceleração da
+narrativa, o que reflete o estado psicológico de ansiedade
+da personagem que fala.","A presença de orações como “foi então que vi”, “foi aí que
+eu reparei” e “só aí eu entendi” rompe a sequência tempo-
+ral da narrativa, prejudicando o seu desenvolvimento lógico.","A ausência de pontuação desorganiza a sequência das
+ações da personagem, o que reflete sua confusão e causa
+uma ambiguidade de sentido em sua narrativa.",,B,Linguagens,B,B,openai/gpt-5.1,20.1785,0.5
+UNICAMP 26,"O sineiro era um preto velho e doido. Não fazia mais que tocar
+o sino da capela, para a missa, aos domingos. O resto do tem-
+po vivia calado ou resmungando. Ninguém lhe falava, embora
+fosse manso. [...] Com a razão, perdera a convivência dos mais.
+Vivia entregue aos pensamentos solitários, mergulhado na in-
+consciência e na solidão. A moça representava aos olhos dele
+alguma coisa mais do que uma simples criatura, era a sociedade
+humana, e uma sombra de sombra da consciência antiga.  No enredo de Casa Velha, é possível afirmar que a cena em que
+aparece a figura do sineiro cumpre o papel de","mostrar a solidariedade de classe desenvolvida por Lalau
+que, sendo uma agregada, identifica seus interesses com os
+do velho sineiro.","exibir o caráter caridoso de Dona Antônia, que mantém o
+escravizado sob seus cuidados mesmo após deixar de ser útil
+como trabalhador.","expor a Dona Antônia o sentimento existente entre Lalau e
+seu filho, enquanto ele observa a compaixão da moça pelo
+sineiro.","sugerir a complexidade da organização social característica
+da Casa Velha, na qual se via representada toda a sociedade
+humana.",,C,Linguagens,C,C,openai/gpt-5.1,20.3083,0.5
+UNICAMP 26,"Leia os versos da canção abaixo e assinale a alternativa correta.  ALVORADA  Alvorada lá no morro, que beleza,
+Ninguém chora, não há tristeza,
+Ninguém sente dissabor.
+O sol colorindo é tão lindo, é tão lindo.
+E a natureza sorrindo, tingindo, tingindo.
+Você também me lembra a alvorada
+Quando chega iluminando
+Meus caminhos tão sem vida.
+E o que me resta
+é bem pouco, quase nada,
+do que ir assim vagando
+numa estrada perdida.   ","O eu-lírico enfatiza a harmonia entre a cena idílica do morro
+no momento da alvorada e a alegria de sua vida junto à
+pessoa amada.","O eu-lírico enfatiza um contraste entre a alegria da alvora-
+da no morro e a pobreza das pessoas que habitam aquele
+espaço.","A alvorada no morro é, para o eu-lírico, como a imagem da
+pessoa amada, que lhe traz alegria, apesar de sua desilusão
+e desesperança.","A alvorada no morro funciona, no poema, como imagem
+do futuro que pode ser transformado pelo amor, apesar das
+condições de vida difíceis.",,C,Linguagens,C,C,openai/gpt-5.1,20.0186,0.5
+UNICAMP 26,"Aviões são os únicos meios de transporte que cruzam continen-
+tes em um dia. Apesar dos avanços em eficiência energética,
+as aeronaves contribuem com 3,5% do aquecimento global.
+Por isso, existe o interesse em substituir o querosene usado por
+essas aeronaves por hidrogênio, com destaque para o uso do
+hidrogênio líquido combustível. A tabela a seguir apresenta da-
+dos desses dois tipos de combustíveis na aviação.  CombustívelEnergia
+combustão
+(kJ·mol−1)Densidade
+do líquido
+(g·cm−3)Massa molar
+(g·mol−1)
+Querosene*67450,804153
+Hidrogênio2400,0712
+* valores médios e aproximados.
+Características como massa e volume da aeronave são fatores
+importantes para seu desempenho. Levando em conta essa in-
+formação, para uma mesma quantidade de energia gerada pelo
+combustível, é correto afirmar que o hidrogênio é melhor que
+o querosene, pois",sua razão energia por volume é maior.,o volume utilizado será menor.,sua razão energia por massa é maior.,a massa utilizada será maior.,,C,Linguagens,C,C,openai/gpt-5.1,19.8638,0.5
+UNICAMP 26,"A Agência Nacional do Petróleo (ANP) é responsável por im-
+plementar a política nacional de combustíveis e proteger os in-
+teresses dos consumidores quanto a preço, qualidade e oferta
+de produtos, além de especificar a qualidade dos derivados de
+petróleo, do gás natural e de seus derivados e dos biocombus-
+tíveis. Nesse sentido, a resolução ANP 907, de 2022, especifica
+algumas características do Etanol Anidro Combustível (EAC),
+do Etanol Hidratado Combustível (EHC) e do Etanol Hidratado
+Combustível Premium (EHCP). Algumas dessas características
+estão na tabela a seguir e nas alternativas.
+CombustívelMassa Específica
+(kg/m3)Teor Alcoólico
+(% massa)
+EAC791,5 (a)99,3 (b)
+EHC(c)entre 92,5 e 94,6
+EHCP(d)entre 95,5 e 96,5     Considerando que água e etanol formam uma mistura ideal,
+para preencher corretamente essa tabela, as letras a, b, c e d
+devem corresponder, respectivamente, a",máximo; mínimo; entre 805 e 811 e entre 800 e 803.,mínimo; máximo; entre 805 e 811 e entre 800 e 803.,máximo; mínimo; entre 800 e 803 e entre 805 e 811.,mínimo; máximo; entre 800 e 803 e entre 805 e 811.,,A,Ciências da Natureza,D,D,openai/gpt-5.1,19.7219,0.5
+ENEM 25,"— Vejo, disse ele com algum acanhamento, que o doutor não
+é nenhum pé-rapado, mas nunca é bom facilitar... Minha filha
+Nocência fez 18 anos pelo Natal, e é rapariga que pela feição parece
+moça de cidade, muito ariscazinha de modos, mas bonita e boa
+deveras... Coitada, foi criada sem mãe, e aqui nestes fundões. [...]
+— Ora muito que bem, continuou Pereira caindo aos poucos
+na habitual garrulice, quando vi a menina tomar corpo, tratei
+logo de casá-la.
+— Ah! é casada? perguntou Cirino.
+— Isto é, é e não é. A coisa está apalavrada. Por aqui costuma
+labutar no costeio do gado para São Paulo um homem de mão-
+cheia, que talvez o sr. conheça... o Manecão Doca...
+— Não, respondeu Cirino abanando a cabeça.
+— Pois isso é um homem às direitas, desempenado e trabucador
+como ele só... fura estes sertões todos e vem tangendo pontes de
+gado que metem pasmo. Também dizem que tem bichado muito
+e ajuntado cobre grosso, o que é possível, porque não é gastador
+nem dado a mulheres. Uma feita que estava aqui de pousada...
+olhe, mesmo neste lugar onde estava mecê inda agorinha, falei-lhe
+em casamento... isto é, dei-lhe uns toques... porque os pais devem
+tomar isso a si para bem de suas famílias; não acha?
+— Boa dúvida, aprovou Cirino, dou-lhe toda a razão; era
+do seu dever.
+TAUNAY, A. d’E. Inocência. Disponível em: www.dominiopublico.gov.br.
+Acesso em: 29 fev. 2024.
+Nesse trecho, ao se referir à sua filha, o pai de Inocência reproduz
+os ideais românticos, presentes na",valorização do ambiente rural na formação moral da mulher.,figura decorativa da mulher ante o protagonismo masculino,equivalência de origem social para a harmonia do casal.,importância do dote como condição para o casamento.,aura de mistério sobre a identidade da jovem.,B,Ciências da Natureza,B,B,openai/gpt-5.1,19.5784,0.5
+ENEM 25,"O Ministério do Esporte no Brasil lançou o programa Maré
+Inclusiva, em 2024, ano dos Jogos Paralímpicos de Paris. Esse
+programa visa ampliar as oportunidades para pessoas com
+deficiência que desejam praticar o surf. O parasurf é a prática
+do surf adaptada para permitir que pessoas com deficiência
+pratiquem o esporte em todas as suas categorias, modalidades
+e manifestações. Para a Secretaria Nacional do Paradesporto,
+a iniciativa é mais do que um programa de esporte, é uma
+iniciativa que busca transformar vidas e promover a inclusão por
+meio do parasurf, criando um legado de igualdade e respeito.
+Disponível em: www.gov.br/esporte. Acesso em: 6 set. 2024 (adaptado).
+De acordo com esse texto, o programa voltado ao estímulo da
+prática do parasurf evidencia a",adesão de diferentes países a programas inclusivos.,preocupação política em atender a demandas paralímpicas.,importância de uma política pública esportiva para a inclusão.,eficiência das iniciativas de inclusão em megaeventos esportivos.,"escassez de investimento em práticas corporais de aventura
+na natureza.",C,Linguagens,C,C,openai/gpt-5.1,20.0842,0.5
+ENEM 25,"Art. 26-A. Nos estabelecimentos de ensino fundamental
+e médio, oficiais e particulares, torna-se obrigatório o ensino
+sobre História e Cultura Afro-Brasileira.
+§ 1º O conteúdo programático a que se refere o caput deste
+artigo incluirá o estudo da História da África e dos Africanos, a luta
+dos negros no Brasil, a cultura negra brasileira e o negro na formação
+da sociedade nacional, resgatando a contribuição do povo negro nas
+áreas social, econômica e política pertinentes à História do Brasil.
+§ 2º Os conteúdos referentes à História e Cultura Afro-
+-Brasileira serão ministrados no âmbito de todo o currículo
+escolar, em especial nas áreas de Educação Artística e de
+Literatura e História Brasileiras.
+BRASIL. Lei n. 10 639/2003. Disponível em: www.gov.br/planalto.
+Acesso em: 5 maio 2024.
+O emprego da norma-padrão é justificado nesse texto",pela especialização de seu público-alvo.,pela relevância cultural de seu conteúdo.,pelos contextos pedagógicos em que circula.,pela importância para os grupos étnico-raciais.,pelas características do gênero a que pertence.,E,Linguagens,E,E,openai/gpt-5.1,20.2455,0.5
+ENEM 25,"Símbolos
+Eu e tu, ante a noite e o amplo desdobramento
+do mar, fero, a estourar de encontro à rocha nua...
+Um símbolo descubro aqui, neste momento
+esta rocha, este mar... a minha vida e a tua.
+O mar vem, o mar vai, nele há o gesto violento
+de quem maltrata e, após, se arrepende e recua.
+Como compreendo bem da rocha o sentimento!
+São muito iguais, por certo, a minha mágoa e a sua.
+Contemplo neste quadro a nossa triste vida;
+tu és dúbio mar que, na sua inconsciência,
+tem carinhos de amor e fúrias de demência!
+Eu sou a dor estanque, a dor empedernida,
+sou rocha a emergir de um côncavo de areia,
+imóvel, muda, isenta e alheia ao mar, alheia. 
+Nesse soneto, os traços da estética simbolista são resgatados
+pelo eu lírico ao",rejeitar as emoções de “amor” e “mágoa”.,expressar a dubiedade do olhar sobre o outro.,representar o “eu” e o “tu” como sujeitos volúveis.,associar a sua inconsciência a elementos da natureza.,metaforizar o conflito amoroso nas imagens de “mar” e “rocha”.,E,Linguagens,E,E,openai/gpt-5.1,20.7284,0.5
+ENEM 25,"Passando por aqui para lembrar algumas palavras, frases e expressões que nos infernizaram em 2023. Inclusive passando
+por aqui. Se você for proativo, vai achar que é o novo normal. Estarão na sua zona de conforto. Mas, se for reativo como eu, vai
+achar que é uma narrativa que precisa ser ressignificada.
+É uma questão de empatia. É sobre entregar um discurso mais robusto e empoderado. Sei bem que não tenho lugar de fala
+para harmonizar certos pontos fora da curva e que preciso aplicar toda a minha resiliência para fazer um realinhamento. O nível
+de fitness está hoje num sarrafo muito alto.
+O fato é que acho cringe essas falas fora da caixinha. Aliás, falar cringe já é meio cringe. Preciso usar a superação para me
+reinventar e entender que resenha não tem mais a ver com futebol, é qualquer papo, desde que latente.
+Pensando bem, não é tão difícil. Frases feitas são aquelas que entram por um ouvido e saem pelo outro sem um estágio
+intermediário no cérebro. A boca fala por conta própria, dispensando-nos de pensar. E não tem problema nisso. Ou as ditas
+frases se incorporam à língua ou morrem e nascem outras. A língua é assim. Simples assim.
+CASTRO, R. Disponível em: www1.folha.uol.com.br. Acesso em: 3 fev. 2024 (adaptado).
+Nesse texto, a estratégia empregada para criticar a constante exposição a palavras, frases e expressões automatizadas é o(a)",menção feita à efemeridade de alguns usos linguísticos aleatórios.,subjetividade marcada pela reflexão que se desenvolve em primeira pessoa.,efeito estilístico da repetição intencional da palavra “assim” no último parágrafo.,sedução sugerida pelo envolvimento direto do leitor marcado nos usos de “você” e “sua”.,humor gerado pelo uso das estruturas linguísticas que são objeto da reflexão desenvolvida.,E,Linguagens,E,E,openai/gpt-5.1,20.0518,0.5
+ENEM 25,"Do rádio ao podcast
+Desde a disseminação do rádio no Brasil, entre as décadas de 1920 e 1930, principalmente no governo de Getúlio Vargas,
+as pessoas passaram a dedicar uma parte de seu dia para escutar notícias, novelas, músicas e eventos esportivos em aparelhos
+de som. O radiojornalismo, por sua vez, teve seu pontapé inicial durante a Revolução Constitucionalista (1932) e se desenvolveu
+durante a Segunda Guerra Mundial (1939-1945).
+Quando a TV surgiu, esperava-se que o rádio fosse totalmente substituído, porém ele se manteve em alta, pois o sinal de televisão
+não cobria todos os lugares, diferentemente do rádio. Com o surgimento da internet, dos smartphones e de outros dispositivos
+móveis, o rádio foi incorporado a essas novas tecnologias até o desenvolvimento da web rádio e do podcast, mostrando-se um
+meio de comunicação versátil e democrático na área jornalística.
+Para um pesquisador da Universidade Federal de Uberlândia (UFU), o rádio não se tornou obsoleto, visto que não deixou de
+ser consumido e se reinventou com o tempo. “O podcast é uma continuação, uma evolução natural do rádio”, opina.
+ALVES, A.; ALVES, C. Disponível em: https://comunica.ufu.br. Acesso em: 19 abr. 2024 (adaptado).
+Ao abordar a trajetória dos meios de comunicação, esse texto propõe uma reflexão sobre a",tecnologia digital e seus desdobramentos no desenvolvimento da televisão.,evolução da tecnologia digital com o predomínio do podcast sobre o rádio.,permanência do rádio e sua evolução por meio da tecnologia digital.,influência da televisão sobre os programas de radiojornalismo.,interferência da tecnologia digital nas interações humanas.,C,Linguagens,C,C,openai/gpt-5.1,20.0038,0.5
+ENEM 25,"s funcionários de um zoológico observaram um aumento
+na taxa de mortalidade de aves aquáticas por afogamento.
+Um grupo de biólogos analisou o comportamento das aves por
+várias semanas e observou que elas apresentavam dificuldade
+de flutuação, por causa do encharcamento das penas com água.
+O aumento na taxa de mortalidade dessas aves estava associado
+a uma redução na",dilatação do papo.,reposição de penas das asas.,secreção da glândula uropigial.,formação da membrana natatória.,largura das cavidades de ossos pneumáticos.,C,Linguagens,C,C,openai/gpt-5.1,19.9762,0.5
+ENEM 25,"A maioria dos seres vivos tem um relógio biológico
+(ciclo circadiano), que regula as mudanças metabólicas e
+comportamentais de acordo com o ciclo de 24 horas de
+rotação da Terra. Em 2015, um artigo publicado na revista
+Science Advantage mostrou ser possível a transferência dos
+genes do relógio circadiano da cianobactéria Synechococcus
+elongatus para o genoma da bactéria Escherichia coli, um
+organismo não circadiano.
+CHEN, A. H. et al. Transplantability of a Circardian Lock
+to Noncircardian Organism. Science Advantage,
+n. 1, 2015 (adaptado).
+Estarão presentes no organismo geneticamente modificado os
+genes do","metabolismo de E. coli, apenas.","ciclo circadiano de E. coli, apenas.",metabolismo de S. elongatus e do ciclo circadiano de E. coli.,ciclo circadiano de S. elongatus e do metabolismo de E. coli,ciclo circadiano de S. elongatus e do ciclo circadiano de E. coli,D,Ciências da Natureza,D,D,openai/gpt-5.1,19.5916,0.5
+ENEM 25,"Os sapinhos-ponta-de-flecha constituem um grupo de
+espécies encontradas na América Central e do Sul. Seus venenos
+são obtidos por meio do consumo de algumas formigas e cupins
+que se alimentam de plantas que contêm esses venenos. Esses
+anfíbios são usados para envenenar as flechas das zarabatanas
+dos caçadores nativos. Quando capturados e criados em
+condições artificiais, ou quando nascidos em cativeiro, não
+são tóxicos.
+BADIO, B. et al. Epibatidine: Discovery and Definition as a Potent
+Analgesic and Nicotinic Agonist. Med. Chem. Res.,
+n. 4, 1994 (adaptado).
+A perda da capacidade de se obter a toxina nos nascidos em
+cativeiro é causada pela",diferença de umidade entre os ambientes.,ausência de alimentação natural.,adaptação ao novo ambiente.,mudança de comportamento.,variabilidade genética.,B,Ciências da Natureza,B,B,openai/gpt-5.1,19.886,0.5
+ENEM 25,"O monstro de gila, um lagarto encontrado em um deserto dos
+Estados Unidos, apresenta adaptações à falta de alimento nesse
+ambiente. Esse lagarto possui um hormônio que controla os níveis
+de açúcar em seu próprio sangue. Foi observado que esse hormônio
+também controla os níveis de açúcar no sangue de pessoas diabéticas.
+RUSSELL, C. Ozempic e outros remédios inspirados em veneno de animais.
+Disponível em: www.bbc.com. Acesso em: 6 dez. 2024 (adaptado).
+Considerando que animais de um mesmo grupo taxonômico
+podem apresentar características adaptativas semelhantes em
+ambientes similares, onde seria mais provável encontrar lagartos
+com essas características no território brasileiro?",Cerrado.,Pampas.,Caatinga.,Restinga.,Pantanal.,C,Ciências da Natureza,C,C,openai/gpt-5.1,19.881,0.5
+ENEM 25,"O sashimi (filé de peixe cru) de baiacu é uma iguaria muito
+apreciada no Japão. Entretanto, sua ingestão pode causar a
+morte por parada respiratória, pois esse peixe contém uma
+potente neurotoxina termoestável, a tetrodotoxina, que é
+produzida e armazenada nas gônadas e vísceras.
+Que ação poderia evitar essa intoxicação?",Criar os peixes em cativeiro.,Realizar a pesca com redes.,Consumir peixes cozidos ou fritos.,Preparar o peixe em condições adequadas de higiene.,Manusear o peixe sem provocar o rompimento dos órgãos internos.,E,Ciências da Natureza,E,E,openai/gpt-5.1,20.1606,0.5
+ENEM 25,"Existe um processo de purificação de água em que são
+removidos os sais dissolvidos. A água que passa por esse processo
+é muito utilizada em laboratórios de química, em indústrias
+(como solvente), em baterias de carros etc. Entretanto, esse
+tipo de água não é adequado para ingestão, pois pode causar
+problemas de saúde, como carência iônica e diarreia.
+Essa água é chamada de",dura.,pesada.,sanitária.,destilada.,oxigenada,D,Ciências da Natureza,D,D,openai/gpt-5.1,19.6008,0.5
+ENEM 25,"Golden Rice, ou arroz dourado, é uma variedade de arroz
+enriquecida em betacaroteno, precursor da vitamina A.
+Foi desenvolvida para ajudar a combater a doença decorrente
+da deficiência dessa vitamina. Para a obtenção dessa variedade
+de arroz, foram utilizados métodos de engenharia genética.
+BORÉM, A.; SANTOS, F. R. entendendo a biotecnologia.
+Viçosa: UFV, 2008 (adaptado).
+Esse alimento contribui para diminuir a carência associada a
+qual doença?",Hemofilia.,Escorbuto,Raquitismo,Cegueira noturna.,Anemia perniciosa.,D,Ciências da Natureza,D,D,openai/gpt-5.1,20.0164,0.5
+ENEM 25,"As cangas são ambientes resultantes da atuação, ao longo
+de milhões de anos, de chuvas, enxurradas, calor e ventos em
+rochas ricas em ferro. São compostas por até 90% de óxidos
+de ferro e contêm solos muito ácidos, rasos, com reduzidos
+índices de fertilidade e temperaturas que atingem quase 70 °°C
+na superfície. Ao contrário do que se imagina, esse tipo de
+ambiente abriga comunidades de plantas e animais com elevado
+número de espécies e distribuição restrita.
+CARMO, F. F. et al. Ilhas de ferro estratégicas para a conservação.
+Disponível em: http://cienciahoje.org.br.
+Acesso em: 2 dez. 2018 (adaptado).
+A seleção adaptativa nesses ambientes favorece a ocorrência
+de espécies",exóticas.,migratórias.,endêmicas.,dominantes,generalistas,C,Ciências da Natureza,C,C,openai/gpt-5.1,20.425,0.5
+ENEM 25,"A dimetilamina é uma substância de elevada toxidez que
+entra em ebulição a 7 °°C. Na madrugada de um dia frio, essa
+substância se espalhou por uma rodovia após um acidente de
+trânsito envolvendo um caminhão que transportava esse produto.
+Para minimizar a agressão ao meio ambiente, bem como evitar
+a evaporação da dimetilamina com a elevação da temperatura
+ao longo do dia, um químico considerou o uso de algumas
+substâncias ou misturas como água, vinagre, óleo de soja, sal
+de cozinha e bicarbonato de sódio.
+Dentre as opções apresentadas, o tratamento correto para
+minimizar esse problema é usar",água,vinagre,óleo de soja.,sal de cozinha.,bicarbonato de sódio.,B,Ciências da Natureza,B,B,openai/gpt-5.1,19.742,0.5
+ENEM 25,"Apaixonada por culinária e química, uma chefe de cozinha
+calculou que, para promover o crescimento adequado da
+massa durante o cozimento de um bolo a 180 °°C (453 K) e
+1,00 atm, ela precisaria utilizar uma quantidade de fermento
+químico suficiente para produzir um volume de gás igual a
+4,00 L. Com esse objetivo, ela escolheu utilizar o bicarbonato de
+amônio, um composto que, sob aquecimento, degrada-se em
+três gases distintos, que são os responsáveis pelo crescimento
+da massa. A decomposição do bicarbonato de amônio ocorre
+conforme a equação química apresentada e, nas condições do
+cozimento, seu rendimento é de 80%.
+NH4HCO 3 (s) → NH3 (g) + CO 2 (g) + H2O (g)
+Considere que a mistura dos gases se comporta como gás
+ideal nas condições de cozimento utilizadas pela chefe.
+Dados: Massa molar do NH 4 HCO 3 = 79 g ⋅ mol−1 e
+R = 0,082 atm ⋅ L ⋅ mol−1 ⋅ K−1 .
+A massa, em grama, de bicarbonato de amônio que ela deve
+utilizar é mais próxima de","2,3 g"," 3,5 g","5,9 g","6,8 g.","8,9 g.",B,Ciências da Natureza,C,C,openai/gpt-5.1,20.0823,0.5
+ENEM 25,"O Brasil é o maior produtor mundial de nióbio (massa
+molar = 93 g mol−1 ), metal utilizado na fabricação de
+vários tipos de aço: automotivos, estruturais e inoxidáveis.
+O processo utilizado na produção do nióbio é a redução
+aluminotérmica de Nb 2 O 5 com excesso de 10% de Al (massa
+molar = 27 g mol−1 ), em relação à quantidade estequiométrica
+da reação, representada pela equação química:
+3 Nb2O 5 (s) + 10 Al (s) → 6 Nb (s) + 5 Al2O 3 (s)
+Uma engenheira metalúrgica estimou a massa de alumínio
+necessária para produzir 9,3 kg de nióbio, nas condições descritas,
+para a produção de um lote de peças de aço encomendado por
+uma indústria, considerando um rendimento de 100%.
+Disponível em: www.cbmm.com.br. Acesso em: 17 out. 2015 (adaptado).
+A massa de alumínio, em quilograma, estimada pela engenheira
+é mais próxima de","2,7 kg.","3,0 kg","4,1 kg.","4,5 kg","5,0 kg.",E,Ciências da Natureza,C,C,openai/gpt-5.1,20.081,0.5
+ENEM 25,"Uma pessoa pretende instalar um kit de gás natural veicular (GNV) em seu carro. Na loja que escolheu para realizar a compra
+e instalação desse kit, havia cinco modelos de cilindro para armazenamento do gás, cujas capacidades, em metro cúbico, eram,
+respectivamente: 10, 14, 17, 21 e 25. O preço do cilindro é proporcional à sua capacidade. Esse carro rodará 30 km diariamente,
+7 dias por semana, e o consumo do GNV é de 1 m3 a cada 13 km rodados. A pessoa escolherá o modelo de cilindro de menor
+preço e que garanta apenas um abastecimento semanal.
+Nessas condições, qual será a capacidade, em metro cúbico, do cilindro escolhido por essa pessoa?",10,14,17,21,25,C,Ciências da Natureza,C,C,openai/gpt-5.1,19.757,0.5
+,,,,,,,,Ciências da Natureza,C,C,openai/gpt-5.1,19.9213,0.5
